@@ -1,9 +1,27 @@
-﻿<html>
-<head><meta http-equiv="refresh" content="6000"></head><script>alert("123");</script>
-<frameset >
-<frame src="http://116.196.116.213" name="iframe" target="_self" >这个是我的一个个人主页,Anything欢迎电邮wangkun.it@qq.com!
-</frame>
-<noframes>
-<body>您的浏览器无法处理框架！</body>
-</noframes></frameset>
+<!DOCTYPE html>
+<html>
+<script>
+function browserRedirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+        window.location.href="http://116.196.116.213";
+    } else {
+		window.location.href="http://116.196.116.213";
+	}
+}
+browserRedirect();
+</script>
+
+<body>
+<h1>这是我使用github pages搭建的个人站点。</h1>
+</body>
+
 </html>
