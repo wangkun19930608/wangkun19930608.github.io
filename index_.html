@@ -1,30 +1,56 @@
-﻿<html>
-<head>
-<title>我的个人主页
-</title>
-<style>
-.search{color:green}
-.project{color:red}
-.about{color:blue}
-</style>
-</head>
+﻿---
+layout: default
+title: 首页
+---
 
-<body>
-<div>
-这个是我的一个个人主页,Anything欢迎电邮wangkun.it@qq.com!
-搜
-<a class="search" target="iframe" href="https://www.baidu.com/">百</a>
-<a class="search" target="iframe" href="https://cn.bing.com/">必</a>
-<a class="search" target="iframe" href="https://www.google.cn/">谷</a>
-<a class="search"  href="https://sg.yahoo.com">雅</a>
-<a class="search"  href="https://translate.google.cn">译</a>
-项
-<a class="project"  target="iframe" href="./hbut/index.html">寻</a>
-<a class="project"  target="iframe" href="./blog/index.html">T</a>
-关
-<a class="about"  href="https://www.cnblogs.com/wangkun1993/">园</a>
-<a class="about"  href="https://github.com/wangkun19930608/">G</a>
+<ul class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <div class="post-title">
+        <a href="{{site.baseurl}}{{post.url}}"> {{post.title}}</a> </br>
+      </div>
+
+      <div class="post-info">
+        <ol>
+          <li class="post-time">{{ post.date | date: "%F" }}</li> 
+          <li class="post-category"> 
+           {{ post.categories | join: '&nbsp&nbsp' }}
+          </li>
+        </ol>
+      </div>
+
+      <div class="post-preview">
+        {{ post.excerpt }} 
+        <a href="{{site.baseurl}}{{post.url}}"> Read More ... </a> </br>
+      </div>
+
+    </li>
+    {% endfor %}
+</ul>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      {{ page }}
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
 </div>
-<iframe src="https://www.baidu.com/" name="iframe" style="width:100%;height:100%" >
-</iframe>
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1271464027'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1271464027%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></html></body>
+{% endif %}
