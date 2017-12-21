@@ -1,4 +1,4 @@
-baseurl: "/blog"
+baseurl: ""
 markdown: redcarpet
 redcarpet:
     extensions: [tables]
