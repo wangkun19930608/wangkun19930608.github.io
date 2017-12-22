@@ -1,3 +1,7 @@
+safe: false
+excerpt_separator: "\n\n\n"
+sitemapurl: "https:\\wangkun19930608.github.io"
+
 
 # Site settings
 title: Hux Blog
