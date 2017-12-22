@@ -1,16 +1,3 @@
-baseurl: ""
-#markdown: redcarpet
-#redcarpet:
-#    extensions: [tables]
-safe: false
-
-# pygments: true # hight light old remove
-highlighter:rouge
-
-excerpt_separator: "\n\n\n"
-paginate: 5
-sitemapurl: "https:\\wangkun19930608.github.io"
-
 
 # Site settings
 title: Hux Blog
