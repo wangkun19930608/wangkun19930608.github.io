@@ -12,7 +12,7 @@
 #
 
 #
-# Archive will be written as #{archive_path}/#{year}/#{month}/index.html
+# Archive will be written as #{archive_path}/#{year}/#{month}/index3.html
 # archive_path can be configured in 'path' key in 'monthly_archive' of
 # site configuration file. 'path' is default null.
 #
@@ -56,7 +56,7 @@ module Jekyll
       @date = Date.new(@year, @month)
       @layout =  site.config['monthly_archive'] && site.config['monthly_archive']['layout'] || 'monthly_archive'
       self.ext = '.html'
-      self.basename = 'index'
+      self.basename = 'index3'
       self.content = <<-EOS
 {% for post in page.posts %}
     <li>
@@ -104,7 +104,7 @@ module Jekyll
     end
 
     def destination(dest)
-      File.join('/', dest, @dir, @archive_dir_name, 'index.html')
+      File.join('/', dest, @dir, @archive_dir_name, 'index3.html')
     end
 
   end
