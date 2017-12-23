@@ -27,23 +27,30 @@
         });
     </script>
 <script>
-var g="<iframe frameborder=\"0\" id='visi2' style=\"width:100%;height:100%\" ></\iframe>";
 
-	var k=document.getElementById('visi1'),w=document.getElementById('visi2');
 
 function fc(d){
 	var k=document.getElementById('visi1'),w=document.getElementById('visi2');
-
-if(d==1)
-{
-k.style.display='none';
-w.style.display='block';
-}else{
-w.style.display='none';
-k.style.display='block';
+	if(d==1){
+		k.style.display='none';
+		w.style.display='block';
+	}else{
+		w.style.display='none';
+		k.style.display='block';
+	}
+	changeFrameHeight(); 
 }
 
+function changeFrameHeight(){
+    var ifm= document.getElementById("visi2"); 
+    ifm.height=document.documentElement.clientHeight-36;
 }
+
+window.onresize=function(){  
+     changeFrameHeight();  
+} 
+
+
 </script>
 
     <!-- MathJax Section End -->
@@ -74,7 +81,7 @@ k.style.display='block';
 <a class="about"  target="iframe" href="../index.html" onclick='javascript:fc(0);'>T</a>
 <a class="about"  target="iframe" href="../friends.html" onclick='javascript:fc(1);'>友</a>
 </div>
-	<iframe src="" name="iframe" id='visi2' style="width:100%;height:100%;display:none;position:absolute" >
+	<iframe src="" name="iframe" id='visi2' style="width:100%;height:100%;display:none;position:inherit" onload="changeFrameHeight()"  >
     </iframe>
     <div class="container" id='visi1' >
 
@@ -117,12 +124,14 @@ k.style.display='block';
  
 
     </div>
+	
+ </body>
+	<div>
 	     <footer>
         Copyright (c) wangkun19930608 2014
 		<br/>
 		  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1271464027'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1271464027%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></html>
 
       </footer>
- </body>
-
+	 </div>
 </html>
