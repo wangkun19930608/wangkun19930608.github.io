@@ -32,14 +32,17 @@ var g="<iframe frameborder=\"0\" id='visi2' style=\"width:100%;height:100%\" ></
 	var k=document.getElementById('visi1'),w=document.getElementById('visi2');
 
 function fc(d){
+	var k=document.getElementById('visi1'),w=document.getElementById('visi2');
 
-if(d==0)
+if(d==1)
 {
-k.style.height=0%;
-w.style.height=100%;
+k.style.display='none';
+w.style.display='block';
 }else{
-k.style.height=100%;
-w.style.height=0%;
+w.style.display='none';
+k.style.display='block';
+}
+
 }
 </script>
 
@@ -57,19 +60,19 @@ w.style.height=0%;
 这个是我的一个个人主页,Anything欢迎电邮wangkun.it@qq.com!
 搜
 <a class="search" target="iframe" href="https://www.baidu.com/" onclick='javascript:fc(1);'>百</a>
-<a class="search" target="iframe" href="https://cn.bing.com/">必</a>
-<a class="search" target="iframe" href="https://www.google.cn/">谷</a>
+<a class="search" target="iframe" href="https://cn.bing.com/" onclick='javascript:fc(1);'>必</a>
+<a class="search" target="iframe" href="https://www.google.cn/" onclick='javascript:fc(1);'>谷</a>
 <a class="search"  href="https://sg.yahoo.com">雅</a>
 <a class="search"  href="https://translate.google.cn">译</a>
 项
 <a class="project"  href="./hbut/index.html">寻</a>
 <a class="project"  href="./hbut/love.html">爱</a>
-<a class="project" target="iframe" href="./game/lightgame.html">灯</a>
+<a class="project" target="iframe" href="./game/lightgame.html" onclick='javascript:fc(1);'>灯</a>
 关
 <a class="about"  href="https://www.cnblogs.com/wangkun1993/">园</a>
 <a class="about"  href="https://github.com/wangkun19930608/">G</a>
-<a class="about"  target="iframe" href="index.html">T</a>
-<a class="about"  target="iframe" href="friends.html">友</a>
+<a class="about"  target="iframe" href="index.html" onclick='javascript:fc(0);'>T</a>
+<a class="about"  target="iframe" href="friends.html" onclick='javascript:fc(1);'>友</a>
 </div>
 	<iframe src="default_.html" name="iframe" id='visi2' style="width:100%;height:100%" >
     </iframe>
