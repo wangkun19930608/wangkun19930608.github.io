@@ -43,7 +43,8 @@ function fc(d){
 
 function changeFrameHeight(){
     var ifm= document.getElementById("visi2"); 
-    ifm.height=document.documentElement.clientHeight-36;
+    ifm.style.height=(document.documentElement.clientHeight)+'px';
+	/*alert(ifm.clientHeight+' '+document.documentElement.clientHeight);*/
 }
 
 window.onresize=function(){  
