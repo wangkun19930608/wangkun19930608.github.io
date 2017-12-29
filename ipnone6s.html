@@ -1,0 +1,240 @@
+<html lang="zh-cmn-Hans"><head>
+<title>3D Touch 屏幕电子秤 | 翁天信 Dandy Weng</title>
+<meta charset="utf-8"> 
+<meta name="description" content="基于 3D Touch 的电子秤，只需一把铁勺子，就可以把 iPhone 6s 当电子秤用啦！">
+<meta name="author" content="Dandy Weng"><meta name="author" content="Dandy Weng">
+<meta name="viewport" content="user-scalable=no, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-title" content="屏幕电子秤">
+<link rel="apple-touch-icon-precomposed" href="https://dn-ssl-v6-res-dandyweng.qbox.me/images/portrait.jpg">
+<link rel="shortcut icon" href="https://dn-ssl-v6-res-dandyweng.qbox.me/images/favicon.ico">
+<link rel="icon" href="https://dn-ssl-v6-res-dandyweng.qbox.me/images/favicon.ico">
+<style>
+html, body {
+	height: 100%;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+a {
+	color: #4c667d;
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0 1.75em;
+	color: rgba(5, 15, 25, 0.75);
+	font-family: "opensans", -apple-system, sans-serif;
+	font-weight: light;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(237,238,245,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,238,245,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,238,245,1) 100%);
+	-webkit-user-select: none;
+}
+body > header {
+	margin-bottom: 1.25em;	
+}
+body > header > nav {
+	text-align: center;
+	padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+body > header > nav h1 {
+	display: inline;
+    font-size: 14px;
+	font-weight: normal;
+    border-right: 1px solid #eee;
+    padding-right: 1em;
+}
+body > header > nav p {
+	display: inline;
+	margin-left: 5px;
+}
+body > header > nav a {
+	font-size: 12px;
+	margin: 0 5px;
+}
+body > section {
+	margin-bottom: 2em;
+	background-color: #fafbfd;
+	border-radius: 5px;
+    box-shadow: 0px 12px 50px 3px rgba(0, 15, 75, 0.2);
+}
+#tare {
+	height: 50px;
+	line-height: 50px;
+	margin-top: 1em;
+	text-align: center;
+}
+#tare > * {
+	vertical-align: middle;
+}
+#tare > span {
+	font-size: 14px;
+}
+#weight {
+	height: 100px;
+}
+#weight > p {
+	text-align: center;
+    line-height: 100px;
+}
+#weight > p span {
+	font-size: 3.75em;
+}
+#scale {
+	background-image: url("https://www.dandyweng.com/playground/3d-touch-scale/spoon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 230px;
+	line-height: 230px;
+	padding-left: 1em;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	line-height: 1.45;
+	font-size: 10px;
+	margin-top: -1em;
+}
+footer > strong {
+	display: none;
+	font-size: 16px;
+    margin: 100px 0;
+}
+footer > p {
+	opacity: .2;
+}
+input[type=range] {
+	-webkit-appearance: none;
+    width: 60%;
+    margin-left: 0;
+	margin-right: 5px;
+}
+input[type=range]:focus {
+	outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: #fafbfd;
+	border: 1px solid rgba(0, 5, 25, 0.1);
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	margin-top: -16px;
+	box-shadow: 0px 5px 20px 2px rgba(0, 15, 35, 0.1);
+}
+input[type=range]::-webkit-slider-runnable-track {
+	height: 2px;
+	background: #ddd;
+	border: none;
+	border-radius: 3px;
+	-webkit-user-select: none;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("https://dn-ssl-v5-res-dandyweng.qbox.me/fonts/OpenSans-Light-webfont.ttf") format("truetype");
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: "opensans";
+    src: url("https://dn-ssl-v5-res-dandyweng.qbox.me/fonts/OpenSans-Regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@media (min-device-height: 736px){
+	#scale {
+		height: 300px;
+		line-height: 300px;
+		padding-left: 2.75em;
+	}
+}
+@media (orientation:landscape){
+	#tare,
+	section {
+		display: none;
+	}
+	footer > strong {
+		display: block;
+	}
+}
+</style>
+<style>html, * {-webkit-user-select:text!important; -moz-user-select:text!important;}</style><style id="fa1350f9-3424-4e98-b1a3-be98df00acb9">        #nong-drive-anytime-icon{          position:fixed;          z-index:6969;          color: white;          border-radius: 32px;          width: 32px;          height: 32px;          left: 10px;          bottom: 15px;          opacity:0.1;          text-align: center;          line-height: 32px;          -webkit-transition: opacity 0.6s ease-in-out;          -moz-transition: opacity 1s ease-in-out;          -o-transition: opacity 1s ease-in-out;          transition: opacity 1s ease-in-out;          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0A          AAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0Q          A/wD/AP+gvaeTAAAAB3RJTUUH3gwKEBo6JKpagwAAA/lJREFUWMPtlk1oXFUUgL/z3ps3mUlmJmli0iZ26E9KSAuWq          tSdQkQoKKIUXfi3KlhUkJKdaEREurHFjTttcaHUgiD+oJCdtIq01kpBS5Mmtvkh6cwkmc5fkjdzj4uXKc1kppOOEQQ          9q3vfO/ee755z7jkX/usi9RQee+7QujYa/uyjjQWoYrgZiAEOoEAGSK+MGwapClBhfAfwIjAAdAMuYIAkcAE4CZwHi          o1ArAE48NJhjDGYUskVkUPAEaAXVVTVX6GACCLCCsgp4F3gxt1COJXGAWzbdkXkbVMqHUE1hGURjLYRbt9MsLUdL58          ln5xhaSGJKXodiLwGbAdeBqYaDkEZAHgFeF+NCVnBED37H+We3Q/gtsQQxwFj8Ao50tdHmDjzHfnENPje+AR4Fcit1          wt2FeM7gQ9R7XLDLfQdeIau+x8mEI4gloWIIJaFHQzR0nkv0a07yEz/iZdNg0gfcBG4DDB26UJdAKvKtxeAXiyL+P5          H2NJ/H65lQM1qLVVUDS2b42wfeBon3AKqIeAwEFlvCCoBmoEBVGmKxOjq3+uflhIBKVa9MmoM0fguIt3b/CSFfUC8U          YAY0K2qhNs7CUZi5U1xxNSEsJ0AsfguxLIAokBPowAO4CIQim1CbGf1z1oQIjS1diC2Xd6j4RAoYFDw8jnUmDULqkI          oeIUc+PoGWGwUIAMkESGXmqVYyJWv1x0hjCmSmbyKKZUA8sBsowBp4IKIUFiYY35iDKnRLm5BiFBI3SA9cbVcGceBa          38nBCeBpCl6jJ8dJjM7WU6uNRKwgMU013/4mqV0CkQM8DGQaBQA/MZyChFyiRl+//ZzUmOXMaXirSIkYqGqZJMzjH5          /mrmRS34o4GzCcU/vLmR5Z+rKugBqleJO4ATwuKrihpuJbonTFt9JU+smioU8C5PjLEyOs5ieB2Apn2NPYvqrN5bSn          4rIN8bPBXp+OtcQAPh3+T3gWVRDquqf3rJBjZ9wfkdUA2f2Jafmnl/KPNlRyC+q6gf43bFQD8K+fTL623l69z5Ynma          AYeAiIm0iEgVs/MJUFJGMiPwBHE2IPXRCs9loMPiEIiHjLT8EBIAfgeLg1h6OT07X90ANT4BfWOIrXong3/NZ4BpoY          k/JY2hxLmzgTVQHvVzW9TKZZVSP1fPEHd+EVUCqytFCim3GAwgBb6E6WMznXO/mzWWtA1H3UbpemT/4VHnoQ8BgMZe          tC2HdnZna0vbFl+VhYcXYMae5ZTkQjbliWYPAEBCuXLdhALUhmpcD0agrlnUQ1TVdckMBakAcd8LhkUAk+nrq119GK          /U3LAcq5bacCAM9sb7+0eS5n9XLZlblwD8GUAFRzUP/y79D/gKteao6M/AMZwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjA          xNi0wOS0xN1QxNToyMToyNiswODowMH9bMZYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMTItMTBUMTY6MjY6NTgrM          Dg6MDAX0x1GAAAATXRFWHRzb2Z0d2FyZQBJbWFnZU1hZ2ljayA3LjAuMS02IFExNiB4ODZfNjQgMjAxNi0wOS0xNyB          odHRwOi8vd3d3LmltYWdlbWFnaWNrLm9yZ93ZpU4AAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AA          AAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADEyOEN8QYAAAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgAMTI40I0          R3QAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNDE4MjAwM          DE4ibQBZAAAABJ0RVh0VGh1bWI6OlNpemUAMi4zM0tCSV84/gAAAF90RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2hvbWU          vd3d3cm9vdC9zaXRlL3d3dy5lYXN5aWNvbi5uZXQvY2RuLWltZy5lYXN5aWNvbi5jbi9zcmMvMTE4MjEvMTE4MjE5M          S5wbmd8fDQnAAAAAElFTkSuQmCC");        }        #nong-drive-anytime-dialog{          position:fixed;          left:8%;          top:10%;          z-index:69699;          border-radius: 8px 8px;          padding-top: 10px;          padding-left:10px;          padding-right:10px;          background-color: rgba(237, 237, 237, 0.8);        }        #nong-drive-anytime-dialog>span{            margin-left: 40px;        }        #nong-drive-anytime-dialog #nong-move{            width: 16px;            height: 16px;            display:none;            background-image: url("data:image/png;ba        se64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQ        AAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfeChoLIiwIy72HAAAA3ElEQVQ        oz3XRsUrDYBQF4C9NVnFRB8fiLFhEcJAOHRJw6FApdLBv4EP4An0QQeyatZMdsjiok+DiA7jEJcShaZs0eob/Hg6H+99        7bqiJqVMv/kViaSmuS2GN91179upM7rNtCJyb2/PtyYn33eZBVScmTaVTNR+15hnprw2JoaySC0XFMkMJkVt3Hly4ROE        KgRCFL/cOI5Qo/3g3iM10Kz42rljXTEyEVK7nY2ftnrnFysBis+YWj6tP6kHd+HGslBt4W89Qj/rAVMe+gWwbdRNx+1h        Rw5A6QlqXfgFuOzSValRoagAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0wOS0xN1QxNToyMToxNyswODowMFejPcEAAAA        ldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMTAtMjZUMTE6MzQ6NDQrMDg6MDDQbkqYAAAATXRFWHRzb2Z0d2FyZQBJbWFnZU1        hZ2ljayA3LjAuMS02IFExNiB4ODZfNjQgMjAxNi0wOS0xNyBodHRwOi8vd3d3LmltYWdlbWFnaWNrLm9yZ93ZpU4AAAA        YdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADUxMo+NU4E        AAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgANTEyHHwD3AAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+        yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNDE0Mjk0NDg0ExvBiAAAABJ0RVh0VGh1bWI6OlNpemUAMTUuMktCe0oJtgA        AAF90RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2hvbWUvd3d3cm9vdC9zaXRlL3d3dy5lYXN5aWNvbi5uZXQvY2RuLWltZy5        lYXN5aWNvbi5jbi9zcmMvMTE3NzQvMTE3NzQ3Ni5wbmf8M3m2AAAAAElFTkSuQmCC");            display: none;            float: right;opacity: 0.4;            cursor:pointer;        }        #nong-drive-anytime-dialog>button{            margin-left: 12px;        }        #nong-drive-anytime-dialog > table{                    }        #nong-table-wrapper {          overflow-x: hidden;          overflow-y: auto;          position: relative;          max-height: 30em;        }        #nong-drive-anytime-icon:hover{            opacity:1;        }        </style></head>
+<body ontouchstart="">
+<header>
+	<nav>
+    	<h1>3D Touch 屏幕电子秤</h1>
+        <p><a href="https://blog.dandyweng.com/2015/12/weight-things-with-3d-touch-on-iphone-6s/" target="_blank" rel="help">使用说明</a> · <a href="http://www.dandyweng.com" target="_blank" rel="author">关于作者</a></p>
+    </nav>
+	<div id="tare">
+        <span>调整皮重：</span>
+        <input id="tare-range" type="range" value="0" min="0" max="80" oninput="updateTareValue(this.value);">
+        <span id="tare-value">0g</span>
+    </div>
+</header>
+
+<section id="weight">
+	<p><span id="gram">0</span>g</p>
+</section>
+
+<section id="scale">
+	<span>金属勺子放置处</span>
+</section>
+
+<footer>
+	<strong>请在竖屏状态下使用</strong>
+	<p>
+    	Designed and developed by Dandy Weng.<br>
+        Copyright © 2017 dandyweng.com. All Rights Reserved.
+    </p>
+    <p style="text-indent: -9999px;"><script src="https://s95.cnzz.com/stat.php?id=5620106&amp;web_id=5620106"></script><script src="https://c.cnzz.com/core.php?web_id=5620106&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=5620106" target="_blank" title="站长统计">站长统计</a></p>
+</footer>
+<script>
+// 参考 https://github.com/freinbichler/3d-touch
+var element = document.getElementById("scale");
+var weightVal = document.getElementById("gram");
+var tareVal = 0;
+
+function onTouchStartMove(e) {
+    e.preventDefault();
+    checkForce(e);
+}
+
+function onTouchEnd(e) {
+    e.preventDefault();
+    touch = null;
+}
+
+function checkForce(e) {
+    touch = e.touches[0];
+    setTimeout(refreshForceValue.bind(touch), 10);
+}
+
+function refreshForceValue() {
+    var touchEvent = this;
+    var forceValue = 0;
+    if (touchEvent) {
+        forceValue = touchEvent.force || 0;
+        setTimeout(refreshForceValue.bind(touch), 10);
+    } else {
+        forceValue = 0;
+    }
+    weightVal.innerHTML = Math.round(forceValue * 385) - tareVal;
+}
+
+function updateTareValue(val) {
+    document.getElementById("tare-value").innerText = "-" + val + "g";
+    tareVal = val;
+}
+
+(function() {
+    element.addEventListener("touchstart", onTouchStartMove, false);
+    element.addEventListener("touchmove", onTouchStartMove, false);
+    element.addEventListener("touchend", onTouchEnd, false);
+})();
+</script>
+
+<div id="nong-drive-anytime-icon"></div></body></html>
