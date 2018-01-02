@@ -10,7 +10,8 @@
  */
 
 
-.highlight pre, pre, .hll { color: #fff; background-color: #333 }
+/**.highlight pre, pre, .hll { color: #fff; background-color: #333 }**/
+.highlight pre, pre, .hll { color: #2e2; }
 /*.highlight .c { color: #fff; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .o { color: #00ccff } /* Operator */
