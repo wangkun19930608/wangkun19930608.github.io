@@ -232,7 +232,7 @@ blockquote {
     margin: 0px;
     padding: 10px;
     color: #fff;
-    background-color: #333;
+    background-color: #4caf50;
 }
 
 blockquote p {
@@ -245,7 +245,7 @@ blockquote p {
 }
 
 p code {
-    background-color: #333;
+    background-color: #4caf50;
     padding: 3px;
 }
 
@@ -256,6 +256,6 @@ table, th, td {
     padding: 5px;
 }
 
-.search{color:green;margin:4px;}
+.search{color:#4caf50;margin:4px;}
 .project{color:red;margin:4px;}
 .about{color:blue;margin:4px;}
