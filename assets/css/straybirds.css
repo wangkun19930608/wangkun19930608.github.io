@@ -269,7 +269,7 @@ table, th, td {
     }
     #screen span{
     /*background:#fff;*/
-    font-size:0;
+    /*font-size:0;*/
     overflow:hidden;
     width:2px;
     height:2px;
