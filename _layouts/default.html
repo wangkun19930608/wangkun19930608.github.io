@@ -15,19 +15,7 @@
     <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    <script>
-        MathJax.Hub.Config({
-              tex2jax: {
-              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-              }
-        });
-        MathJax.Hub.Queue(function() {
-            var all = MathJax.Hub.getAllJax(), i;
-            for(i=0; i < all.length; i += 1) {
-                all[i].SourceElement().parentNode.className += ' has-jax';
-            }
-        });
-    </script>
+    
 <script>
 	function fc(d){
 		var k=document.getElementById('visi1'),w=document.getElementById('visi2');
@@ -136,9 +124,24 @@
     return init;
     }();
     </script>
+	
+	<script>
+        MathJax.Hub.Config({
+              tex2jax: {
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+              }
+        });
+        MathJax.Hub.Queue(function() {
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i=0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
   </head>
 
   <body>
+  <div id="screen">
   <div id="headtitle" ></div>
   <script>loadHeadDiv(); </script>
 	<iframe src="" name="iframe" id='visi2' style="width:100%;height:100%;display:none;position:inherit" onload="changeFrameHeight()"  >
@@ -186,7 +189,8 @@
     </div>
 	
 	
-	<div id="screen"></div>
+	
+	</div>
     <script type="text/javascript">
     new Follow('screen', {
     speed: 4,
@@ -199,7 +203,6 @@
     }
     })
     </script>
-	
 	
  </body>
 	<div>
