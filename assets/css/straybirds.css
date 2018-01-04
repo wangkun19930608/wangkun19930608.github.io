@@ -232,7 +232,7 @@ blockquote {
     margin: 0px;
     padding: 10px;
     color: #fff;
-    background-color: #4caf50;
+    background-color: #2e2;
 }
 
 blockquote p {
@@ -245,7 +245,7 @@ blockquote p {
 }
 
 p code {
-    background-color: #4caf50;
+    background-color: #2e2;
     padding: 3px;
 }
 
@@ -256,6 +256,21 @@ table, th, td {
     padding: 5px;
 }
 
-.search{color:#4caf50;margin:4px;}
+.search{color:#2e2;margin:4px;}
 .project{color:red;margin:4px;}
 .about{color:blue;margin:4px;}
+
+
+ #screen{
+    background:#000;
+    position:absolute;
+    width:100%;
+    height:100%;
+    }
+    #screen span{
+    /*background:#fff;*/
+    font-size:0;
+    overflow:hidden;
+    width:2px;
+    height:2px;
+    }
