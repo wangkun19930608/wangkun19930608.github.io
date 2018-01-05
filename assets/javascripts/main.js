@@ -18,9 +18,9 @@ var json=
 [
 {'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'寻','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
-,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
+//,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
 ,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/lightgame.html\');','html':'灯','tar':'iframe'}
-,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
+//,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
 ,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/ipnone6s.html\');','html':'磅','tar':'iframe'}
 ]
 }
@@ -31,7 +31,7 @@ var json=
 {'class':'about','href':'https://www.cnblogs.com/wangkun1993/','html':'园','tar':''}
 ,{'class':'about','href':'https://github.com/wangkun19930608/','html':'Git','tar':''}
 ,{'class':'about','href':'https://wangkun19930608.github.io/index.html','html':'GP','tar':''}
-,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
+//,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
 ,{'class':'about','href':'javascript:load_home(\'visi3\',\'/friends.html\');','html':'友','tar':'iframe'}
 ]
 }
@@ -87,14 +87,14 @@ var json=
    
     function fc(d){
 		var k=document.getElementById('visi1');
-		/*var w=document.getElementById('visi2');*/
+		//var w=document.getElementById('visi2');
 		var z=document.getElementById('visi2');
 		if(d==1){
 			k.style.display='none';
-			/*w.style.display='none';*/
+			//w.style.display='none';
 			z.style.display='block';
 		}else{
-			/*w.style.display='none';*.
+			//w.style.display='none';
 			k.style.display='block';
 			z.style.display='none';
 		}
