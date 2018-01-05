@@ -110,14 +110,14 @@ function loadFoot(){
 			k.style.display='block';
 			z.style.display='none';
 		}
-		//changeFrameHeight(); 
+		changeFrameHeight(); 
 	};
 	function changeFrameHeight(){
-		var ifm= document.getElementById("visi2"); 
+		var ifm= document.getElementById("visi3"); 
 		ifm.style.height=(document.documentElement.clientHeight)+'px';
 	};
 	window.onresize=function(){  
-		// changeFrameHeight();  
+		 changeFrameHeight();  
 	} ;
    
    
