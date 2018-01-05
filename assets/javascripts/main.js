@@ -65,6 +65,18 @@ var json=
 	
  };
  
+function loadFoot(){
+	var v=document.getElementById("footdiv");
+	var l='<footer>Copyright (c) wangkun19930608 2014<br/>'
+	+'<script type=\"text/javascript\">'
+	+'var cnzz_protocol = ((\"https:\" == document.location.protocol) ? \" https://\" : \" http://\");'
+	+'document.write(unescape(\"%3Cspan id=\'cnzz_stat_icon_1271464027\'%3E%3C/span%3E%3Cscript src=\'\" + cnzz_protocol + \"s13.cnzz.com/z_stat.php%3Fid%3D1271464027%26online%3D1%26show%3Dline\' type=\'text/javascript\'%3E%3C/script%3E\"));'
+	+'</script>'
+    +'</footer>';
+	v.innerHTML=l;
+	
+}
+ 
  
   function load_home() {
 	document.getElementById("visi3").innerHTML = '<object type="text/html" data="https://www.baidu.com/" width="100%" height="100%"></object>';
@@ -98,14 +110,14 @@ var json=
 			k.style.display='block';
 			z.style.display='none';
 		}
-		changeFrameHeight(); 
+		//changeFrameHeight(); 
 	};
 	function changeFrameHeight(){
 		var ifm= document.getElementById("visi2"); 
 		ifm.style.height=(document.documentElement.clientHeight)+'px';
 	};
 	window.onresize=function(){  
-		 changeFrameHeight();  
+		// changeFrameHeight();  
 	} ;
    
    
