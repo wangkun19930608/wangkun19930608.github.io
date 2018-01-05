@@ -19,7 +19,9 @@ var json=
 {'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'寻','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
+,{'class':'about','href':'javascript:load_home(\'visi3"\',\'/game/lightgame.html\');','html':'友','tar':'iframe'}
 ,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
+,{'class':'about','href':'javascript:load_home(\'visi3"\',\'/game/ipnone6s.html\');','html':'友','tar':'iframe'}
 ]
 }
 ,
@@ -85,7 +87,7 @@ var json=
 		var k=document.getElementById('visi1'),w=document.getElementById('visi2');z=document.getElementById('visi2');
 		if(d==1){
 			k.style.display='none';
-			w.style.display='block';
+			w.style.display='none';
 			z.style.display='block';
 		}else{
 			w.style.display='none';
