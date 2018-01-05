@@ -19,9 +19,9 @@ var json=
 {'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'寻','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
-,{'class':'about','href':'javascript:load_home(\'visi3\',\'/game/lightgame.html\');','html':'友','tar':'iframe'}
+,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/lightgame.html\');','html':'灯','tar':'iframe'}
 ,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
-,{'class':'about','href':'javascript:load_home(\'visi3\',\'/game/ipnone6s.html\');','html':'友','tar':'iframe'}
+,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/ipnone6s.html\');','html':'磅','tar':'iframe'}
 ]
 }
 ,
@@ -79,7 +79,9 @@ var json=
 	   var h='<object type="text/html" data=';
 	   h+=url;
 	   h+=' width="100%" height="100%"></object>'
-		document.getElementById(id).innerHTML = h;
+		var t=document.getElementById(id);
+		t.removeAttribute('display');
+		t.innerHTML = h;
    };
    
    
