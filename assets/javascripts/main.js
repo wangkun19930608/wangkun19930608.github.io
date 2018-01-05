@@ -52,11 +52,32 @@ var json=
 			a.innerHTML=jsonsou[o].html;
 			if(''!=jsonsou[o].tar){
 				a.setAttribute("target", jsonsou[o].tar);
-				a.setAttribute("onclick", "javascript:fc(1);");
+				a.setAttribute("onclick", 'load_home('+jsonsou[o].href+')');
 			}
 			v.appendChild(a);
 		}
 	}
 	  
 	
- }
+ };
+ 
+ 
+  function load_home() {
+	document.getElementById("visi3").innerHTML = '<object type="text/html" data="https://www.baidu.com/" width="100%" height="100%"></object>';
+  };
+   function load_home(url) {
+	   var h='<object type="text/html" data=';
+	   h+=url;
+	   h+=' width="100%" height="100%"></object>'
+		document.getElementById("visi3").innerHTML = h;
+   };
+   function load_home(id,url) {
+	   var h='<object type="text/html" data=';
+	   h+=url;
+	   h+=' width="100%" height="100%"></object>'
+		document.getElementById(id).innerHTML = h;
+   };
+   
+   
+   
+  

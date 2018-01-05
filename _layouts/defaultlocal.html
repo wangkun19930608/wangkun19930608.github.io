@@ -4,12 +4,15 @@
     <meta charset='utf-8'>
 
     <link rel="stylesheet" type="text/css" 
-      href="https://wangkun19930608.github.io/assets/css/straybirds.css" media="screen" />
+      href="../assets/css/straybirds.css" media="screen" />
     <link rel="stylesheet" type="text/css" 
-      href="https://wangkun19930608.github.io/assets/css/pygments.css" media="screen" />
+      href="../assets/css/pygments.css" media="screen" />
     <script type="text/javascript"
-    src="https://wangkun19930608.github.io/assets/javascripts/main.js">
+    src="../assets/javascripts/main.js">
     </script>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
     <!-- MathJax Section Start -->
 
     <script type="text/javascript"
@@ -17,7 +20,24 @@
     </script>
     
 <script>
-	
+	 function fc(d){
+		var k=document.getElementById('visi1'),w=document.getElementById('visi2');
+		if(d==1){
+			k.style.display='none';
+			w.style.display='block';
+		}else{
+			w.style.display='none';
+			k.style.display='block';
+		}
+		changeFrameHeight(); 
+	}
+	function changeFrameHeight(){
+		var ifm= document.getElementById("visi2"); 
+		ifm.style.height=(document.documentElement.clientHeight)+'px';
+	}
+	window.onresize=function(){  
+		 changeFrameHeight();  
+	} 
 </script>
 
     <!-- MathJax Section End -->
@@ -127,17 +147,20 @@
   </head>
 
   <body id="screen"  >
-	 <div id="headtitle"  >
-	 </div>
-	 <script>loadHeadDiv(); </script>
+ <div id="headtitle"  >
+ </div>
   
 	<iframe src="" name="iframe" id='visi2' style="width:100%;height:100%;display:none;position:inherit" onload="changeFrameHeight()"  >
     </iframe>
-	
 	<div id ='visi3' style="width:100%;height:100%;position:inherit"  >
 	</div>
 	
-	<script>load_home('visi3','https://www.baidu.com/');</script>
+
+<script>
+
+   load_home('visi3','https://www.baidu.com/');
+
+   </script>
 
     <div class="container" id='visi1' >
 
@@ -175,18 +198,20 @@
           {% include comments.ext %}
         {% endif %}
       </div>
+
+
+ 
+<div >
+    </div>
+	
 	
 	
 	</div>
-	
-	<div id='footdiv'>
-	 </div>
-	 <script>load_home('footdiv','foot.html');</script>
     
 	
  </body>
  
- 
+ <script>loadHeadDiv(); </script>
  <script type="text/javascript">
     new Follow('screen', {
     speed: 4,
@@ -199,5 +224,13 @@
     }
     })
     </script>
+
+	 <div id='footdiv'>
+	 </div>
+	 <script>
+
+   load_home('footdiv','foot.html');
+
+   </script>
 	 
 </html>
