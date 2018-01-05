@@ -86,13 +86,15 @@ var json=
    
    
     function fc(d){
-		var k=document.getElementById('visi1'),w=document.getElementById('visi2');z=document.getElementById('visi2');
+		var k=document.getElementById('visi1');
+		/*var w=document.getElementById('visi2');*/
+		var z=document.getElementById('visi2');
 		if(d==1){
 			k.style.display='none';
-			w.style.display='none';
+			/*w.style.display='none';*/
 			z.style.display='block';
 		}else{
-			w.style.display='none';
+			/*w.style.display='none';*.
 			k.style.display='block';
 			z.style.display='none';
 		}
