@@ -80,7 +80,7 @@ var json=
 	   h+=url;
 	   h+=' width="100%" height="100%"></object>';
 		var t=document.getElementById(id);
-		t.removeAttribute('display');
+		t.style.display='block';
 		t.innerHTML = h;
    };
    
