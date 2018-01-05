@@ -30,6 +30,7 @@ var json=
 ,{'class':'about','href':'https://github.com/wangkun19930608/','html':'Git','tar':''}
 ,{'class':'about','href':'https://wangkun19930608.github.io/index.html','html':'GP','tar':''}
 ,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
+,{'class':'about','href':'javascript:load_home("visi3","/friends.html");','html':'友','tar':'iframe'}
 ]
 }
 ];
@@ -52,7 +53,8 @@ var json=
 			a.innerHTML=jsonsou[o].html;
 			if(''!=jsonsou[o].tar){
 				a.setAttribute("target", jsonsou[o].tar);
-				a.setAttribute("onclick", 'load_home('+jsonsou[o].href+')');
+				/*a.setAttribute("onclick", 'load_home('+jsonsou[o].href+')');*/
+				a.setAttribute("onclick", 'fc(1)');
 			}
 			v.appendChild(a);
 		}
