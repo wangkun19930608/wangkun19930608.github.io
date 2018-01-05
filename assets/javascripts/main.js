@@ -78,7 +78,7 @@ var json=
    function load_home(id,url) {
 	   var h='<object type="text/html" data=';
 	   h+=url;
-	   h+=' width="100%" height="100%"></object>'
+	   h+=' width="100%" height="100%"></object>';
 		var t=document.getElementById(id);
 		t.removeAttribute('display');
 		t.innerHTML = h;
