@@ -79,5 +79,24 @@ var json=
    };
    
    
+    function fc(d){
+		var k=document.getElementById('visi1'),w=document.getElementById('visi2');
+		if(d==1){
+			k.style.display='none';
+			w.style.display='block';
+		}else{
+			w.style.display='none';
+			k.style.display='block';
+		}
+		changeFrameHeight(); 
+	};
+	function changeFrameHeight(){
+		var ifm= document.getElementById("visi2"); 
+		ifm.style.height=(document.documentElement.clientHeight)+'px';
+	};
+	window.onresize=function(){  
+		 changeFrameHeight();  
+	} ;
+   
    
   
