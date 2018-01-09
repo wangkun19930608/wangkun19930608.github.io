@@ -12,9 +12,6 @@ comments: true
 
 和谐游戏，拒绝外挂！！！
 
- 
-
- 
 
 # 原版跳一跳？
 有大佬分享了一个IOS版本跳一跳： Bottle Flip
