@@ -29,11 +29,11 @@ implements NavigableMap<K,V>, Cloneable, Serializable
 
 * 要点
 
-1) 与 Hashtable 区别在于：非同步，允许 `null`
-2) 不保证次序，甚至不保证次序随时间不变
-3) 基本操作 put, get 常量时间
-4) 遍历操作 与 capacity+size 成正比
-5) HashMap 性能与 `capacity` 和 `load factor` 相关，`load factor` 是当前元素个数与 `capacity` 的比值，通常设定为 `0.75`，如果此值过大，空间利用率高，但是冲突的可能性增加，因而可能导致查找时间增加，如果过小，反之。当元素个数大于 `capacity * load_factor` 时，`HashMap` 会重新安排 Hash 表。因此高效地使用 `HashMap` 需要预估元素个数，设置最佳的 `capacity` 和 `load factor` ，使得重新安排 Hash 表的次数下降。
+ 1) 与 Hashtable 区别在于：非同步，允许 `null`
+ 2) 不保证次序，甚至不保证次序随时间不变
+ 3) 基本操作 put, get 常量时间
+ 4) 遍历操作 与 capacity+size 成正比
+ 5) HashMap 性能与 `capacity` 和 `load factor` 相关，`load factor` 是当前元素个数与 `capacity` 的比值，通常设定为 `0.75`，如果此值过大，空间利用率高，但是冲突的可能性增加，因而可能导致查找时间增加，如果过小，反之。当元素个数大于 `capacity * load_factor` 时，`HashMap` 会重新安排 Hash 表。因此高效地使用 `HashMap` 需要预估元素个数，设置最佳的 `capacity` 和 `load factor` ，使得重新安排 Hash 表的次数下降。
 
 
 ## 实现
