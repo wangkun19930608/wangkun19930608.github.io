@@ -18,6 +18,7 @@ var json=
 [
 {'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'寻','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
+,{'class':'project','href':'https://wangkun19930608.github.io/mahua/','html':'MDOL','tar':''}
 //,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
 ,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/lightgame.html\');','html':'灯','tar':'iframe'}
 //,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
