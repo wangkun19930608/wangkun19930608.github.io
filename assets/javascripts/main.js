@@ -1,6 +1,7 @@
 console.log('This would be the main JS file.');
 var issuesList;
 var issuesHTML;
+var titleString;
 
 
 var json=
@@ -103,7 +104,7 @@ function loadFoot(){
 }
 
 function loadcomments(){
-	var titleString = getTitleStringNew();
+	titleString = getTitleStringNew();
 	setCommentURL(issuesList, titleString);
 }
  
@@ -221,7 +222,7 @@ function subComment() {
     var USERNAME = $("#txt_username").val();
     var PASSWORD = document.getElementById("txt_password").value; //
     var title = null;
-    title = $("#title").text();
+    title = titleString;
     // 未开启评论
     if (typeof($("#commentsList").attr("data_comments_url")) == "undefined") {
         if (title == undefined || title == null || title == "") {
