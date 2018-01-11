@@ -87,6 +87,8 @@ var json=
  };
  
 function loadFoot(){
+	
+	
 	var v=document.getElementById("footdiv");
 	var l='<footer>Copyright (c) wangkun19930608 2014<br/>'
 	+'<script type=\"text/javascript\">'
@@ -96,9 +98,13 @@ function loadFoot(){
     +'</footer>';
 	v.innerHTML=l;
 	
+	
+	
+}
+
+function loadcomments(){
 	var titleString = getTitleStringNew();
 	setCommentURL(issuesList, titleString);
-	
 }
  
  
