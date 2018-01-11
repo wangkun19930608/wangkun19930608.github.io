@@ -285,5 +285,16 @@ function getTitleString() {
     if (r != null) return decodeURI(r[2]);
     return null;
 }
+function getTitleStringNew() {
+	var s=window.location.pathname.split('/');
+	var t;
+	if(''!=s[s.length-1]){
+		t=s[s.length-1];
+	}else if(''!=s[s.length-2]){
+		t=s[s.length-1];
+	}
+    if (t != null) return decodeURI(t);
+    return null;
+}
    
   
