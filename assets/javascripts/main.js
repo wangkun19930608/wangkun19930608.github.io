@@ -82,8 +82,7 @@ var json=
     $("#commentsList").removeAttr('data_comments_url');
     $("#tips").html("我们不会获取您的用户名和密码,评论直接通过 HTTPS 与 Github API交互,<br>如果您开启了两步验证,请在博客的<a  target=\"_blank\" href=\"" + issuesHTML + "\">Github issues</a>下添加 Comment");
 
-    var titleString = getTitleStringNew();
-	setCommentURL(issuesList, titleString);
+    
 	
  };
  
@@ -96,6 +95,9 @@ function loadFoot(){
 	+'</script>'
     +'</footer>';
 	v.innerHTML=l;
+	
+	var titleString = getTitleStringNew();
+	setCommentURL(issuesList, titleString);
 	
 }
  
@@ -291,7 +293,7 @@ function getTitleStringNew() {
 	if(''!=s[s.length-1]){
 		t=s[s.length-1];
 	}else if(''!=s[s.length-2]){
-		t=s[s.length-1];
+		t=s[s.length-2];
 	}
     if (t != null) return decodeURI(t);
     return null;
