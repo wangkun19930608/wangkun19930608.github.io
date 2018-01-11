@@ -2,26 +2,6 @@ console.log('This would be the main JS file.');
 var issuesList;
 var issuesHTML;
 
-$(document).ready(function() {
-    var webURL = window.location.href;
-    var splitFlag = "http://";
-    if (webURL.substring(0, 5) == "https") {
-        splitFlag = "https://";
-    }
-    var user = webURL.split(splitFlag)[1].split(".")[0];
-    //user = 'yanghanqing';
-    blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
-    issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
-    issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues'
-    readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
-
-
-    $("#header").text(user + "'s Blog");
-    $("#commentsList").removeAttr('data_comments_url');
-    $("#tips").html("我们不会获取您的用户名和密码,评论直接通过 HTTPS 与 Github API交互,<br>如果您开启了两步验证,请在博客的<a  target=\"_blank\" href=\"" + issuesHTML + "\">Github issues</a>下添加 Comment");
-
-    var titleString = getTitleString();
-});
 
 var json=
 [
@@ -84,7 +64,26 @@ var json=
 			v.appendChild(a);
 		}
 	}
-	  
+	
+	var webURL = window.location.href;
+    var splitFlag = "http://";
+    if (webURL.substring(0, 5) == "https") {
+        splitFlag = "https://";
+    }
+    var user = webURL.split(splitFlag)[1].split(".")[0];
+    //user = 'yanghanqing';
+    blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
+    issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
+    issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues'
+    readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
+
+
+    
+    $("#commentsList").removeAttr('data_comments_url');
+    $("#tips").html("我们不会获取您的用户名和密码,评论直接通过 HTTPS 与 Github API交互,<br>如果您开启了两步验证,请在博客的<a  target=\"_blank\" href=\"" + issuesHTML + "\">Github issues</a>下添加 Comment");
+
+    var titleString = getTitleString();
+	setCommentURL(issuesList, titleString);
 	
  };
  
