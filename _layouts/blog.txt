@@ -12,3 +12,8 @@
 更换成div加载之后去掉了iframe.20180105
 
 https://wangkun19930608.github.io/%E7%A7%91%E7%A0%94/2014/08/17/java-memory-model/
+
+YangHanqing/TinyBlog: 极简的Markdown博客,支持评论
+https://github.com/YangHanqing/tinyblog
+通过这个人的博客,实现了issuses当作评论系统的方法.
+
