@@ -17,3 +17,6 @@ YangHanqing/TinyBlog: 极简的Markdown博客,支持评论
 https://github.com/YangHanqing/tinyblog
 通过这个人的博客,实现了issuses当作评论系统的方法.
 
+恭喜您！已成功参与活动，中奖名单将在联想服务--发现--别说话戳我--来点福利中公布。
+小彩蛋：想要第一时间获悉中奖名单的小伙伴，可以加小编微信lenovo9527-1哦
+2018/1/23 <2018/1/26
