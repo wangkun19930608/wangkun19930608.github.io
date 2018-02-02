@@ -23,6 +23,7 @@ var json=
 ,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/MarkdownOnline/','html':'Markdown','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/HashdownOnline','html':'Hashdown','tar':''}
+,{'class':'project','href':'https://wangkun19930608.github.io/GraphvizOnline/','html':'Graphviz','tar':''}
 //,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
 ,{'class':'project','href':'javascript:load_home(\'visi3\',\'/game/lightgame.html\');','html':'灯','tar':'iframe'}
 //,{'class':'project','href':'https://wangkun19930608.github.io/game/ipnone6s.html','html':'磅','tar':'iframe'}
