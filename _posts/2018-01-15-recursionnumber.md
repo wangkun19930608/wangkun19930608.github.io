@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 数字递归输出
-category: C/C++
+category: [技术, C/C++, 编程]
 comments: true
 ---
 

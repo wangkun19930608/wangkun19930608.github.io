@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 『如何解封』关于最近的微信小程序《跳一跳》游戏
-category: 游戏
+category: [技术, 微信小程序, 小程序体验]
 comments: true
 ---
 

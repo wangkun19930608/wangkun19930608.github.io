@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 头脑王者小程序被封
-category: java
+category: [技术, 微信小程序, 小程序体验]
 comments: true
 ---
 
