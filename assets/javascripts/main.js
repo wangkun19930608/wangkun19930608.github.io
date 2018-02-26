@@ -36,7 +36,11 @@ var json=
 [
 {'class':'about','href':'https://www.cnblogs.com/wangkun1993/','html':'园','tar':''}
 ,{'class':'about','href':'https://github.com/wangkun19930608/','html':'Git','tar':''}
-,{'class':'about','href':'https://wangkun19930608.github.io/index.html','html':'GP','tar':''}
+,{'class':'about','href':'https://gitee.com/wangkun19930608','html':'Gitee','tar':''}
+,{'class':'about','href':'https://coding.net/u/wangkun19930608','html':'Coding','tar':''}
+,{'class':'about','href':'https://wangkun19930608.github.io/index.html','html':'GitP','tar':''}
+,{'class':'about','href':'https://wangkun19930608.gitee.io/index.html','html':'GiteeP','tar':''}
+,{'class':'about','href':'http://wangkun19930608.coding.me/','html':'CodingP','tar':''}
 //,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
 ,{'class':'about','href':'javascript:load_home(\'visi3\',\'/friends.html\');','html':'友','tar':'iframe'}
 ]
