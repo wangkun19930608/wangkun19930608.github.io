@@ -136,8 +136,8 @@ function loadcomments(){
    
     function fc(d){
 		var k=document.getElementById('visi1');
-		//var w=document.getElementById('visi2');
-		var z=document.getElementById('visi2');
+		//var w=document.getElementById('visi2');//frame
+		var z=document.getElementById('visi3');//div
 		if(d==1){
 			k.style.display='none';
 			//w.style.display='none';
