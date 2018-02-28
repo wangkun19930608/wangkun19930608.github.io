@@ -7,7 +7,11 @@
 .project{color:red}
 .about{color:blue}
 </style>
+	<link href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+	<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -29,6 +33,44 @@
 <a class="about"  target="iframe" href="index3.html">T</a>
 <a class="about"  target="iframe" href="friends.html">友</a>
 </div>
+<div id="divheaderinfo_center">
+ <div class="nav">
+ 	<div class="select">
+  <span class="ui-display"> 
+ 	<span id="search_flag" onclick="SearchNav()"> 学术</span>
+ 	<img id="triangle_down" src="http://www.scholat.com/images/triangle.png">
+  </span>
+  <div id="tool_List" style="display: hidden;" class="hidden-box">
+ 	<div id="mytest">
+  <div id="li-0" onclick="changeSearch(0)">
+  	<a>动态</a>
+  </div>
+  <div id="li-1" onclick="changeSearch(1)">
+  	<a>学术</a>
+  </div>
+  <div id="li-2" onclick="changeSearch(2)">
+  	<a>学者</a>
+  </div>
+  <div id="li-3" onclick="changeSearch(3)">
+  	<a>团队</a>
+  </div>
+  <div id="li-4" onclick="changeSearch(4)">
+  	<a>课程</a>
+  </div>
+ 	</div>
+  </div>
+ 	</div>
+ 	<div id="search_input_bg" class="ui-search_input_bg">
+  <input id="searchGroupInput" name="q" maxlength="100" type="text">
+ 	</div>
+ 	<div onclick="SearchNav()" style="background: none repeat scroll 0% 0% #fff; width: 30px; height: 25px; float: left; cursor: pointer; + margin-top: -25px; + margin-left: 252px;">
+  <a href="#no" style="margin-left: 8px;" onclick="SearchNav()">
+ 	<img id="portal_logo" src="http://www.scholat.com/images/searchbutton.png">
+  </a>
+ 	</div>
+ 	<div style="clear: both;"></div>
+ </div>
+	</div>
 <iframe src="default_.html" name="iframe" style="width:100%;height:10%" >
 </iframe>
 <div id ='frm' style="width:100%;height:100%">
