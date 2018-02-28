@@ -1,6 +1,6 @@
 ---
 layout: default
-title: fatal: The remote end hung up unexpectedly
+title: The remote end hung up unexpectedly
 category: [技术, git]
 comments: true
 ---
