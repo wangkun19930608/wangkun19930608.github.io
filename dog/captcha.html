@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>百度莱茨狗经营助手-个性配置</title>
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand mr-0" href="#">莱茨狗经营助手</a>
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#"></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <span data-feather="home"></span>
+                  经营助手 <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="buy.html">
+                  <span data-feather="arrow-right-circle"></span>
+                  低价买狗 <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="options.html">
+                  <span data-feather="settings"></span>
+                  个性配置
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="captcha.html">
+                  <span data-feather="image"></span>
+                  提前打码
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span> 相关链接</span>
+            </h6>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item">
+                <a class="nav-link py-1" href="https://pet-chain.baidu.com/" target="_bank">
+                  <span data-feather="link-2"></span>莱茨狗官网
+                </a>
+                <a class="nav-link" href="https://github.com/playwithblockchain/baidu-pet-chain-buyer" target="_bank">
+                  <span data-feather="github"></span>开源项目主页
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span> 联系作者</span>
+            </h6>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item ml-3">
+                <img src="images/wechat-qrcode.jpg" style="width: 128px; height: 128px;" />
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 col-lg-10 pt-3 px-4">
+          
+          <div  class="alert-top-wrapper alert-hide" >
+            <div class="alert alert-workaround alert-dismissable alert-success" >
+              <div>
+                <span data-feather="info"></span>
+                <span class="alert-content">操作成功！</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1 class="h4">提前打码</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <div class="captcha-left">
+              <!-- <h5>立即打码</h5> -->
+              <div style="padding:10px 0;" id="logCaptchaPanel" class="mb-4">
+                  <form class="form-inline">
+                    <div class="form-group mr-2">
+                      <img style="width:100px; height: 40px;" src="" id="buyVerifyImage" alt="">
+                    </div>
+                    <div class="form-group mr-2">
+                      <input style="width:120px;" type="text" class="form-control" id="buyVerifyCode">
+                    </div>
+                    <div class="form-group mr-2">
+                      <button style="cursor:pointer;" type="button" id="buyVerifyRefresh" class="btn btn-light"><span data-feather="refresh-cw"></span></button>
+                    </div>
+                    <div class="form-group mr-2">
+                      <button type="button" id="logCaptchaSubmit" class="btn btn-success btn-sm">保存</button>
+                    </div>
+                    <div class="form-group" style="display: none;">
+                      <input type="hidden" name="buy-verify-seed" id="buyVerifySeed" value="">
+                      <input type="hidden" name="buy-valid-code" id="buyValidCode" value="">
+                    </div>
+                  </form>
+                  <div class="pt-3">
+                    <p>提前准备的验证码会在购买时自动填充并提交~<br />
+                      本功能试验阶段且验证码会过期，请不要一次性打码太多
+                    </p>
+                  </div>
+              </div>
+
+              <h5>打码记录<a id="clearlogCaptcha" href="###">清空</a></h5>
+              <div style="padding:10px 0;">
+                  <table class="table table-bordered" id="logCaptchaList">
+                    <thead>
+                      <tr>
+                          <th width="100">图片</th>
+                          <th width="100">种子</th>
+                          <th>验证码</th>
+                          <th>添加时间</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+              </div>
+
+            </div>
+            <div class="captcha-right">
+              <p><b>打赏支持作者持续开发完善</b></p>
+              <p><img src="images/ds.png" /></p>
+              <p>
+                  BTC: 1GsP6UQZbBw4VTHhEpKQh62d4Q3Go1Zm8W<br/>
+                  ETH: 0x2e8c4c3a973afd055d7877b829612f1d08fb48c0
+              </p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/feather.min.js"></script>
+
+    <script type="text/javascript" src="js/components/utils.js"></script>
+    <script type="text/javascript" src="js/components/alert.js"></script>
+    <script type="text/javascript" src="js/components/configurator.js"></script>
+    <script type="text/javascript" src="js/components/buyer.js"></script>
+    
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/captcha.js"></script>
+</body>
+</html>
