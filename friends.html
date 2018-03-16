@@ -25,6 +25,9 @@
 .mytalbes{
 	color:red;
 }
+.mytalbes:hover{
+	color:red;
+}
 </style>
 
 
@@ -63,7 +66,7 @@
 网址：https://wangkun19930608.github.io<br/>
 </p>
 <div class="neighbor-links">
-<header style="padding: 20px;">邻居<button class="mytalbes">一键打开</button></header>
+<header style="padding: 20px;">邻居<button class="mytalbes">一键打开(如无效，检测浏览器是否拦截弹窗)</button></header>
 <table>
 <thead>
 <tr>
@@ -126,6 +129,18 @@
 <td>HHTjim'S 部落格</td>
 <td align="center">个人技术博客</td>
 <td align="right"><a href="https://www.hhtjim.com/" target="_blank">www.hhtjim.com</a></td>
+<td align="right">√</td>
+</tr>
+<tr >
+<td>我是Mrxn</td>
+<td align="center">一名网络安全爱好者</td>
+<td align="right"><a href="https://mrxn.net/" target="_blank">mrxn.net</a></td>
+<td align="right">√</td>
+</tr>
+<tr >
+<td>安云网</td>
+<td align="center">专注于信息收集、数据分享、安全研究、猎奇八卦</td>
+<td align="right"><a href="http://www.anyun.org/" target="_blank">anyun.org</a></td>
 <td align="right">√</td>
 </tr>
 <tr>
@@ -255,17 +270,6 @@
 <td align="right"><a href="http://www.degg.com.cn/" target="_blank">degg.com.cn</a></td>
 <td align="right"></td>
 </tr>
-<tr >
-<td>我是Mrxn</td>
-<td align="center">一名网络安全爱好者</td>
-<td align="right"><a href="https://mrxn.net/" target="_blank">mrxn.net</a></td>
-<td align="right"></td>
-</tr>
-<td>安云网</td>
-<td align="center">专注于信息收集、数据分享、安全研究、猎奇八卦</td>
-<td align="right"><a href="http://www.anyun.org/" target="_blank">anyun.org</a></td>
-<td align="right"></td>
-</tr>
 <tr class="delete">
 <td>裕康博客</td>
 <td align="center"></td>
@@ -310,7 +314,7 @@
 </div>
 
 <div class="recruit">
-<header style="padding: 20px;">资讯<button class="mytalbes">一键打开</button></header>
+<header style="padding: 20px;">资讯<button class="mytalbes">一键打开(如无效，检测浏览器是否拦截弹窗)</button></header>
 <table>
 <thead>
 <tr>
@@ -356,7 +360,7 @@
 </div>
 
 <div class="recruit">
-<header style="padding: 20px;">工具<button class="mytalbes">一键打开</button></header>
+<header style="padding: 20px;">工具<button class="mytalbes">一键打开(如无效，检测浏览器是否拦截弹窗)</button></header>
 <table>
 <thead>
 <tr>
@@ -480,7 +484,11 @@
 		  $(".mytalbes").click(function(){
 				var links = $(this).parent().next().children().children();
 				for(var i = 1 ; i < links.length ; i++){
-					window.open(links[i].children[2].firstChild.href);
+				var a = links[i];
+				var b = a.children[2];
+				var c = b.firstChild;
+				var d = c.href;
+					window.open(d);
 				}
 			});
 		</script>
