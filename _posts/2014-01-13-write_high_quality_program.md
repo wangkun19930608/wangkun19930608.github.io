@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 如何编写高质量的程序
-category: 思想
+category: [技术, 编程]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tomcat 启动DefaultAnnotationProcessor报错
-category: [技术, Java, bug]
+category: [技术, Tomcat]
 comments: true
 ---
 

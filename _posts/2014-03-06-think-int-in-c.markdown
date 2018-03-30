@@ -1,7 +1,7 @@
 ---
 layout: default
 title: C语言中的int类型的范围是由什么决定的
-categories: [计算机系统, C语言]
+categories: [技术, 计算机系统, C语言]
 comments: true
 ---
 

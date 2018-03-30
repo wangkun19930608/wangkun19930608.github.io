@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 控制台，终端，tty，shell等概念的区别
-category: 工具
+category: [技术, 工具]
 comments: true
 ---
 

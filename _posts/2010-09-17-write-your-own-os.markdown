@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 关于《自己动手写操作系统》的总结
-category: 操作系统
+category: [技术, 操作系统]
 comments: true
 ---
 

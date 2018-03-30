@@ -1,7 +1,7 @@
 ---
 layout: default
 title: web.py 项目架构分析之 googlemodules
-category: 源代码阅读
+category: [技术, 源代码阅读]
 comments: true
 ---
 

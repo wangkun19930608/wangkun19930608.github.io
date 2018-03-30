@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 对 Java 内存模型的理解
-category: 科研
+category: [技术, java]
 comments: true
 ---
 

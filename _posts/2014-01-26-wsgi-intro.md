@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WSGI 简介
-category: 技术
+category: [技术]
 comments: true
 ---
 

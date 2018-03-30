@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GCC 的基本使用
-categories: [工具, C语言]
+categories: [技术, 工具, C语言]
 comments: true
 ---
 

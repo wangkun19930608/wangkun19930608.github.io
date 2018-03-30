@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 学习英语第二周
-category: 英语 
+category: [语言, 英语]  
 comments: true
 ---
 

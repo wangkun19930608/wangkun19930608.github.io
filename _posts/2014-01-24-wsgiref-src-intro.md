@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wsgiref 源代码分析
-category: 源代码阅读
+category: [技术, 源代码阅读]
 comments: true
 ---
 

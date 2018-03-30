@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 不要做无谓的坚持和幻想的努力
-category: 生活
+category: [文艺,随笔, 生活]
 comments: true
 ---
 

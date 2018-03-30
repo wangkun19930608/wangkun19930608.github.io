@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 读《MacTalk 人生元编程》
-category: 读书
+category: [文艺, 随笔, 读书]
 comments: true
 ---
 

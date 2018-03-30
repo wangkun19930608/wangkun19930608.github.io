@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 使用 GitHub, Jekyll, Markdown 打造自己的博客
-category: 工具
+category: [技术, 工具]
 comments: true
 ---
 

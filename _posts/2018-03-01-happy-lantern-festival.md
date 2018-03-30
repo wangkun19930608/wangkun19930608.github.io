@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 元宵节快乐
-category: 心情
+category: [文艺, 随笔]
 comments: true
 ---
 

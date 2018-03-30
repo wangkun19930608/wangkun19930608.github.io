@@ -1,7 +1,7 @@
 ---
 layout: default
 title: web.py 源代码分析之 web.test.application.testRedirect
-category: 源代码阅读
+category: [技术, 源代码阅读]
 comments: true
 ---
 
