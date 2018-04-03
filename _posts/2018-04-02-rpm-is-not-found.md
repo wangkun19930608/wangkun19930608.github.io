@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2018年全球网络安全热词排行榜
+title: rpm bug
 category: [技术, 安全]
 comments: true
 ---

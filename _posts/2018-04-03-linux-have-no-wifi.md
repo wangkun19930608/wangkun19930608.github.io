@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 2018年全球网络安全热词排行榜
+title: linux没有wifi
 category: [技术, 安全]
 comments: true
 ---
 
-## linux没有wifi
+## linux的wifi出现问题的介绍
 几次重装linux系统,经常出现没有wifi的状况
 
 
