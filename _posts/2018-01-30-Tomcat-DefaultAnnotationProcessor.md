@@ -33,3 +33,8 @@ java.lang.ClassCastException: org.apache.catalina.util.DefaultAnnotationProcesso
 org.apache.catalina.util.DefaultAnnotationProcessor cannot be cast to org.apache.AnnotationProcessor - CSDN博客
 <http://blog.csdn.net/wwbmyos/article/details/7734799>
 
+转载注明来源:
+
+https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/tomcat/2018/01/30/Tomcat-DefaultAnnotationProcessor/
+
+
