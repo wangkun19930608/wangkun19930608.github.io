@@ -333,6 +333,1695 @@ Q|W|E|R|T|Y|U|I|O|P|A|S|D|F|G|H|J|K|L|Z|X|C|V|B|N|M
 --|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
 21|22|23|31|32|33|41|42|43|51|52|53|61|62|63|71|72|73|74|81|82|83|91|92|93|94
 
+### 莫尔斯电码
+
+#### 字母
+
+字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号
+-	|	-	|	-	|	-	|	-	|	-	|	-	|	-
+A	|	．━	|	B	|	━ ．．．	|	C	|	━ ．━ ．	|	D	|	━ ．．
+E	|	．	|	F	|	．．━ ．	|	G	|	━ ━ ．	|	H	|	．．．．
+I	|	．．	|	J	|	．━ ━ ━	|	K	|	━ ．━	|	L	|	．━ ．．
+M	|	━ ━	|	N	|	━ ．	|	O	|	━ ━ ━	|	P	|	．━ ━ ．
+Q	|	━ ━ ．━	|	R	|	．━ ．	|	S	|	．．．	|	T	|	━
+U	|	．．━	|	V	|	．．．━	|	W	|	．━ ━	|	X	|	━ ．．━
+Y	|	━ ．━ ━	|	Z	|	━ ━ ．．	|		|		|		|	
+
+#### 数字
+
+字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号
+-	|	-	|	-	|	-	|	-	|	-	|	-	|	-
+0	|	━ ━ ━ ━ ━	|	1	|	．━ ━ ━ ━	|	2	|	．．━ ━ ━	|	3	|	．．．━ ━
+4	|	．．．．━	|	5	|	．．．．．	|	6	|	━ ．．．．	|	7	|	━ ━ ．．．
+8	|	━ ━ ━ ．．	|	9	|	━ ━ ━ ━ ．	|		|		|		|	
+
+#### 符号
+
+字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号	|	字符	|	电码符号
+-	|	-	|	-	|	-	|	-	|	-	|	-	|	-
+.	|	．━ ．━ ．━	|	:	|	━ ━ ━ ．．．	|	,	|	━ ━ ．．━ ━	|	;	|	━ ．━ ．━ ．
+?	|	．．━ ━ ．．	|	=	|	━ ．．．━	|	'	|	．━ ━ ━ ━ ．	|	/	|	━ ．．━ ．
+!	|	━ ．━ ．━ ━	|	━	|	━ ．．．．━	|	_	|	．．━ ━ ．━	|	"	|	．━ ．．━ ．
+(	|	━ ．━ ━ ．	|	)	|	━ ．━ ━ ．━	|	$	|	．．．━ ．．━	|	&	|	． ．．．
+@	|	．━ ━ ．━ ．	|		|		|		|		|		|	
+
+### HTML颜色
+
+#### 颜色值
+
+HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色和蓝色的值组成（RGB）。
+每种颜色的最小值是0（十六进制：#00）。最大值是255（十六进制：#FF）。
+这个表格给出了由三种颜色混合而成的具体效果：
+
+<table class="reference notranslate">
+  <tbody><tr>
+    <th xstyle="background-color:white" width="50%">颜色(Color)</th>
+    <th xstyle="background-color:white" width="25%">颜色十六进制(Color HEX)</th>
+    <th xstyle="background-color:white" width="25%">颜色RGB(Color RGB)</th>
+  </tr>
+  <tr>
+    <td bgcolor="#000000">&nbsp;</td>
+    <td>#000000</td>
+    <td>rgb(0,0,0)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FF0000">&nbsp;</td>
+    <td>#FF0000</td>
+    <td>rgb(255,0,0)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#00FF00">&nbsp;</td>
+    <td>#00FF00</td>
+    <td>rgb(0,255,0)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0000FF">&nbsp;</td>
+    <td>#0000FF</td>
+    <td>rgb(0,0,255)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFF00">&nbsp;</td>
+    <td>#FFFF00</td>
+    <td>rgb(255,255,0)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#00FFFF">&nbsp;</td>
+    <td>#00FFFF</td>
+    <td>rgb(0,255,255)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FF00FF">&nbsp;</td>
+    <td>#FF00FF</td>
+    <td>rgb(255,0,255)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#C0C0C0">&nbsp;</td>
+    <td>#C0C0C0</td>
+    <td>rgb(192,192,192)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+    <td>#FFFFFF</td>
+    <td>rgb(255,255,255)</td>
+  </tr>
+</tbody></table>
+
+#### 颜色名
+
+仅有 16 种颜色名被 W3C 的 HTML 4.0 标准支持，它们是：aqua、black、blue、fuchsia、gray、green、lime、maroon、navy、olive、purple、red、silver、teal、white、yellow。
+
+如果使用其它颜色的话，就应该使用十六进制的颜色值。
+
+单击一个颜色名或者 16 进制值，就可以查看与不同文字颜色搭配的背景颜色。[(跳转至原W3C学院)](http://www.w3school.com.cn/)
+
+<table class="dataintable">
+<tbody><tr>
+<th width="25%">颜色名</th>
+<th width="25%">十六进制颜色值</th>
+<th width="50%">颜色</th>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=AliceBlue">AliceBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F0F8FF">#F0F8FF</a></td>
+<td style="background-color:#F0F8FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=AntiqueWhite">AntiqueWhite</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FAEBD7">#FAEBD7</a></td>
+<td style="background-color:#FAEBD7">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Aqua">Aqua</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00FFFF">#00FFFF</a></td>
+<td style="background-color:#00FFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Aquamarine">Aquamarine</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=7FFFD4">#7FFFD4</a></td>
+<td style="background-color:#7FFFD4">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Azure">Azure</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F0FFFF">#F0FFFF</a></td>
+<td style="background-color:#F0FFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Beige">Beige</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F5F5DC">#F5F5DC</a></td>
+<td style="background-color:#F5F5DC">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Bisque">Bisque</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFE4C4">#FFE4C4</a></td>
+<td style="background-color:#FFE4C4">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Black">Black</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=000000">#000000</a></td>
+<td style="background-color:#000000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=BlanchedAlmond">BlanchedAlmond</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFEBCD">#FFEBCD</a></td>
+<td style="background-color:#FFEBCD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Blue">Blue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=0000FF">#0000FF</a></td>
+<td style="background-color:#0000FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=BlueViolet">BlueViolet</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8A2BE2">#8A2BE2</a></td>
+<td style="background-color:#8A2BE2">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Brown">Brown</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=A52A2A">#A52A2A</a></td>
+<td style="background-color:#A52A2A">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=BurlyWood">BurlyWood</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DEB887">#DEB887</a></td>
+<td style="background-color:#DEB887">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=CadetBlue">CadetBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=5F9EA0">#5F9EA0</a></td>
+<td style="background-color:#5F9EA0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Chartreuse">Chartreuse</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=7FFF00">#7FFF00</a></td>
+<td style="background-color:#7FFF00">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Chocolate">Chocolate</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D2691E">#D2691E</a></td>
+<td style="background-color:#D2691E">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Coral">Coral</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF7F50">#FF7F50</a></td>
+<td style="background-color:#FF7F50">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=CornflowerBlue">CornflowerBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=6495ED">#6495ED</a></td>
+<td style="background-color:#6495ED">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Cornsilk">Cornsilk</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFF8DC">#FFF8DC</a></td>
+<td style="background-color:#FFF8DC">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Crimson">Crimson</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DC143C">#DC143C</a></td>
+<td style="background-color:#DC143C">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Cyan">Cyan</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00FFFF">#00FFFF</a></td>
+<td style="background-color:#00FFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkBlue">DarkBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00008B">#00008B</a></td>
+<td style="background-color:#00008B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkCyan">DarkCyan</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=008B8B">#008B8B</a></td>
+<td style="background-color:#008B8B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkGoldenRod">DarkGoldenRod</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=B8860B">#B8860B</a></td>
+<td style="background-color:#B8860B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkGray">DarkGray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=A9A9A9">#A9A9A9</a></td>
+<td style="background-color:#A9A9A9">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkGreen">DarkGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=006400">#006400</a></td>
+<td style="background-color:#006400">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkKhaki">DarkKhaki</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=BDB76B">#BDB76B</a></td>
+<td style="background-color:#BDB76B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkMagenta">DarkMagenta</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8B008B">#8B008B</a></td>
+<td style="background-color:#8B008B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkOliveGreen">DarkOliveGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=556B2F">#556B2F</a></td>
+<td style="background-color:#556B2F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Darkorange">Darkorange</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF8C00">#FF8C00</a></td>
+<td style="background-color:#FF8C00">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkOrchid">DarkOrchid</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=9932CC">#9932CC</a></td>
+<td style="background-color:#9932CC">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkRed">DarkRed</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8B0000">#8B0000</a></td>
+<td style="background-color:#8B0000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkSalmon">DarkSalmon</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=E9967A">#E9967A</a></td>
+<td style="background-color:#E9967A">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkSeaGreen">DarkSeaGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8FBC8F">#8FBC8F</a></td>
+<td style="background-color:#8FBC8F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkSlateBlue">DarkSlateBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=483D8B">#483D8B</a></td>
+<td style="background-color:#483D8B">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkSlateGray">DarkSlateGray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=2F4F4F">#2F4F4F</a></td>
+<td style="background-color:#2F4F4F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkTurquoise">DarkTurquoise</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00CED1">#00CED1</a></td>
+<td style="background-color:#00CED1">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DarkViolet">DarkViolet</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=9400D3">#9400D3</a></td>
+<td style="background-color:#9400D3">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DeepPink">DeepPink</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF1493">#FF1493</a></td>
+<td style="background-color:#FF1493">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DeepSkyBlue">DeepSkyBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00BFFF">#00BFFF</a></td>
+<td style="background-color:#00BFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DimGray">DimGray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=696969">#696969</a></td>
+<td style="background-color:#696969">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=DodgerBlue">DodgerBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=1E90FF">#1E90FF</a></td>
+<td style="background-color:#1E90FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Feldspar">Feldspar</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D19275">#D19275</a></td>
+<td style="background-color:#D19275">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=FireBrick">FireBrick</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=B22222">#B22222</a></td>
+<td style="background-color:#B22222">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=FloralWhite">FloralWhite</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFAF0">#FFFAF0</a></td>
+<td style="background-color:#FFFAF0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=ForestGreen">ForestGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=228B22">#228B22</a></td>
+<td style="background-color:#228B22">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Fuchsia">Fuchsia</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF00FF">#FF00FF</a></td>
+<td style="background-color:#FF00FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Gainsboro">Gainsboro</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DCDCDC">#DCDCDC</a></td>
+<td style="background-color:#DCDCDC">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=GhostWhite">GhostWhite</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F8F8FF">#F8F8FF</a></td>
+<td style="background-color:#F8F8FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Gold">Gold</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFD700">#FFD700</a></td>
+<td style="background-color:#FFD700">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=GoldenRod">GoldenRod</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DAA520">#DAA520</a></td>
+<td style="background-color:#DAA520">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Gray">Gray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=808080">#808080</a></td>
+<td style="background-color:#808080">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Green">Green</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=008000">#008000</a></td>
+<td style="background-color:#008000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=GreenYellow">GreenYellow</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=ADFF2F">#ADFF2F</a></td>
+<td style="background-color:#ADFF2F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=HoneyDew">HoneyDew</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F0FFF0">#F0FFF0</a></td>
+<td style="background-color:#F0FFF0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=HotPink">HotPink</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF69B4">#FF69B4</a></td>
+<td style="background-color:#FF69B4">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=IndianRed ">IndianRed </a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=CD5C5C">#CD5C5C</a></td>
+<td style="background-color:#CD5C5C">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Indigo  ">Indigo  </a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=4B0082">#4B0082</a></td>
+<td style="background-color:#4B0082">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Ivory">Ivory</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFFF0">#FFFFF0</a></td>
+<td style="background-color:#FFFFF0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Khaki">Khaki</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F0E68C">#F0E68C</a></td>
+<td style="background-color:#F0E68C">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Lavender">Lavender</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=E6E6FA">#E6E6FA</a></td>
+<td style="background-color:#E6E6FA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LavenderBlush">LavenderBlush</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFF0F5">#FFF0F5</a></td>
+<td style="background-color:#FFF0F5">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LawnGreen">LawnGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=7CFC00">#7CFC00</a></td>
+<td style="background-color:#7CFC00">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LemonChiffon">LemonChiffon</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFACD">#FFFACD</a></td>
+<td style="background-color:#FFFACD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightBlue">LightBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=ADD8E6">#ADD8E6</a></td>
+<td style="background-color:#ADD8E6">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightCoral">LightCoral</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F08080">#F08080</a></td>
+<td style="background-color:#F08080">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightCyan">LightCyan</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=E0FFFF">#E0FFFF</a></td>
+<td style="background-color:#E0FFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightGoldenRodYellow">LightGoldenRodYellow</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FAFAD2">#FAFAD2</a></td>
+<td style="background-color:#FAFAD2">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightGrey">LightGrey</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D3D3D3">#D3D3D3</a></td>
+<td style="background-color:#D3D3D3">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightGreen">LightGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=90EE90">#90EE90</a></td>
+<td style="background-color:#90EE90">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightPink">LightPink</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFB6C1">#FFB6C1</a></td>
+
+<td style="background-color:#FFB6C1">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSalmon">LightSalmon</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFA07A">#FFA07A</a></td>
+<td style="background-color:#FFA07A">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSeaGreen">LightSeaGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=20B2AA">#20B2AA</a></td>
+<td style="background-color:#20B2AA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSkyBlue">LightSkyBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=87CEFA">#87CEFA</a></td>
+<td style="background-color:#87CEFA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSlateBlue">LightSlateBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8470FF">#8470FF</a></td>
+<td style="background-color:#8470FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSlateGray">LightSlateGray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=778899">#778899</a></td>
+<td style="background-color:#778899">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightSteelBlue">LightSteelBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=B0C4DE">#B0C4DE</a></td>
+<td style="background-color:#B0C4DE">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LightYellow">LightYellow</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFFE0">#FFFFE0</a></td>
+<td style="background-color:#FFFFE0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Lime">Lime</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00FF00">#00FF00</a></td>
+<td style="background-color:#00FF00">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=LimeGreen">LimeGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=32CD32">#32CD32</a></td>
+<td style="background-color:#32CD32">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Linen">Linen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FAF0E6">#FAF0E6</a></td>
+<td style="background-color:#FAF0E6">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Magenta">Magenta</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF00FF">#FF00FF</a></td>
+<td style="background-color:#FF00FF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Maroon">Maroon</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=800000">#800000</a></td>
+<td style="background-color:#800000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumAquaMarine">MediumAquaMarine</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=66CDAA">#66CDAA</a></td>
+<td style="background-color:#66CDAA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumBlue">MediumBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=0000CD">#0000CD</a></td>
+<td style="background-color:#0000CD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumOrchid">MediumOrchid</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=BA55D3">#BA55D3</a></td>
+<td style="background-color:#BA55D3">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumPurple">MediumPurple</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=9370D8">#9370D8</a></td>
+<td style="background-color:#9370D8">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumSeaGreen">MediumSeaGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=3CB371">#3CB371</a></td>
+<td style="background-color:#3CB371">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumSlateBlue">MediumSlateBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=7B68EE">#7B68EE</a></td>
+<td style="background-color:#7B68EE">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumSpringGreen">MediumSpringGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00FA9A">#00FA9A</a></td>
+<td style="background-color:#00FA9A">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumTurquoise">MediumTurquoise</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=48D1CC">#48D1CC</a></td>
+<td style="background-color:#48D1CC">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MediumVioletRed">MediumVioletRed</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=C71585">#C71585</a></td>
+<td style="background-color:#C71585">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MidnightBlue">MidnightBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=191970">#191970</a></td>
+<td style="background-color:#191970">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MintCream">MintCream</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F5FFFA">#F5FFFA</a></td>
+<td style="background-color:#F5FFFA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=MistyRose">MistyRose</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFE4E1">#FFE4E1</a></td>
+<td style="background-color:#FFE4E1">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Moccasin">Moccasin</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFE4B5">#FFE4B5</a></td>
+<td style="background-color:#FFE4B5">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=NavajoWhite">NavajoWhite</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFDEAD">#FFDEAD</a></td>
+<td style="background-color:#FFDEAD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Navy">Navy</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=000080">#000080</a></td>
+<td style="background-color:#000080">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=OldLace">OldLace</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FDF5E6">#FDF5E6</a></td>
+<td style="background-color:#FDF5E6">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Olive">Olive</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=808000">#808000</a></td>
+<td style="background-color:#808000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=OliveDrab">OliveDrab</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=6B8E23">#6B8E23</a></td>
+<td style="background-color:#6B8E23">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Orange">Orange</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFA500">#FFA500</a></td>
+<td style="background-color:#FFA500">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=OrangeRed">OrangeRed</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF4500">#FF4500</a></td>
+<td style="background-color:#FF4500">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Orchid">Orchid</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DA70D6">#DA70D6</a></td>
+<td style="background-color:#DA70D6">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PaleGoldenRod">PaleGoldenRod</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=EEE8AA">#EEE8AA</a></td>
+<td style="background-color:#EEE8AA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PaleGreen">PaleGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=98FB98">#98FB98</a></td>
+<td style="background-color:#98FB98">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PaleTurquoise">PaleTurquoise</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=AFEEEE">#AFEEEE</a></td>
+<td style="background-color:#AFEEEE">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PaleVioletRed">PaleVioletRed</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D87093">#D87093</a></td>
+<td style="background-color:#D87093">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PapayaWhip">PapayaWhip</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFEFD5">#FFEFD5</a></td>
+<td style="background-color:#FFEFD5">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PeachPuff">PeachPuff</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFDAB9">#FFDAB9</a></td>
+<td style="background-color:#FFDAB9">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Peru">Peru</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=CD853F">#CD853F</a></td>
+<td style="background-color:#CD853F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Pink">Pink</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFC0CB">#FFC0CB</a></td>
+<td style="background-color:#FFC0CB">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Plum">Plum</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=DDA0DD">#DDA0DD</a></td>
+<td style="background-color:#DDA0DD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=PowderBlue">PowderBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=B0E0E6">#B0E0E6</a></td>
+<td style="background-color:#B0E0E6">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Purple">Purple</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=800080">#800080</a></td>
+<td style="background-color:#800080">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Red">Red</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF0000">#FF0000</a></td>
+<td style="background-color:#FF0000">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=RosyBrown">RosyBrown</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=BC8F8F">#BC8F8F</a></td>
+<td style="background-color:#BC8F8F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=RoyalBlue">RoyalBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=4169E1">#4169E1</a></td>
+<td style="background-color:#4169E1">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SaddleBrown">SaddleBrown</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=8B4513">#8B4513</a></td>
+<td style="background-color:#8B4513">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Salmon">Salmon</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FA8072">#FA8072</a></td>
+<td style="background-color:#FA8072">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SandyBrown">SandyBrown</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F4A460">#F4A460</a></td>
+<td style="background-color:#F4A460">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SeaGreen">SeaGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=2E8B57">#2E8B57</a></td>
+<td style="background-color:#2E8B57">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SeaShell">SeaShell</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFF5EE">#FFF5EE</a></td>
+<td style="background-color:#FFF5EE">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Sienna">Sienna</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=A0522D">#A0522D</a></td>
+<td style="background-color:#A0522D">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Silver">Silver</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=C0C0C0">#C0C0C0</a></td>
+<td style="background-color:#C0C0C0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SkyBlue">SkyBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=87CEEB">#87CEEB</a></td>
+<td style="background-color:#87CEEB">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SlateBlue">SlateBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=6A5ACD">#6A5ACD</a></td>
+<td style="background-color:#6A5ACD">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SlateGray">SlateGray</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=708090">#708090</a></td>
+<td style="background-color:#708090">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Snow">Snow</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFAFA">#FFFAFA</a></td>
+<td style="background-color:#FFFAFA">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SpringGreen">SpringGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=00FF7F">#00FF7F</a></td>
+<td style="background-color:#00FF7F">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=SteelBlue">SteelBlue</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=4682B4">#4682B4</a></td>
+<td style="background-color:#4682B4">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Tan">Tan</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D2B48C">#D2B48C</a></td>
+<td style="background-color:#D2B48C">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Teal">Teal</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=008080">#008080</a></td>
+<td style="background-color:#008080">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Thistle">Thistle</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D8BFD8">#D8BFD8</a></td>
+<td style="background-color:#D8BFD8">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Tomato">Tomato</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FF6347">#FF6347</a></td>
+<td style="background-color:#FF6347">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Turquoise">Turquoise</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=40E0D0">#40E0D0</a></td>
+<td style="background-color:#40E0D0">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Violet">Violet</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=EE82EE">#EE82EE</a></td>
+<td style="background-color:#EE82EE">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=VioletRed">VioletRed</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=D02090">#D02090</a></td>
+<td style="background-color:#D02090">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Wheat">Wheat</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F5DEB3">#F5DEB3</a></td>
+<td style="background-color:#F5DEB3">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=White">White</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFFFF">#FFFFFF</a></td>
+<td style="background-color:#FFFFFF">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=WhiteSmoke">WhiteSmoke</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=F5F5F5">#F5F5F5</a></td>
+<td style="background-color:#F5F5F5">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=Yellow">Yellow</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=FFFF00">#FFFF00</a></td>
+<td style="background-color:#FFFF00">&nbsp;</td>
+</tr>
+
+<tr>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?color=YellowGreen">YellowGreen</a></td>
+<td><a target="_blank" href="http://www.w3school.com.cn/tiy/color.asp?hex=9ACD32">#9ACD32</a></td>
+<td style="background-color:#9ACD32">&nbsp;</td>
+</tr>
+
+</tbody></table>
+
+
+#### 1600万种不同颜色
+三种颜色 红，绿，蓝的组合从0到255，一共有1600万种不同颜色(256 x 256 x 256)。
+在下面的颜色表中你会看到不同的结果，从0到255的红色，同时设置绿色和蓝色的值为0,随着红色的值变化，不同的值都显示了不同的颜色。
+
+<table class="reference notranslate">
+<tbody><tr>
+<th width="50%">Red Light</th>
+<th width="20%">Color HEX</th>
+<th width="30%">Color RGB</th>
+</tr>
+
+<tr>
+<td bgcolor="#000000">&nbsp;</td>
+<td>#000000&nbsp;</td>
+<td>rgb(0,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#080000">&nbsp;</td>
+<td>#080000</td>
+<td>rgb(8,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#100000">&nbsp;</td>
+<td>#100000</td>
+<td>rgb(16,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#180000">&nbsp;</td>
+<td>#180000</td>
+<td>rgb(24,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#200000">&nbsp;</td>
+<td>#200000</td>
+<td>rgb(32,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#280000">&nbsp;</td>
+<td>#280000</td>
+<td>rgb(40,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#300000">&nbsp;</td>
+<td>#300000</td>
+<td>rgb(48,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#380000">&nbsp;</td>
+<td>#380000</td>
+<td>rgb(56,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#400000">&nbsp;</td>
+<td>#400000</td>
+<td>rgb(64,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#480000">&nbsp;</td>
+<td>#480000</td>
+<td>rgb(72,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#500000">&nbsp;</td>
+<td>#500000</td>
+<td>rgb(80,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#580000">&nbsp;</td>
+<td>#580000</td>
+<td>rgb(88,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#600000">&nbsp;</td>
+<td>#600000</td>
+<td>rgb(96,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#680000">&nbsp;</td>
+<td>#680000</td>
+<td>rgb(104,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#700000">&nbsp;</td>
+<td>#700000</td>
+<td>rgb(112,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#780000">&nbsp;</td>
+<td>#780000</td>
+<td>rgb(120,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#800000">&nbsp;</td>
+<td>#800000</td>
+<td>rgb(128,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#880000">&nbsp;</td>
+<td>#880000</td>
+<td>rgb(136,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#900000">&nbsp;</td>
+<td>#900000</td>
+<td>rgb(144,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#980000">&nbsp;</td>
+<td>#980000</td>
+<td>rgb(152,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#A00000">&nbsp;</td>
+<td>#A00000</td>
+<td>rgb(160,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#A80000">&nbsp;</td>
+<td>#A80000</td>
+<td>rgb(168,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#B00000">&nbsp;</td>
+<td>#B00000</td>
+<td>rgb(176,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#B80000">&nbsp;</td>
+<td>#B80000</td>
+<td>rgb(184,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#C00000">&nbsp;</td>
+<td>#C00000</td>
+<td>rgb(192,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#C80000">&nbsp;</td>
+<td>#C80000</td>
+<td>rgb(200,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#D00000">&nbsp;</td>
+<td>#D00000</td>
+<td>rgb(208,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#D80000">&nbsp;</td>
+<td>#D80000</td>
+<td>rgb(216,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#E00000">&nbsp;</td>
+<td>#E00000</td>
+<td>rgb(224,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#E80000">&nbsp;</td>
+<td>#E80000</td><td>rgb(232,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#F00000">&nbsp;</td>
+<td>#F00000</td>
+<td>rgb(240,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#F80000">&nbsp;</td>
+<td>#F80000</td>
+<td>rgb(248,0,0)</td>
+</tr>
+
+<tr>
+<td bgcolor="#FF0000">&nbsp;</td>
+<td>#FF0000</td>
+<td>rgb(255,0,0)</td>
+</tr>
+
+</tbody></table>
+
+
+#### 灰暗色调
+以下展示了灰色到黑色的渐变
+
+<table class="reference notranslate">
+<tbody><tr>
+<th width="50%">Gray Shades</th>
+<th width="20%">Color HEX</th>
+<th width="30%">Color RGB</th>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#000000">&nbsp;</td>
+<td width="20%">#000000&nbsp;</td>
+<td width="30%">rgb(0,0,0)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#080808">&nbsp;</td>
+<td width="20%">#080808&nbsp;</td>
+<td width="30%">rgb(8,8,8)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#101010">&nbsp;</td>
+<td width="20%">#101010&nbsp;</td>
+<td width="30%">rgb(16,16,16)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#181818">&nbsp;</td>
+<td width="20%">#181818&nbsp;</td>
+<td width="30%">rgb(24,24,24)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#202020">&nbsp;</td>
+<td width="20%">#202020&nbsp;</td>
+<td width="30%">rgb(32,32,32)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#282828">&nbsp;</td>
+<td width="20%">#282828&nbsp;</td>
+<td width="30%">rgb(40,40,40)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#303030">&nbsp;</td>
+<td width="20%">#303030&nbsp;</td>
+<td width="30%">rgb(48,48,48)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#383838">&nbsp;</td>
+<td width="20%">#383838&nbsp;</td>
+<td width="30%">rgb(56,56,56)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#404040">&nbsp;</td>
+<td width="20%">#404040&nbsp;</td>
+<td width="30%">rgb(64,64,64)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#484848">&nbsp;</td>
+<td width="20%">#484848&nbsp;</td>
+<td width="30%">rgb(72,72,72)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#505050">&nbsp;</td>
+<td width="20%">#505050&nbsp;</td>
+<td width="30%">rgb(80,80,80)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#585858">&nbsp;</td>
+<td width="20%">#585858&nbsp;</td>
+<td width="30%">rgb(88,88,88)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#606060">&nbsp;</td>
+<td width="20%">#606060&nbsp;</td>
+<td width="30%">rgb(96,96,96)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#686868">&nbsp;</td>
+<td width="20%">#686868&nbsp;</td>
+<td width="30%">rgb(104,104,104)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#707070">&nbsp;</td>
+<td width="20%">#707070&nbsp;</td>
+<td width="30%">rgb(112,112,112)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#787878">&nbsp;</td>
+<td width="20%">#787878&nbsp;</td>
+<td width="30%">rgb(120,120,120)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#808080">&nbsp;</td>
+<td width="20%">#808080&nbsp;</td>
+<td width="30%">rgb(128,128,128)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#888888">&nbsp;</td>
+<td width="20%">#888888&nbsp;</td>
+<td width="30%">rgb(136,136,136)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#909090">&nbsp;</td>
+<td width="20%">#909090&nbsp;</td>
+<td width="30%">rgb(144,144,144)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#989898">&nbsp;</td>
+<td width="20%">#989898&nbsp;</td>
+<td width="30%">rgb(152,152,152)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#A0A0A0">&nbsp;</td>
+<td width="20%">#A0A0A0&nbsp;</td>
+<td width="30%">rgb(160,160,160)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#A8A8A8">&nbsp;</td>
+<td width="20%">#A8A8A8&nbsp;</td>
+<td width="30%">rgb(168,168,168)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#B0B0B0">&nbsp;</td>
+<td width="20%">#B0B0B0&nbsp;</td>
+<td width="30%">rgb(176,176,176)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#B8B8B8">&nbsp;</td>
+<td width="20%">#B8B8B8&nbsp;</td>
+<td width="30%">rgb(184,184,184)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#C0C0C0">&nbsp;</td>
+<td width="20%">#C0C0C0&nbsp;</td>
+<td width="30%">rgb(192,192,192)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#C8C8C8">&nbsp;</td>
+<td width="20%">#C8C8C8&nbsp;</td>
+<td width="30%">rgb(200,200,200)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#D0D0D0">&nbsp;</td>
+<td width="20%">#D0D0D0&nbsp;</td>
+<td width="30%">rgb(208,208,208)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#D8D8D8">&nbsp;</td>
+<td width="20%">#D8D8D8&nbsp;</td>
+<td width="30%">rgb(216,216,216)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#E0E0E0">&nbsp;</td>
+<td width="20%">#E0E0E0&nbsp;</td>
+<td width="30%">rgb(224,224,224)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#E8E8E8">&nbsp;</td>
+<td width="20%">#E8E8E8&nbsp;</td>
+<td width="30%">rgb(232,232,232)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#F0F0F0">&nbsp;</td>
+<td width="20%">#F0F0F0&nbsp;</td>
+<td width="30%">rgb(240,240,240)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#F8F8F8">&nbsp;</td>
+<td width="20%">#F8F8F8&nbsp;</td>
+<td width="30%">rgb(248,248,248)&nbsp;</td>
+</tr>
+
+<tr>
+<td width="50%" bgcolor="#FFFFFF">&nbsp;</td>
+<td width="20%">#FFFFFF&nbsp;</td>
+<td width="30%">rgb(255,255,255)&nbsp;</td>
+</tr>
+
+</tbody></table>
+
+#### Web安全色
+数年以前，当大多数计算机仅支持 256 种颜色的时候，一系列 216 种 Web 安全色作为 Web 标准被建议使用。其中的原因是，微软和 Mac 操作系统使用了 40 种不同的保留的固定系统颜色（双方大约各使用 20 种）。
+
+我们不确定如今这么做的意义有多大，因为越来越多的计算机有能力处理数百万种颜色，不过做选择还是你自己。
+
+最初，216 跨平台 web 安全色被用来确保：当计算机使用 256 色调色板时，所有的计算机能够正确地显示所有的颜色。
+
+<table border="1" width="100%">
+    <tbody><tr>
+      <td align="center" style="color:#ffffff" bgcolor="#000000">000000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#000033">000033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#000066">000066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#000099">000099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0000cc">0000CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0000ff">0000FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#003300">003300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#003333">003333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#003366">003366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#003399">003399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0033cc">0033CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0033ff">0033FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#006600">006600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#006633">006633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#006666">006666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#006699">006699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0066cc">0066CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#0066ff">0066FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#009900">009900</td>
+      <td align="center" bgcolor="#009933">009933</td>
+      <td align="center" bgcolor="#009966">009966</td>
+      <td align="center" bgcolor="#009999">009999</td>
+      <td align="center" bgcolor="#0099cc">0099CC</td>
+      <td align="center" bgcolor="#0099ff">0099FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#00cc00">00CC00</td>
+      <td align="center" bgcolor="#00cc33">00CC33</td>
+      <td align="center" bgcolor="#00cc66">00CC66</td>
+      <td align="center" bgcolor="#00cc99">00CC99</td>
+      <td align="center" bgcolor="#00cccc">00CCCC</td>
+      <td align="center" bgcolor="#00ccff">00CCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#00ff00">00FF00</td>
+      <td align="center" bgcolor="#00ff33">00FF33</td>
+      <td align="center" bgcolor="#00ff66">00FF66</td>
+      <td align="center" bgcolor="#00ff99">00FF99</td>
+      <td align="center" bgcolor="#00ffcc">00FFCC</td>
+      <td align="center" bgcolor="#00ffff">00FFFF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#330000">330000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#330033">330033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#330066">330066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#330099">330099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3300cc">3300CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3300ff">3300FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#333300">333300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#333333">333333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#333366">333366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#333399">333399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3333cc">3333CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3333ff">3333FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#336600">336600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#336633">336633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#336666">336666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#336699">336699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3366cc">3366CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#3366ff">3366FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#339900">339900</td>
+      <td align="center" bgcolor="#339933">339933</td>
+      <td align="center" bgcolor="#339966">339966</td>
+      <td align="center" bgcolor="#339999">339999</td>
+      <td align="center" bgcolor="#3399cc">3399CC</td>
+      <td align="center" bgcolor="#3399ff">3399FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#33cc00">33CC00</td>
+      <td align="center" bgcolor="#33cc33">33CC33</td>
+      <td align="center" bgcolor="#33cc66">33CC66</td>
+      <td align="center" bgcolor="#33cc99">33CC99</td>
+      <td align="center" bgcolor="#33cccc">33CCCC</td>
+      <td align="center" bgcolor="#33ccff">33CCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#33ff00">33FF00</td>
+      <td align="center" bgcolor="#33ff33">33FF33</td>
+      <td align="center" bgcolor="#33ff66">33FF66</td>
+      <td align="center" bgcolor="#33ff99">33FF99</td>
+      <td align="center" bgcolor="#33ffcc">33FFCC</td>
+      <td align="center" bgcolor="#33ffff">33FFFF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#660000">660000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#660033">660033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#660066">660066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#660099">660099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6600cc">6600CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6600ff">6600FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#663300">663300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#663333">663333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#663366">663366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#663399">663399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6633cc">6633CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6633ff">6633FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#666600">666600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#666633">666633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#666666">666666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#666699">666699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6666cc">6666CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#6666ff">6666FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#669900">669900</td>
+      <td align="center" bgcolor="#669933">669933</td>
+      <td align="center" bgcolor="#669966">669966</td>
+      <td align="center" bgcolor="#669999">669999</td>
+      <td align="center" bgcolor="#6699cc">6699CC</td>
+      <td align="center" bgcolor="#6699ff">6699FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#66cc00">66CC00</td>
+      <td align="center" bgcolor="#66cc33">66CC33</td>
+      <td align="center" bgcolor="#66cc66">66CC66</td>
+      <td align="center" bgcolor="#66cc99">66CC99</td>
+      <td align="center" bgcolor="#66cccc">66CCCC</td>
+      <td align="center" bgcolor="#66ccff">66CCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#66ff00">66FF00</td>
+      <td align="center" bgcolor="#66ff33">66FF33</td>
+      <td align="center" bgcolor="#66ff66">66FF66</td>
+      <td align="center" bgcolor="#66ff99">66FF99</td>
+      <td align="center" bgcolor="#66ffcc">66FFCC</td>
+      <td align="center" bgcolor="#66ffff">66FFFF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#990000">990000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#990033">990033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#990066">990066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#990099">990099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9900cc">9900CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9900ff">9900FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#993300">993300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#993333">993333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#993366">993366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#993399">993399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9933cc">9933CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9933ff">9933FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#996600">996600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#996633">996633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#996666">996666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#996699">996699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9966cc">9966CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#9966ff">9966FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#999900">999900</td>
+      <td align="center" bgcolor="#999933">999933</td>
+      <td align="center" bgcolor="#999966">999966</td>
+      <td align="center" bgcolor="#999999">999999</td>
+      <td align="center" bgcolor="#9999cc">9999CC</td>
+      <td align="center" bgcolor="#9999ff">9999FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#99cc00">99CC00</td>
+      <td align="center" bgcolor="#99cc33">99CC33</td>
+      <td align="center" bgcolor="#99cc66">99CC66</td>
+      <td align="center" bgcolor="#99cc99">99CC99</td>
+      <td align="center" bgcolor="#99cccc">99CCCC</td>
+      <td align="center" bgcolor="#99ccff">99CCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#99ff00">99FF00</td>
+      <td align="center" bgcolor="#99ff33">99FF33</td>
+      <td align="center" bgcolor="#99ff66">99FF66</td>
+      <td align="center" bgcolor="#99ff99">99FF99</td>
+      <td align="center" bgcolor="#99ffcc">99FFCC</td>
+      <td align="center" bgcolor="#99ffff">99FFFF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#cc0000">CC0000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc0033">CC0033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc0066">CC0066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc0099">CC0099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc00cc">CC00CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc00ff">CC00FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#cc3300">CC3300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc3333">CC3333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc3366">CC3366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc3399">CC3399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc33cc">CC33CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc33ff">CC33FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#cc6600">CC6600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc6633">CC6633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc6666">CC6666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc6699">CC6699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc66cc">CC66CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#cc66ff">CC66FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#cc9900">CC9900</td>
+      <td align="center" bgcolor="#cc9933">CC9933</td>
+      <td align="center" bgcolor="#cc9966">CC9966</td>
+      <td align="center" bgcolor="#cc9999">CC9999</td>
+      <td align="center" bgcolor="#cc99cc">CC99CC</td>
+      <td align="center" bgcolor="#cc99ff">CC99FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#cccc00">CCCC00</td>
+      <td align="center" bgcolor="#cccc33">CCCC33</td>
+      <td align="center" bgcolor="#cccc66">CCCC66</td>
+      <td align="center" bgcolor="#cccc99">CCCC99</td>
+      <td align="center" bgcolor="#cccccc">CCCCCC</td>
+      <td align="center" bgcolor="#ccccff">CCCCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#ccff00">CCFF00</td>
+      <td align="center" bgcolor="#ccff33">CCFF33</td>
+      <td align="center" bgcolor="#ccff66">CCFF66</td>
+      <td align="center" bgcolor="#ccff99">CCFF99</td>
+      <td align="center" bgcolor="#ccffcc">CCFFCC</td>
+      <td align="center" bgcolor="#ccffff">CCFFFF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#ff0000">FF0000</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff0033">FF0033</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff0066">FF0066</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff0099">FF0099</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff00cc">FF00CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff00ff">FF00FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#ff3300">FF3300</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff3333">FF3333</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff3366">FF3366</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff3399">FF3399</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff33cc">FF33CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff33ff">FF33FF</td>
+    </tr>
+    <tr>
+      <td align="center" style="color:#ffffff" bgcolor="#ff6600">FF6600</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff6633">FF6633</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff6666">FF6666</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff6699">FF6699</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff66cc">FF66CC</td>
+      <td align="center" style="color:#ffffff" bgcolor="#ff66ff">FF66FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#ff9900">FF9900</td>
+      <td align="center" bgcolor="#ff9933">FF9933</td>
+      <td align="center" bgcolor="#ff9966">FF9966</td>
+      <td align="center" bgcolor="#ff9999">FF9999</td>
+      <td align="center" bgcolor="#ff99cc">FF99CC</td>
+      <td align="center" bgcolor="#ff99ff">FF99FF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#ffcc00">FFCC00</td>
+      <td align="center" bgcolor="#ffcc33">FFCC33</td>
+      <td align="center" bgcolor="#ffcc66">FFCC66</td>
+      <td align="center" bgcolor="#ffcc99">FFCC99</td>
+      <td align="center" bgcolor="#ffcccc">FFCCCC</td>
+      <td align="center" bgcolor="#ffccff">FFCCFF</td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#ffff00">FFFF00</td>
+      <td align="center" bgcolor="#ffff33">FFFF33</td>
+      <td align="center" bgcolor="#ffff66">FFFF66</td>
+      <td align="center" bgcolor="#ffff99">FFFF99</td>
+      <td align="center" bgcolor="#ffffcc">FFFFCC</td>
+      <td align="center" bgcolor="#ffffff">FFFFFF</td>
+    </tr>
+</tbody></table>
+
 ## 说明
 
 [欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A0%81/2018/05/07/codeencrypt/)
@@ -341,8 +2030,15 @@ Q|W|E|R|T|Y|U|I|O|P|A|S|D|F|G|H|J|K|L|Z|X|C|V|B|N|M
 
 [ASCII_百度百科](https://baike.baidu.com/item/ASCII/309296?fr=aladdin&fromid=19660475&fromtitle=ascii%E7%A0%81%E8%A1%A8)
 
+[摩斯密码 在线加密解密工具 - aTool在线工具](http://www.atool.org/morse.php)
+
+[HTML 颜色 | 菜鸟教程](https://www.runoob.com/html/html-colors.html)
+
+[HTML 颜色名 |w3school](http://www.w3school.com.cn/html/html_colornames.asp)
+
 ### 版本记录
 20180507 确定主题
 20180508 完成ascii表
 20180509 完成键盘表,以及相关介绍
 20180510 添加qwe键盘和九宫格键盘
+20180511 添加莫尔斯电码表,颜色表
