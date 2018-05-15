@@ -2032,9 +2032,11 @@ HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色
 
 [摩斯密码 在线加密解密工具 - aTool在线工具](http://www.atool.org/morse.php)
 
-[HTML 颜色 | 菜鸟教程](https://www.runoob.com/html/html-colors.html)
+[HTML 颜色 - 菜鸟教程](https://www.runoob.com/html/html-colors.html)
 
-[HTML 颜色名 |w3school](http://www.w3school.com.cn/html/html_colornames.asp)
+
+[HTML 颜色名 - w3school](http://www.w3school.com.cn/html/html_colornames.asp)
+
 
 ### 版本记录
 20180507 确定主题
