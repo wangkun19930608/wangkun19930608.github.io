@@ -41,6 +41,10 @@ idea 还可以申请edu邮箱获取linsence key，有邮箱的可以尝试一下
 
 [IntelliJ Idea 2017 免费激活方法 ](http://www.cnblogs.com/suiyueqiannian/p/6754091.html)
 
+[在校师生福利合集：Apple、微软、Github等产品教育优惠购买指南 ](https://51.ruyo.net/4178.html)
+
+[【转载】获取临时edu邮箱的网站 - 邮箱资源 - 如有乐享](https://51.ruyo.net/3985.html)
+
 ### 版本记录
 
 20180518 完成文章
