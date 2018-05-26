@@ -1,105 +1,83 @@
 ---
 layout: default
-title: #七牛云#邀请好友乐享千元好礼
-category: [技术, 福利]
+title: 公司笔记Orecale出错
+category: [技术, Bug]
 comments: true
 ---
 
 ## 文章介绍
-看到七牛云的活动,感觉还是不错的,毕竟用的就是七牛云存储图片,分享一下了.
+今天同事现场出现问题,数据插入时候报错,导致一部分文本不能正常生成.
 
 
 
 
-## 福利详情
+## 问题详情
 
-![https://qiniu.staticfile.org/static/images/banner_promotion_bo3801.dfdd7dbf.png](https://qiniu.staticfile.org/static/images/banner_promotion_bo3801.dfdd7dbf.png)
+```c
+ERROR [2018-05-01 00:04:47:329] [统计线程] (PowerDataStatisticsDbOperation.java:882)
+           -java.sql.SQLException: ORA-01438: 值大于为此列指定的允许精度
 
-七牛云最新的邀新活动！！ 奖励还不错！
+java.sql.SQLException: ORA-01438: 值大于为此列指定的允许精度
 
-新注册七牛云活动的用户实名认证后能享受免费CDN配额：存储空间 10GB，每月下载流量 10GB，每月 PUT/DELETE 10万次请求，每月 GET 100万次请求。
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:743)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:213)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:952)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1160)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3285)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3390)
+	at statistics.PowerDataStatisticsDbOperation.insertAllPowerStat(PowerDataStatisticsDbOperation.java:877)
+	at statistics.PowerDataStatistics.generatePowerDataOper(PowerDataStatistics.java:72)
+	at statistics.StatisticsTask.generatePowerCalculation(StatisticsTask.java:830)
+	at statistics.StatisticsTask.statistics(StatisticsTask.java:168)
+	at statistics.StatisticsThread.run(StatisticsThread.java:35)
 
-当然七牛还有经常搞一些活动撸一些抵用券！
-
-如：[免费领取七牛云300元代金券(附路子)](https://51.ruyo.net/8458.html)
+```
 
 
-## 活动地址
+## 解决思路
+
+看到这个提示信息,懂的人一眼看出数据库的数据需要扩大,不懂的人也应该可以看出数据出错的位置在PowerDataStatisticsDbOperation.insertAllPowerStat这个函数.需要检查一下数据是否正常.如果有明显的计算错误就需要直接改正了.
+
+## 解决办法
+
+解决办法有两个,最简单的解决办法是直接扩大数据库里面的字段类型,通过查看数据库,知道出错的数据类型是number(8,4),这个基本是没有问题的,但是因为计算出现问题,临时解决问题可以直接扩大数据类型为number(20,4)了.
+
+但是这个方法没有彻底解决问题,通过代码的层层逻辑调试,我们可以发现,是因为数据输入时候,数据的倍率调错,0.5变成了500,造成了这样子的错误,因此在接入数据之后更改一下倍率,这个问题就暂时完美解决了.
+
+## number用法补充
+
+### Number的数据声明如下：
+Number(p, s)        声明一个定点数        p(precision)为精度，s(scale)表示小数点右边的数字个数，精度最大值为38，
+Number(p)        声明一个整数        相当于Number(p, 0)
+Number        声明一个浮点数        其精度为38，要注意的是scale的值没有应用，也就是说scale的指不能简单的理解为0，或者其他的数。
+
+### 定点数的精度(p)和刻度(s)遵循以下规则：
+?        当一个数的整数部分的长度 > p-s 时，Oracle就会报错
+?        当一个数的小数部分的长度 > s 时，Oracle就会舍入。
+?        当s(scale)为负数时，Oracle就对小数点左边的s个数字进行舍入。
+?        当s > p 时, p表示小数点后第s位向左最多可以有多少位数字，如果大于p则Oracle报错，小数点后s位向右的数字被舍入
 
 
-[https://www.qiniu.com/invite](https://portal.qiniu.com/signup?code=3lk4sb8604j82)
+所以，当录入的数据出现其中某一种情况，就有可能报错！如100.003入到Number(6,4)的列中，就会报错,因为100为三位数，3>6-4
 
+ORA-01438: 值大于为此列指定的允许精度
 
-## 活动时间
-2018年5月23日-8月31日
-
-## 邀请奖励
-
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th>达成目标</th>
-<th>邀请人奖励</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>邀请一个标准用户</td>
-<td>
-<ul>
-<li>5GB/月 CDN免费下载流量（最高累计40GB/月）</li>
-<li>100元对象存储抵用券 （不可累计）</li>
-<li>100元智能多媒体API抵用券 （不可累计）</li>
-<li>500元充值抵用券（充5000送500，不可累计）</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>邀请5个及以上标准用户</td>
-<td>额外获得价值200元七牛神秘大礼包</td>
-</tr>
-<tr>
-<td>受邀人首充金额≥1000元，并&lt;5000元</td>
-<td>100元购物卡</td>
-</tr>
-<tr>
-<td>受邀人首充金额&gt;=5000元</td>
-<td>500元购物卡</td>
-</tr>
-</tbody>
-</table>
-
-## 活动规则
-
-1   活动时间：2018年5月23日-2018年8月31日。
-
-2   标准用户指完成实名认证的个人用户或企业用户。
-
-3   首充指受邀人第一次充值，充值奖励发放额度以受邀人首次充值为准。首充时间应发生在受邀人注册的3个月之内，逾期充值不计在奖励范围内。
-
-4   每个邀请人最多可累计获得1000元购物卡。
-
-5   邀请标准用户（个人/企业）所获得的免费CDN下载流量，每个邀请人（以邀请人注册邮箱为准）最高可累计40GB/月，邀请成功后，免费流量次月生效，永久有效。
-
-6   抵用券有效期为6个月，有效期的起始时间以抵用券到账时间为准。
-
-7   抵用券的发放：产品抵用券在受邀人实名认证后，自动发放至邀请人账户，每个账户（以注册邮箱为准）仅发放一次，不可累计。
-
-8   邀请成功后，邀请人可在“财务中心>抵用券”查看200元产品抵用券，500元充值抵用券在邀请人充值达到5000元后自动发放至“财务中心>抵用券”。
-
-9   购物卡奖励，每月结算一次，由市场部统一发放给符合购物卡奖励标准的邀请人。
-
-10   七牛云神秘大礼包奖励，活动结束后，由市场部统一进行邀请人评选，并邮寄奖品。
-
-11   邀请者与被邀请者实际是同一用户不可获得奖励（同一用户指包含但不仅限于根据不同七牛云账号在注册、登录、使用中的关联信息，七牛云判断其实际为同一用户。关联信息举例：同一证件、同一手机号、同一支付账号、同一设备、同一地址等）。
-
-12   如用户存在作弊、欺诈或通过其他非正常手段获取利益的行为，七牛云有权收回相关权益。
-
-13   此次活动奖励不可与其他优惠同享。
-
-14   已签约代理商不参与此次活动。
-
-15   本次活动解释权归七牛云所有，如有任何问题，欢迎邮件联系marketing@qiniu.com。
+查看时是数据类型的长度问题。 
+比如定义为number(4,2)，却要插入一个值200.12的话，就会出错。 
+原因是number（p,s）的问题。 
+ 
+number（p,s），其中p表示该number的总长度，s为小数位。 
+如果s为负数，则会取相应位数的取整。 
+ 
+例如，如果number（4,-3），则数字1234的存储值为1000；
+如果number（4,-2），则数字1234的存储值为1200。 
+ 
+在对数据库表中的字段设定类型时，要注意： 
+NUMBER(10,6)  Double   带有小数 
+NUMBER(4)     Long     为整数
 
 
 
@@ -110,9 +88,8 @@ comments: true
 [欢迎评论，欢迎指正,转载也请注明出处.]()
 
 ### 参考博客
-
-[#七牛云#邀请好友乐享千元好礼](https://51.ruyo.net/8782.html)
+[ORA-01438: 值大于为此列指定的允许精度 - CSDN博客](https://blog.csdn.net/hellolib/article/details/8729725)
 
 ### 版本记录
 
-20180526 完成文章
+20180521 完成文章
