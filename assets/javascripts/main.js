@@ -41,6 +41,7 @@ var json=
 ,{'class':'about','href':'https://wangkun19930608.github.io/index.html','html':'GitP','tar':''}
 ,{'class':'about','href':'https://wangkun19930608.gitee.io/index.html','html':'GiteeP','tar':''}
 ,{'class':'about','href':'http://wangkun19930608.coding.me/','html':'CodingP','tar':''}
+,{'class':'about','href':'https://cloud.tencent.com/developer/user/1178990','html':'TX','tar':''}
 //,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
 ,{'class':'about','href':'javascript:load_home(\'visi3\',\'/friends.html\');','html':'友','tar':'iframe'}
 ]
