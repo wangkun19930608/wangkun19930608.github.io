@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 公司笔记Orecale出错
+title: 公司笔记Oracle出错
 category: [技术, Bug]
 comments: true
 ---
