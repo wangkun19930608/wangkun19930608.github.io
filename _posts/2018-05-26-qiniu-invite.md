@@ -1,19 +1,22 @@
 ---
+
 layout: default
-title: #七牛云#邀请好友乐享千元好礼
+
+title: 七牛云 邀请好友乐享千元好礼
+
 category: [技术, 福利]
+
 comments: true
+
 ---
 
 ## 文章介绍
+
 看到七牛云的活动,感觉还是不错的,毕竟用的就是七牛云存储图片,分享一下了.
-
-
-
 
 ## 福利详情
 
-![https://qiniu.staticfile.org/static/images/banner_promotion_bo3801.dfdd7dbf.png](https://qiniu.staticfile.org/static/images/banner_promotion_bo3801.dfdd7dbf.png)
+![https://qiniu.staticfile.org/static/images/banner_promotion_bo3801.dfdd7dbf.png](https://ask.qcloudimg.com/http-save/1178990/rk9jbc10ya.png)
 
 七牛云最新的邀新活动！！ 奖励还不错！
 
@@ -23,51 +26,23 @@ comments: true
 
 如：[免费领取七牛云300元代金券(附路子)](https://51.ruyo.net/8458.html)
 
-
 ## 活动地址
-
 
 [https://www.qiniu.com/invite](https://portal.qiniu.com/signup?code=3lk4sb8604j82)
 
-
 ## 活动时间
+
 2018年5月23日-8月31日
 
 ## 邀请奖励
 
-<table class="table table-bordered table-striped">
-<thead>
-<tr>
-<th>达成目标</th>
-<th>邀请人奖励</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>邀请一个标准用户</td>
-<td>
-<ul>
-<li>5GB/月 CDN免费下载流量（最高累计40GB/月）</li>
-<li>100元对象存储抵用券 （不可累计）</li>
-<li>100元智能多媒体API抵用券 （不可累计）</li>
-<li>500元充值抵用券（充5000送500，不可累计）</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>邀请5个及以上标准用户</td>
-<td>额外获得价值200元七牛神秘大礼包</td>
-</tr>
-<tr>
-<td>受邀人首充金额≥1000元，并&lt;5000元</td>
-<td>100元购物卡</td>
-</tr>
-<tr>
-<td>受邀人首充金额&gt;=5000元</td>
-<td>500元购物卡</td>
-</tr>
-</tbody>
-</table>
+| 达成目标 | 邀请人奖励 |
+|:----|:----|
+| 邀请一个标准用户 | 5GB/月 CDN免费下载流量（最高累计40GB/月）<br>100元对象存储抵用券 （不可累计）<br>100元智能多媒体API抵用券 （不可累计）<br>500元充值抵用券（充5000送500，不可累计） |
+| 邀请5个及以上标准用户 | 额外获得价值200元七牛神秘大礼包 |
+| 受邀人首充金额≥1000元，并<5000元 | 100元购物卡 |
+| 受邀人首充金额>=5000元 | 500元购物卡 |
+
 
 ## 活动规则
 
@@ -101,13 +76,9 @@ comments: true
 
 15   本次活动解释权归七牛云所有，如有任何问题，欢迎邮件联系marketing@qiniu.com。
 
-
-
-
 ## 说明
 
-
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/%E7%A6%8F%E5%88%A9/2018/05/26/qiniu-invite/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%2525E6%25258A%252580%2525E6%25259C%2525AF/%2525E7%2525A6%25258F%2525E5%252588%2525A9/2018/05/26/qiniu-invite/)
 
 ### 参考博客
 
