@@ -1,22 +1,22 @@
 ---
-
 layout: default
-
 title: CharSequence cannot be resolved
-
 category: [技术, Bug]
-
 comments: true
-
 ---
 
 ## 问题介绍
 
 今天把Web代码导入到项目里面去,莫名出现这样子的错误,没有明确的错误代码,不好处理,不过好在最后处理好了.
 
+
+
+
+
 ## 问题详情
+
 问题的没有明确的
-```c
+```markdown
 //出问题代码
 if(CommonDataSetObj.GetDataSetName().contains(strNameContain)) 
 
