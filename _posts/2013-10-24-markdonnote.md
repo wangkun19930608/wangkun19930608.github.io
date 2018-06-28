@@ -5,9 +5,16 @@ category: [技术, markdown]
 comments: true
 ---
 
+# 为什么使用 Markdown
+
+* 看上去不错  
+* 既然看上去不错，为什么不试试呢 
+* 文章作为笔记,方便后面随时查阅 
 
 
-## 目录
+
+
+# 目录
 
 [TOC]
 
@@ -15,12 +22,10 @@ comments: true
 
 
 
-# 为什么使用 Markdown
 
-* 看上去不错  
-* 既然看上去不错，为什么不试试呢  
 
----
+
+
 
 # 如何使用 Markdonw
 
@@ -28,16 +33,29 @@ comments: true
 
 ### 效果
 
-# 一级标题  
-## 二级标题
-### 三级标题
+这是 H1 一级标题
+======
+这是 H2 二级标题
+------
+# 这是 H1 一级标题
+## 这是 H2 二级标题
+### 这是 H3 三级标题
+#### 这是 H4 四级标题
+##### 这是 H5 五级标题
+###### 这是 H6 六级标题
 
 ### 代码
 ```
-# 一级标题  
-## 二级标题
-### 三级标题
-
+这是 H1 一级标题
+======
+这是 H2 二级标题
+------
+# 这是 H1 一级标题
+## 这是 H2 二级标题
+### 这是 H3 三级标题
+#### 这是 H4 四级标题
+##### 这是 H5 五级标题
+###### 这是 H6 六级标题
 ```
 
 ---
@@ -194,6 +212,19 @@ def hello():
 #### 代码
 
     参见Wiki词条[Markdown](http://zh.wikipedia.org/wiki/Markdown)
+	
+#### 效果
+
+[链接名称](链接地址)
+[链接名称][1]
+[1] : 链接地址
+	
+#### 代码
+```markdown
+[链接名称](链接地址)
+[链接名称][1]
+[1] : 链接地址
+```
 
 ### 图片
 
@@ -226,5 +257,29 @@ $$ \sum^{j-1}\_{k=0}{\widehat{\gamma}\_{kj} z_k} $$
 
 另外，有的　render 在解释文章时可能会出问题，换一个　render 可能就解决了，可以自己实验一下。
 
+## 7. 目录
 
-特别感谢 [Cmd Markdown](http://www.zybuluo.com/mdeditor?url=http://www.zybuluo.com/static/editor/md-help.markdown)教我使用Markdown
+### 效果
+
+[TOC]
+
+### 代码
+
+    [TOC]
+
+上下都需要换行一行.
+	
+# 其他
+
+
+## 特别感谢 
+感谢[Cmd Markdown](http://www.zybuluo.com/mdeditor?url=http://www.zybuluo.com/static/editor/md-help.markdown)教我使用Markdown
+
+
+## 参考文章
+[Md2All完整教程请参考：https://www.cnblogs.com/garyyan/p/8329343.html](https://www.cnblogs.com/garyyan/p/8329343.html )
+[小书匠语法使用手册_小书匠](http://markdown.xiaoshujiang.com/)
+
+## 版本信息
+* 2013-10-24完成初稿
+* 2018-6-27添加toc,以及格式
