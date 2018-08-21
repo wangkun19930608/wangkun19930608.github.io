@@ -238,8 +238,13 @@ comments: true
 
 [红芯国产浏览器安装包](https://www.lanzous.com/i1numde/)
 
-[浏览器内核版本检测](https://liulanmi.com/labs/core.html)
+[浏览迷浏览器内核版本检测](https://liulanmi.com/labs/core.html)
 
+[JS浏览器内核版本检测](https://wangkun19930608.github.io/tools/info.html)
+
+红芯致歉
+
+![红芯致歉](https://ask.qcloudimg.com/http-save/1178990/4znk4vq8uj.png)
 ## 说明
 
 [欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/browser/2018/08/16/browser-redcore/)
@@ -251,3 +256,5 @@ comments: true
 ### 版本说明
 
 20180816 文章完成时间
+
+201807817 添加红芯致歉信息

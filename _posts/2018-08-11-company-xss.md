@@ -195,7 +195,13 @@ public class XssHttpServletRequestWraper extends HttpServletRequestWrapper {
 		}
 		try {
 			value = value.replace("+", "%2B"); // '+' replace to '%2B'
-			value = URLDecoder.decode(value, "utf-8");
+			//value = URLDecoder.decode(value, "utf-8");
+			value = value.replace("+", "%2B"); // '+' replace to '%2B'
+			for(int i=0,j=value.lastIndexOf('%');i!=j;){//"if the % should in it , -1 cannot work update20180821"
+				value = URLDecoder.decode(value, "utf-8");
+				i=j;
+				j=value.lastIndexOf('%');
+			}
 		} catch (UnsupportedEncodingException e) {
 		} catch (IllegalArgumentException e) {
 		}
@@ -246,7 +252,11 @@ public class XssHttpServletRequestWraper extends HttpServletRequestWrapper {
 
 		// return xssEncode(value);//xml will error for chars
 		System.out.println("xss:"+value);
-		if(!value.toLowerCase().contains("ecode")){
+		if(value.toLowerCase().contains("ecode")){
+			if(value.toLowerCase().contains("login")){
+				value = value.replace("\'", "");
+			}
+		}else{
 			value = xssEncode(value);
 		}
 		return value;
@@ -557,7 +567,7 @@ hi") or ("a"="a[/code]
 
 更多xss利用可以参考[XSS跨站脚本攻击全方位学习教程](http://www.hekaiyu.cn/xss/272.html)
 
-
+在线转码工具可以使用这个:[XSS'OR_Hack with JavaScript](http://xssor.io/ )
 
 
 
@@ -587,6 +597,8 @@ hi") or ("a"="a[/code]
 
 [XSS攻击_百度百科](https://baike.baidu.com/item/XSS%E6%94%BB%E5%87%BB/954065)
 
+
+
 ## 版本记录
 
 20180810 开始代码动工
@@ -594,3 +606,6 @@ hi") or ("a"="a[/code]
 20180811 完成项目代码
 
 20180814 完成文章
+
+
+20180821 被url转码后的sql注入过滤,添加特殊节点过滤,添加转码工具网址
