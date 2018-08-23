@@ -421,6 +421,13 @@ table, th, td {
 }
 
 #introduce {
+	letf: 0px; 
+	right: 0px; 
+	z-index: 1;
+}
+
+
+#introduce {
 	position: fixed; 
 	background: black; 
 	z-index: 1;
