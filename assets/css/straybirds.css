@@ -420,7 +420,7 @@ table, th, td {
     /*display: none;*/
 }
 
-#headtitle {
+#introduce {
 	position: fixed; 
 	background: black; 
 	z-index: 1;

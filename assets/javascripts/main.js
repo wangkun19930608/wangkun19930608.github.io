@@ -52,6 +52,7 @@ var json=
  	var v=document.getElementById("headtitle");
 	var l=document.createElement("label");  
 	l.innerHTML='这个是我的一个个人主页,AnyProblem欢迎电邮wangkun.it@qq.com!';
+	l.setAttribute("id","introduce");
 	v.appendChild(l);
 
 	for(var o in json){
