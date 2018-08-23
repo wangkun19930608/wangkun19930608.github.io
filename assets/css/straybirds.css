@@ -420,15 +420,16 @@ table, th, td {
     /*display: none;*/
 }
 
-#introduce {
+#headtitle {
 	letf: 0px; 
 	right: 0px; 
+	background: black; 
+	position: fixed; 
 	z-index: 1;
 }
 
 
 #introduce {
-	position: fixed; 
 	background: black; 
 	z-index: 1;
 }
