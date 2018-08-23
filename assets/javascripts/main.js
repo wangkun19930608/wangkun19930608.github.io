@@ -57,7 +57,7 @@ var json=
 	for(var o in json){
 		var l=document.createElement("label");  
 		l.innerHTML=json[o].label;
-		a.setAttribute("class","mylabel");
+		l.setAttribute("class","mylabel");
 		v.appendChild(l);
 		var jsonsou=json[o].list;
 		for(var o in jsonsou){
