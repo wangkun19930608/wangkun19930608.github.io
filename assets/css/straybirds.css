@@ -419,3 +419,14 @@ table, th, td {
 #comments {
     /*display: none;*/
 }
+
+#headtitle {
+	position: fixed; 
+	background: black; 
+	z-index: 1;
+}
+
+.mylabel{
+	color:white;
+	font-style:italic;
+}
