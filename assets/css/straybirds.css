@@ -421,7 +421,7 @@ table, th, td {
 }
 
 #headtitle {
-	letf: 0px; 
+	left: 0px; 
 	right: 0px; 
 	background: black; 
 	position: fixed; 
@@ -430,8 +430,7 @@ table, th, td {
 
 
 #introduce {
-	background: black; 
-	z-index: 1;
+	color:white;
 }
 
 .mylabel{
