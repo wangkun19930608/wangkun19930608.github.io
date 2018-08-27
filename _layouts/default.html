@@ -166,7 +166,11 @@
 	
 	<div id='footdiv' >
 	 </div>
-	 <script>load_home('footdiv','/foot.html');loadcomments();</script>
+	 <script>
+	 //load_home('footdiv','/foot.html');
+	 loadcomments();
+	 </script>
+	 {% include foot.html %}
     <script type="text/javascript">
 /* 鼠标特效 */
 var a_idx = 0;
