@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" type="text/css" 
+      href="https://wangkun19930608.github.io/assets/css/straybirds.css" media="screen" />
+    <link rel="stylesheet" type="text/css" 
+      href="https://wangkun19930608.github.io/assets/css/pygments.css" media="screen" />
+	<link rel="shortcut icon" href="https://wangkun19930608.github.io/img/wklogo.png" type="image/x-icon">
+    <script type="text/javascript"
+    src="https://wangkun19930608.github.io/assets/javascripts/main.js">
+    </script>
+    <!-- MathJax Section Start -->
+
+    <!-- <script type="text/javascript" -->
+    <!-- src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> -->
+    <!-- </script> -->
+	
+	<link href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	
+	
+    
+<script>
+	<!-- function NetPing(url) { -->
+    <!-- $.ajax({ -->
+        <!-- type: "GET", -->
+        <!-- cache: false, -->
+        <!-- url: url, -->
+        <!-- data: "", -->
+        <!-- success: function() { -->
+            <!-- alert(url+"200"); -->
+        <!-- }, -->
+        <!-- error: function() { -->
+            <!-- alert(url+"404"); -->
+        <!-- } -->
+    <!-- }); -->
+
+<!-- } -->
+<!-- NetPing("http://www.baidu.com"); -->
+</script>
+
+    <!-- MathJax Section End -->
+
+    <!-- Google Analytics Start-->
+    <!-- {% include google_analytics.ext %} -->
+    <!-- Google Analytics End -->
+
+    <title>{{ page.title }}</title>
+	
+	
+	<!-- <script> -->
+        <!-- MathJax.Hub.Config({ -->
+              <!-- tex2jax: { -->
+              <!-- skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] -->
+              <!-- } -->
+        <!-- }); -->
+        <!-- MathJax.Hub.Queue(function() { -->
+            <!-- var all = MathJax.Hub.getAllJax(), i; -->
+            <!-- for(i=0; i < all.length; i += 1) { -->
+                <!-- all[i].SourceElement().parentNode.className += ' has-jax'; -->
+            <!-- } -->
+        <!-- }); -->
+    <!-- </script> -->
+	
+	
+
+  </head>
+
+  <body>
+	 <div id="headtitle"  >
+	 </div>
+	 <script>loadHeadDiv(); </script>
+  <!--
+	<iframe src="" name="iframe" id='visi2' style="width:100%;height:100%;display:none;position:inherit" onload="changeFrameHeight()"  >
+    </iframe>
+-->
+	<div id ='visi3' style="width:100%;display:none;height:100%;position:relative"  >
+	</div>
+	
+	<!-- <script>load_home('visi3','https://www.baidu.com/');</script> -->
+
+    <div class="container" id='visi1' >
+
+      <header>
+        <div class="container">
+          <h1>
+              <a href="/" title="Home Page"> *坤的 </a><br/>
+          <span class="github-src">
+            <a href ="https://github.com/wangkun19930608/wangkun19930608.github.io"
+               target="_blank"
+               title="Fork me on GitHub">
+              <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="">
+            </a>
+          </span>
+          </h1>
+        </div>
+      </header>
+<!--
+      <aside id="left-side">
+        {% include categories.ext %}
+      </aside>
+
+      <aside id="right-side">
+        {% include archives.ext %}
+      </aside>
+-->
+      <article>
+
+{{ content }}
+
+      </article>
+
+     <!-- 
+	 <div class="comments">
+        {% if page.comments %}
+          {% include comments.ext %}
+        {% endif %}
+      </div>
+	 -->
+	 <div class="panel panel-white post " id="comments">
+					<div class="post-footer">
+						<div class="input-group">
+							<input id="comment_txt" class="form-control" placeholder="Add a comment" type="text">
+							<span class="input-group-addon">
+                        <a href="#"><i class="fa fa-edit" onclick="login()"></i></a>  
+                    </span>
+						</div>
+						<ul class="comments-list" id="commentsList">
+						</ul>
+					</div>
+	</div>
+	
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title" id="myModalLabel">登录</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="txt_departmentlevel">Username</label>
+						<input type="text" name="txt_departmentlevel" class="form-control" id="txt_username" placeholder="Github用户名">
+					</div>
+					<div class="form-group">
+						<label for="txt_statu">Password</label>
+						<input type="password" name="txt_statu" class="form-control" id="txt_password" placeholder="Github密码">
+					</div>
+					<div class="alert alert-warning" role="alert" id="tips">我们不会获取您的用户名和密码,评论直接通过 HTTPS 与 Github API交互,如果您开启了两步验证,请在博客的Github issues 下添加 Comment</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" id="btn_subComment" class="btn btn-primary" data-dismiss="modal" onclick="subComment()">提交</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	  
+	
+	
+	</div>
+	
+	<div id='footdiv' >
+	 </div>
+	 <script>
+	 //load_home('footdiv','/foot.html');
+	 loadcomments();
+	 </script>
+	 {% include foot.html %}
+    <script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("富强\nPOWERFUL", "民主\nDEMOCRACY", "文明\nCIVILITY", "和谐\nHARMONY", "自由\nFREEOOM", "平等\nEQUALITY", "公正\nJUSTICE","法治\nRULE OF LAW", "爱国\nPATRIOTIC", "敬业\nDEDICATION", "诚信\nINTEGRITY", "友善\nFRIENDSHIP");
+        var $i = $("<span />").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "#ff6651",
+			"white-space":"pre"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
+	
+ </body>
+ 
+ 
+
+	 
+</html>
