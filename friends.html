@@ -248,6 +248,13 @@
 <td align="right"><a  href="http://ufun.tv/"  target="_blank">ufun.tv</a></td>
 <td align="right"></td>
 </tr>
+ {% for friend in site.friends %}
+ <tr class="delete" >
+<td>{{friend.title}}</td>
+<td align="center"></td>
+<td align="right"><a  href="{{friend.href}}"  target="_blank">{{friend.href}}</a></td>
+<td align="right"></td>
+  {% endfor %}
 
 
 </tbody>
