@@ -9,6 +9,18 @@ comments: true
 有时候长时间没有使用一些代码,然后就忘记了.这里整理一下之后,方便后面随时查阅,如果有需要添加的,可以随时评论下.
 
 
+
+
+
+
+## 目录
+[TOC]
+
+
+
+
+
+
 ## ASCII介绍
 
 
@@ -2022,6 +2034,873 @@ HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色
     </tr>
 </tbody></table>
 
+
+### 其他语言字母顺序
+
+#### 腓尼基字母
+这个在一般字体集合没有，就直接同百度的图了。
+
+![https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=481c9d5a0c33874488c8272e3066b29c/a71ea8d3fd1f41342932c674251f95cad1c85eb7.jpg](https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=481c9d5a0c33874488c8272e3066b29c/a71ea8d3fd1f41342932c674251f95cad1c85eb7.jpg)
+
+#### 拉丁字母表(基本和英语一样，发音不同)
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+
+#### 希腊字母表
+
+Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω
+
+α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω
+
+#### 西里尔字母表
+
+А Б В Г Д Е Ё ЖЗИ Й К Л М Н О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+
+а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я
+
+#### 德语字母
+
+德语书写使用拉丁字母。德文字母除去标准的26个拉丁字母外，另有三个带变音符（Umlaut）的元音Ä/ä、Ö/ö、Ü/ü以及一个特殊字母ß。
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü ẞ
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ß
+
+#### 西班牙字母
+
+a、b、c、ch、d、e、f、g、h、i、j、k、l、ll、m、n、ñ 、o、p、q、r、s、t、u、v、w、x、y、z
+
+
+#### 俄语字母表
+
+А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+
+а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+
+#### 日语字母
+
+あ ア a い イ i う ウ u え エ e お オ o
+
+か カ ka き キ ki く ク ku け ケ ke こ コ ko
+
+さ サ sa し シ si/shi す ス su せ セ se そ ソ so
+
+た タ ta ち チ chi つ ツ tsu て テ te と ト to
+
+な ナ na に ニ ni ぬ ヌ nu ね ネ ne の ノ no
+
+は ハ ha ひ ヒ hi ふ フ fu へ ヘ he ほ ホ ho
+
+ま マ ma み ミ mi む ム mu め メ me も モ mo
+
+や ヤ ya ゆ ユ yu よ ヨ yo
+
+ら ラ ra り リ ri る ル ru れ レ re ろ ロ ro
+
+わ ワ wa を ヲ o/wo
+
+ん ン n
+
+#### 韩语字母表
+
+
+##### 表格一： 元音+辅音
+
+<table log-set-param="table_view" class="table-view log-set-param" width="658"><tbody><tr><td width="59" valign="top"></td><td width="59" valign="top"><div class="para" label-module="para"><b>ㅏ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para"><b>ㅑ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅓ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅕ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅗ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅛ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅜ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅠ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅡ</b></div>
+</td><td width="60" valign="top"><div class="para" label-module="para"><b>ㅣ</b></div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄱ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">가</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">갸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">거</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">겨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">고</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">교</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">구</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">규</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">그</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">기</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄴ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">나</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">냐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">너</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">녀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">노</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뇨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">누</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뉴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">느</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">니</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄷ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">다</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">댜</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">더</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뎌</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">도</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">됴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">두</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">듀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">드</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">디</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄹ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">라</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">랴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">러</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">려</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">로</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">료</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">루</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">류</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">르</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">리</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅁ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">마</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">먀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">머</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">며</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">모</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">묘</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">무</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뮤</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">므</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">미</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅂ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">바</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">뱌</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">버</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">벼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">보</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뵤</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">부</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뷰</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">브</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">비</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅅ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">사</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">샤</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">서</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">셔</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">소</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쇼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">수</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">슈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">스</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">시</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅇ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">아</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">야</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">어</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">여</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">오</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">요</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">우</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">유</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">으</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">이</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅈ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">자</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">쟈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">저</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">져</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">조</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">죠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">주</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쥬</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">즈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">지</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅊ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">차</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">챠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">처</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쳐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">초</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쵸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">추</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">츄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">츠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">치</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅋ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">카</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">캬</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">커</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">켜</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">코</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쿄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쿠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">큐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">크</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">키</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅌ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">타</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">탸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">터</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">텨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">토</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">툐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">투</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">튜</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">트</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">티</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅍ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">파</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">퍄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">퍼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">펴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">포</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">표</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">푸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">퓨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">프</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">피</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅎ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">하</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">햐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">허</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">혀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">호</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">효</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">후</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">휴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">흐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">히</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄲ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">까</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">꺄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">꺼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">껴</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">꼬</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">꾜</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">꾸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뀨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">끄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">끼</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㄸ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">따</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">땨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">떠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뗘</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">또</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뚀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뚜</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뜌</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뜨</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">띠</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅃ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">빠</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">뺘</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뻐</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뼈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뽀</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뾰</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">뿌</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쀼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쁘</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">삐</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅆ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">싸</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">쌰</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">써</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쎠</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쏘</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쑈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쑤</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쓔</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쓰</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">씨</div>
+</td></tr><tr><td width="59" valign="top"><div class="para" label-module="para"><b>ㅉ</b></div>
+</td><td width="59" valign="top"><div class="para" label-module="para">짜</div>
+</td><td width="59" valign="top"><div class="para" label-module="para">쨔</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쩌</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쪄</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쪼</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쬬</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쭈</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쮸</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">쯔</div>
+</td><td width="60" valign="top"><div class="para" label-module="para">찌</div>
+</td></tr></tbody></table>
+
+
+##### 表格二：双元音+辅音
+
+<table log-set-param="table_view" class="table-view log-set-param"><tbody><tr><td width="47" valign="top"></td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅐ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅒ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅔ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅖ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅘ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅙ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅚ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅝ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅞ</b></div>
+</td><td width="47" valign="top"><div class="para" label-module="para"><b>ㅟ</b></div>
+</td><td width="11" valign="top"><div class="para" label-module="para"><b>ㅢ</b></div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄱ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">개</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">걔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">게</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">계</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">과</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">괘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">괴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">궈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">궤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">귀</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">긔</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄴ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">내</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">냬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">네</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">녜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">놔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">놰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뇌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">눠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">눼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뉘</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">늬</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄷ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">대</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">댸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">데</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뎨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">돠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">돼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">되</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">둬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뒈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뒤</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">듸</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄹ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">래</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">럐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">레</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">례</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">롸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뢔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뢰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뤄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뤠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뤼</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">릐</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅁ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">매</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">먜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">메</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">몌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뫄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뫠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뫼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뭐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뭬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뮈</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">믜</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅂ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">배</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뱨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">베</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">볘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">봐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">봬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뵈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">붜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">붸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뷔</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">븨</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅅ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">새</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">섀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">세</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">셰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">솨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쇄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쇠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">숴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쉐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쉬</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">싀</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅇ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">애</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">얘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">에</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">예</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">와</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">왜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">외</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">워</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">웨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">위</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">의</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅈ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">재</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쟤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">제</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">졔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">좌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">좨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">죄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">줘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">줴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쥐</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">즤</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅊ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">채</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">챼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">체</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쳬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">촤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쵀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">최</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">춰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">췌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">취</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">츼</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅋ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">캐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">컈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">케</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">켸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">콰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쾌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쾨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쿼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퀘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퀴</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">킈</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅌ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">태</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">턔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">테</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">톄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">톼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퇘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퇴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퉈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퉤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">튀</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">틔</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅍ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">패</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퍠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">페</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">폐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퐈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퐤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">푀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">풔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">풰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">퓌</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">픠</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅎ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">해</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">햬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">헤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">혜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">화</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">홰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">회</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">훠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">훼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">휘</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">희</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄲ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">깨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꺠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">께</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꼐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꽈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꽤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꾀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꿔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">꿰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뀌</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">끠</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㄸ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">때</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">떄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">떼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뗴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">똬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뙈</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뙤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뚸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뛔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뛰</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">띄</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅃ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">빼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뺴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뻬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뼤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뽜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뽸</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뾔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">뿨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쀄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쀠</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">쁴</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅆ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쌔</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">썌</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쎄</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쎼</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쏴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쐐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쐬</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쒀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쒜</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쒸</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">씌</div>
+</td></tr><tr><td width="47" valign="top"><div class="para" label-module="para">ㅉ</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">째</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쨰</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쩨</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쪠</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쫘</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쫴</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쬐</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쭤</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쮀</div>
+</td><td width="47" valign="top"><div class="para" label-module="para">쮜</div>
+</td><td width="11" valign="top"><div class="para" label-module="para">쯰</div>
+</td></tr></tbody></table>
+
+
+##### 表格三：（元音+辅音）+收音
+
+<table log-set-param="table_view" class="table-view log-set-param"><tbody><tr><td width="71" valign="top"></td><td width="71" valign="top"><div class="para" label-module="para"><b>ㄱ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㄴ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㄷ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㄹ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㅁ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㅂ</b></div>
+</td><td width="71" valign="top"><div class="para" label-module="para"><b>ㅇ</b></div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">가</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">각</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">간</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">갇</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">갈</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">감</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">갑</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">강</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">나</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">낙</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">난</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">낟</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">날</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">남</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">납</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">낭</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">다</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">닥</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">단</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">닫</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">달</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">담</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">답</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">당</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">라</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">락</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">란</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">랃</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">랄</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">람</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">랍</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">랑</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">마</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">막</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">만</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">맏</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">말</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">맘</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">맙</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">망</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">바</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">박</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">반</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">받</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">발</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">밤</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">밥</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">방</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">사</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">삭</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">산</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">삳</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">살</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">삼</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">삽</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">상</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">아</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">악</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">안</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">앋</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">알</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">암</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">압</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">앙</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">자</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">작</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">잔</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">잗</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">잘</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">잠</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">잡</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">장</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">차</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">착</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">찬</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">찯</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">찰</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">참</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">찹</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">창</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">카</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">칵</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">칸</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">칻</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">칼</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">캄</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">캅</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">캉</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">타</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탁</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탄</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탇</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탈</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탐</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탑</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">탕</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">파</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팍</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">판</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팓</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팔</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팜</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팝</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">팡</div>
+</td></tr><tr><td width="71" valign="top"><div class="para" label-module="para">하</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">학</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">한</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">핟</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">할</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">함</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">합</div>
+</td><td width="71" valign="top"><div class="para" label-module="para">항</div>
+</td></tr></tbody></table>
+
+
+#### 阿拉伯字母表
+
+<table log-set-param="table_view" class="table-view log-set-param"><tbody><tr><th height="0" align="left" colspan="4"><br>　　样式</th><th><br>　　名称</th><th></th><th><br>　　发音</th></tr><tr><th>单独</th><th>末尾</th><th>中间</th><th>开头</th><td></td><td></td><td></td></tr><tr><td><div class="para" label-module="para">ا&lrm;</div>
+</td><td><div class="para" label-module="para">ﺎ&lrm;</div>
+</td><td><div class="para" label-module="para">ﺎ&lrm;</div>
+</td><td><div class="para" label-module="para">ا&lrm;</div>
+</td><td><div class="para" label-module="para">ʾalif</div>
+</td><td><div class="para" label-module="para"><i>ʾ</i> / <i>ā</i></div>
+</td><td><div class="para" label-module="para">多种多样，包括/aː/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺏ&lrm;</div>
+</td><td><div class="para" label-module="para">ـب&lrm;</div>
+</td><td><div class="para" label-module="para">ـبـ&lrm;</div>
+</td><td><div class="para" label-module="para">بـ&lrm;</div>
+</td><td><div class="para" label-module="para">bāʾ</div>
+</td><td><div class="para" label-module="para"><i>b</i></div>
+</td><td><div class="para" label-module="para">/b/，也在某些借词中读作/p/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺕ&lrm;</div>
+</td><td><div class="para" label-module="para">ـت&lrm;</div>
+</td><td><div class="para" label-module="para">ـتـ&lrm;</div>
+</td><td><div class="para" label-module="para">تـ&lrm;</div>
+</td><td><div class="para" label-module="para">tāʾ</div>
+</td><td><div class="para" label-module="para"><i>t</i></div>
+</td><td><div class="para" label-module="para">/t/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺙ&lrm;</div>
+</td><td><div class="para" label-module="para">ـث&lrm;</div>
+</td><td><div class="para" label-module="para">ـثـ&lrm;</div>
+</td><td><div class="para" label-module="para">ثـ&lrm;</div>
+</td><td><div class="para" label-module="para">ṯāʾ</div>
+</td><td><div class="para" label-module="para"><i>ṯ</i></div>
+</td><td><div class="para" label-module="para">/θ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺝ&lrm;</div>
+</td><td><div class="para" label-module="para">ـج&lrm;</div>
+</td><td><div class="para" label-module="para">ـجـ&lrm;</div>
+</td><td><div class="para" label-module="para">جـ&lrm;</div>
+</td><td><div class="para" label-module="para">ǧīm</div>
+</td><td height="0" align="left" valign="center"><div class="para" label-module="para"><i>ǧ</i>（也写为j, g）</div>
+</td><td><div class="para" label-module="para">[ɡ~dʒ~ʒ]</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺡ&lrm;</div>
+</td><td><div class="para" label-module="para">ـح&lrm;</div>
+</td><td><div class="para" label-module="para">ـحـ&lrm;</div>
+</td><td><div class="para" label-module="para">حـ&lrm;</div>
+</td><td><div class="para" label-module="para">ḥāʾ</div>
+</td><td><div class="para" label-module="para"><i>ḥ</i></div>
+</td><td><div class="para" label-module="para">/ħ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺥ&lrm;</div>
+</td><td><div class="para" label-module="para">ـخ&lrm;</div>
+</td><td><div class="para" label-module="para">ـخـ&lrm;</div>
+</td><td><div class="para" label-module="para">خـ&lrm;</div>
+</td><td><div class="para" label-module="para">ḫāʾ</div>
+</td><td><div class="para" label-module="para"><i>ḫ</i>（也写为kh, x）</div>
+</td><td><div class="para" label-module="para">/x/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺩ&lrm;</div>
+</td><td><div class="para" label-module="para">ـد&lrm;</div>
+</td><td><div class="para" label-module="para">ـد&lrm;</div>
+</td><td><div class="para" label-module="para">د&lrm;</div>
+</td><td><div class="para" label-module="para">dāl</div>
+</td><td><div class="para" label-module="para"><i>d</i></div>
+</td><td><div class="para" label-module="para">/d/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺫ&lrm;</div>
+</td><td><div class="para" label-module="para">ـذ&lrm;</div>
+</td><td><div class="para" label-module="para">ـذ&lrm;</div>
+</td><td><div class="para" label-module="para">ذ&lrm;</div>
+</td><td><div class="para" label-module="para">ḏāl</div>
+</td><td><div class="para" label-module="para"><i>ḏ</i>（也写为<i>dh</i>,<i>&amp;eth;</i>）</div>
+</td><td><div class="para" label-module="para">/&amp;eth;/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺭ&lrm;</div>
+</td><td><div class="para" label-module="para">ـر&lrm;</div>
+</td><td><div class="para" label-module="para">ـر&lrm;</div>
+</td><td><div class="para" label-module="para">ر&lrm;</div>
+</td><td><div class="para" label-module="para">rāʾ</div>
+</td><td><div class="para" label-module="para"><i>r</i></div>
+</td><td><div class="para" label-module="para">/r/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺯ&lrm;</div>
+</td><td><div class="para" label-module="para">ـز&lrm;</div>
+</td><td><div class="para" label-module="para">ـز&lrm;</div>
+</td><td><div class="para" label-module="para">ز&lrm;</div>
+</td><td><div class="para" label-module="para">zāy</div>
+</td><td><div class="para" label-module="para"><i>z</i></div>
+</td><td><div class="para" label-module="para">/z/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺱ&lrm;</div>
+</td><td><div class="para" label-module="para">ـس&lrm;</div>
+</td><td><div class="para" label-module="para">ـسـ&lrm;</div>
+</td><td><div class="para" label-module="para">سـ&lrm;</div>
+</td><td><div class="para" label-module="para">sīn</div>
+</td><td><div class="para" label-module="para"><i>s</i></div>
+</td><td><div class="para" label-module="para">/s/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺵ&lrm;</div>
+</td><td><div class="para" label-module="para">ـش&lrm;</div>
+</td><td><div class="para" label-module="para">ـشـ&lrm;</div>
+</td><td><div class="para" label-module="para">شـ&lrm;</div>
+</td><td><div class="para" label-module="para">šīn</div>
+</td><td><div class="para" label-module="para"><i>š</i>（也写为<i>sh</i>）</div>
+</td><td><div class="para" label-module="para">/ʃ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺹ&lrm;</div>
+</td><td><div class="para" label-module="para">ـص&lrm;</div>
+</td><td><div class="para" label-module="para">ـصـ&lrm;</div>
+</td><td><div class="para" label-module="para">صـ&lrm;</div>
+</td><td><div class="para" label-module="para">ṣād</div>
+</td><td><div class="para" label-module="para"><i>ṣ</i></div>
+</td><td><div class="para" label-module="para">/sˁ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﺽ&lrm;</div>
+</td><td><div class="para" label-module="para">ـض&lrm;</div>
+</td><td><div class="para" label-module="para">ـضـ&lrm;</div>
+</td><td><div class="para" label-module="para">ضـ&lrm;</div>
+</td><td><div class="para" label-module="para">ḍād</div>
+</td><td><div class="para" label-module="para"><i>ḍ</i></div>
+</td><td><div class="para" label-module="para">/dˁ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻁ&lrm;</div>
+</td><td><div class="para" label-module="para">ـط&lrm;</div>
+</td><td><div class="para" label-module="para">ـطـ&lrm;</div>
+</td><td><div class="para" label-module="para">طـ&lrm;</div>
+</td><td><div class="para" label-module="para">ṭāʾ</div>
+</td><td><div class="para" label-module="para"><i>ṭ</i></div>
+</td><td><div class="para" label-module="para">/tˁ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻅ&lrm;</div>
+</td><td><div class="para" label-module="para">ـظ&lrm;</div>
+</td><td><div class="para" label-module="para">ـظـ&lrm;</div>
+</td><td><div class="para" label-module="para">ظـ&lrm;</div>
+</td><td><div class="para" label-module="para">ẓāʾ</div>
+</td><td><div class="para" label-module="para"><i>ẓ</i></div>
+</td><td><div class="para" label-module="para">[&amp;eth;ˁ~zˁ]</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻉ&lrm;</div>
+</td><td><div class="para" label-module="para">ـع&lrm;</div>
+</td><td><div class="para" label-module="para">ـعـ&lrm;</div>
+</td><td><div class="para" label-module="para">عـ&lrm;</div>
+</td><td><div class="para" label-module="para">ʿayn</div>
+</td><td><div class="para" label-module="para"><i>ʿ</i></div>
+</td><td><div class="para" label-module="para">/ʕ/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻍ&lrm;</div>
+</td><td><div class="para" label-module="para">ـغ&lrm;</div>
+</td><td><div class="para" label-module="para">ـغـ&lrm;</div>
+</td><td><div class="para" label-module="para">غـ&lrm;</div>
+</td><td><div class="para" label-module="para">ġayn</div>
+</td><td><div class="para" label-module="para"><i>ġ</i>（也写为<i>gh</i>）</div>
+</td><td><div class="para" label-module="para">/ɣ/（在很多借词中读作/ɡ/）</div>
+</td></tr><tr><td><div class="para" label-module="para">ف&lrm;</div>
+</td><td><div class="para" label-module="para">ـف&lrm;</div>
+</td><td><div class="para" label-module="para">ـفـ&lrm;</div>
+</td><td><div class="para" label-module="para">فـ&lrm;</div>
+</td><td><div class="para" label-module="para">fāʾ</div>
+</td><td><div class="para" label-module="para"><i>f</i></div>
+</td><td><div class="para" label-module="para">/f/，也在一些借词中读作/v/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻕ&lrm;</div>
+</td><td><div class="para" label-module="para">ـق&lrm;</div>
+</td><td><div class="para" label-module="para">ـقـ&lrm;</div>
+</td><td><div class="para" label-module="para">قـ&lrm;</div>
+</td><td><div class="para" label-module="para">qāf</div>
+</td><td><div class="para" label-module="para"><i>q</i></div>
+</td><td><div class="para" label-module="para">/q/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻙ&lrm;</div>
+</td><td><div class="para" label-module="para">ـك&lrm;</div>
+</td><td><div class="para" label-module="para">ـكـ&lrm;</div>
+</td><td><div class="para" label-module="para">كـ&lrm;</div>
+</td><td><div class="para" label-module="para">kāf</div>
+</td><td><div class="para" label-module="para"><i>k</i></div>
+</td><td><div class="para" label-module="para">/k/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻝ&lrm;</div>
+</td><td><div class="para" label-module="para">ـل&lrm;</div>
+</td><td><div class="para" label-module="para">ـلـ&lrm;</div>
+</td><td><div class="para" label-module="para">لـ&lrm;</div>
+</td><td><div class="para" label-module="para">lām</div>
+</td><td><div class="para" label-module="para"><i>l</i></div>
+</td><td><div class="para" label-module="para">/l/（只在<i>Allah</i>中读作[lˁ]）</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻡ&lrm;</div>
+</td><td><div class="para" label-module="para">ـم&lrm;</div>
+</td><td><div class="para" label-module="para">ـمـ&lrm;</div>
+</td><td><div class="para" label-module="para">مـ&lrm;</div>
+</td><td><div class="para" label-module="para">mīm</div>
+</td><td><div class="para" label-module="para"><i>m</i></div>
+</td><td><div class="para" label-module="para">/m/</div>
+</td></tr><tr><td><div class="para" label-module="para">ن&lrm;</div>
+</td><td><div class="para" label-module="para">ـن&lrm;</div>
+</td><td><div class="para" label-module="para">ـنـ&lrm;</div>
+</td><td><div class="para" label-module="para">نـ&lrm;</div>
+</td><td><div class="para" label-module="para">nūn</div>
+</td><td><div class="para" label-module="para"><i>n</i></div>
+</td><td><div class="para" label-module="para">/n/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻩ&lrm;</div>
+</td><td><div class="para" label-module="para">ـه&lrm;</div>
+</td><td><div class="para" label-module="para">ـهـ&lrm;</div>
+</td><td><div class="para" label-module="para">هـ&lrm;</div>
+</td><td><div class="para" label-module="para">hāʾ</div>
+</td><td><div class="para" label-module="para"><i>h</i></div>
+</td><td><div class="para" label-module="para">/h/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻭ&lrm;</div>
+</td><td><div class="para" label-module="para">ـو&lrm;</div>
+</td><td><div class="para" label-module="para">ـو&lrm;</div>
+</td><td><div class="para" label-module="para">و&lrm;</div>
+</td><td><div class="para" label-module="para">wāw</div>
+</td><td><div class="para" label-module="para"><i>w</i> / <i>ū</i></div>
+</td><td><div class="para" label-module="para">/w/ / /uː/，有时在借词中读作/u/, /o/和/oː/</div>
+</td></tr><tr><td><div class="para" label-module="para">ﻱ&lrm;</div>
+</td><td><div class="para" label-module="para">ـي&lrm;</div>
+</td><td><div class="para" label-module="para">ـيـ&lrm;</div>
+</td><td><div class="para" label-module="para">يـ&lrm;</div>
+</td><td><div class="para" label-module="para">yāʾ</div>
+</td><td><div class="para" label-module="para"><i>y</i> / <i>ī</i></div>
+</td><td><div class="para" label-module="para">/j/ / /iː/有时在借词中读作/i/, /eː/和/e/</div>
+</td></tr></tbody></table>
+
+
+
 ## 说明
 
 [欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/%E7%BC%96%E7%A0%81/2018/05/07/codeencrypt/)
@@ -2037,10 +2916,22 @@ HTML 颜色由一个十六进制符号来定义，这个符号由红色、绿色
 
 [HTML 颜色名 - w3school](http://www.w3school.com.cn/html/html_colornames.asp)
 
+字母表_百度百科
+https://baike.baidu.com/item/%E5%AD%97%E6%AF%8D%E8%A1%A8/1314769?fr=aladdin
+
+世界各国语言字母表
+http://www.360doc.com/content/15/0513/12/276037_470152153.shtml
+
 
 ### 版本记录
 20180507 确定主题
+
 20180508 完成ascii表
+
 20180509 完成键盘表,以及相关介绍
+
 20180510 添加qwe键盘和九宫格键盘
+
 20180511 添加莫尔斯电码表,颜色表
+
+20180930 添加日语法语俄语德语韩语印度语等其他语种字母表

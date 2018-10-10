@@ -437,3 +437,12 @@ table, th, td {
 	color:white;
 	font-style:italic;
 }
+
+#background {
+	width: -webkit-fill-available;
+	height: inherit;
+	position: fixed;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	/*https://www.fanmingming.com/article/bing-images-bg.html*/
+}
