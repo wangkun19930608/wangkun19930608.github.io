@@ -7,7 +7,7 @@ comments: true
 
 
 # 文章背景
-这个是之前玩过的一个网页闯关游戏，只是玩过，但是卡在一个关卡没有通过，希望寻求一下帮助。
+这个是之前玩过的一个网页闯关游戏，只是玩过，但是卡在一个关卡没有通过，希望寻求一下帮助，智动大闯关。
 
 
 
@@ -393,8 +393,11 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 <https://p.sxisa.com/story/mistake.php>
 30 change
 
-<https://p.sxisa.com/family/father.php>
+<https://p.sxisa.com/family/brother.php>
 31
+
+<https://p.sxisa.com/family/father.php>
+32
 
 <https://p.sxisa.com/family/grandparent.php>
 33 又在这儿被拦住了
@@ -409,7 +412,7 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 
 
 # 说明
-之前就玩过，现在整理一下这个笔记。
+之前就玩过，现在整理一下这个笔记，也希望能够有人突破那个外星人关卡。
 
 [欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/encrypt/2018/10/09/game-encrypt/)
 
