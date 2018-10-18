@@ -432,5 +432,5 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 
 
 20181010 完成文章
-http://ecard.hbut.edu.cn/SSLogin/HBGYSelfSearchSSO_Login.aspx?userName=101710789
+
 
