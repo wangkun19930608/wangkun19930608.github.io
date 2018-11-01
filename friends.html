@@ -12,6 +12,7 @@
         <script src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
     <![endif]-->
     <title>友情链接 </title>
+
     <link rel="dns-prefetch" href="https://s.w.org/">
 <link rel='stylesheet' id='chemin-style-css'  href='https://www.noxxxx.com/wp-content/themes/chemin/style.css?ver=4.7.1' type='text/css' media='all' /><link rel="canonical" href="https://www.noxxxx.com/friends-link">
 <link rel="shortlink" href="https://www.noxxxx.com/?p=42">
@@ -21,13 +22,24 @@
 .delete{
     text-decoration: line-through;
 }
+.mytalbes{
+	color:red;
+}
 </style>
+
+
+	 
+	 
 <div id="container">
     <div id="content">
+		<h1  style = "text-align:center" >
+              <a href="https://wangkun19930608.github.io" title="Home Page"> *坤的 </a><br>
+          
+     </h1>
         <div id="primary" class="content-area">
             <article>
                                     <header class="entry-header">
-                        <h2 class="entry-title">友情链接</h2>
+                        <h2 class="entry-title" ><a href="https://wangkun19930608.github.io" >友情链接</a></h2>
                     </header>
                     <div class="entry-content">
                         <p>友情链接添加要求：</p>
@@ -44,7 +56,7 @@
 </p>
 <p>有访必回</p>
 <div class="neighbor-links">
-<header style="padding: 20px;">邻居</header>
+<header style="padding: 20px;">邻居<button class="mytalbes">一键打开</button></header>
 <table>
 <thead>
 <tr>
@@ -254,13 +266,7 @@
 <td align="right"><a  href="http://ufun.tv/"  target="_blank">ufun.tv</a></td>
 <td align="right"></td>
 </tr>
- {% for friend in site.friends %}
- <tr class="delete" >
-<td>{{friend.title}}</td>
-<td align="center"></td>
-<td align="right"><a  href="{{friend.href}}"  target="_blank">{{friend.href}}</a></td>
-<td align="right"></td>
-  {% endfor %}
+
 
 
 </tbody>
@@ -268,7 +274,7 @@
 </div>
 
 <div class="recruit">
-<header style="padding: 20px;">资讯</header>
+<header style="padding: 20px;">资讯<button class="mytalbes">一键打开</button></header>
 <table>
 <thead>
 <tr>
@@ -314,7 +320,7 @@
 </div>
 
 <div class="recruit">
-<header style="padding: 20px;">工具</header>
+<header style="padding: 20px;">工具<button class="mytalbes">一键打开</button></header>
 <table>
 <thead>
 <tr>
@@ -382,32 +388,32 @@
 <tr>
 <td>数字帝国</td>
 <td align="center"> 数学工具,格式化工具,化学工具等等非常不错</td>
-<td align="right"><a href="zh.numberempire.com" target="_blank">zh.numberempire.com</a></td>
+<td align="right"><a href="https://zh.numberempire.com" target="_blank">zh.numberempire.com</a></td>
 </tr>
 <tr>
 <td>FooPlot</td>
 <td align="center"> 线上数学函数绘图器(上面一个连接已经足够)</td>
-<td align="right"><a href="www.fooplot.com" target="_blank">www.fooplot.com</a></td>
+<td align="right"><a href="https://www.fooplot.com" target="_blank">www.fooplot.com</a></td>
 </tr>
 <tr>
 <td>ezgif</td>
 <td align="center"> 在线Gif图片制作</td>
-<td align="right"><a href="ezgif.com" target="_blank">ezgif.com</a></td>
+<td align="right"><a href="https://ezgif.com" target="_blank">ezgif.com</a></td>
 </tr>
 <tr>
 <td>Http Cat</td>
 <td align="center">用猫来表示网页状态</td>
-<td align="right"><a href="http.cat" target="_blank">http.cat</a></td>
+<td align="right"><a href="https://http.cat" target="_blank">http.cat</a></td>
 </tr>
 <tr>
 <td>HTTP STATUS DOGS</td>
 <td align="center">用狗来表示网页状态</td>
-<td align="right"><a href="httpstatusdogs.com" target="_blank">httpstatusdogs.com</a></td>
+<td align="right"><a href="https://httpstatusdogs.com" target="_blank">httpstatusdogs.com</a></td>
 </tr>
 <tr>
 <td>XSS'OR</td>
 <td align="center">在线转码测试XSS工具</td>
-<td align="right"><a href="xssor.io" target="_blank">xssor.io</a></td>
+<td align="right"><a href="https://xssor.io" target="_blank">xssor.io</a></td>
 </tr>
 
 </tbody>
@@ -426,11 +432,22 @@
 
    
 
+ 
+		  
+		  
+		  
 <script type='text/javascript' src='https://www.noxxxx.com/wp-content/themes/chemin/js/jquery.min.js?ver=1.0.0'></script>
 <script type='text/javascript' src='https://www.noxxxx.com/wp-content/themes/chemin/js/global.js?ver=1.0.0'></script>
 <script type='text/javascript' src='https://www.noxxxx.com/wp-includes/js/comment-reply.min.js?ver=4.7.1'></script>
 
-
+  		  <script type="text/javascript">
+		  $(".mytalbes").click(function(){
+				var links = $(this).parent().next().children().children();
+				for(var i = 1 ; i < links.length ; i++){
+					window.open(links[i].children[2].firstChild.href);
+				}
+			});
+		</script>
 		  <div style="display:none">
 		  <!-- visitors -->
 		  <!-- github blog-->
