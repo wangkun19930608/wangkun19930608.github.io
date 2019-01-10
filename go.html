@@ -2,25 +2,39 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>go to link</title>	
 <script type="text/javascript">
-			function getQueryString(name) {
-				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-				var r = window.location.search.substr(1).match(reg);
-				if (r != null) return decodeURI(r[2]); return null;
-			 }
-			 debugger;
-			 var a = getQueryString("url");
-			 if(null===a){
-				window.location.href="https://www.baidu.com";
-			 }else{
-				window.location.href = a;
-			 }
+			<!-- function getQueryString(name) { -->
+				<!-- var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); -->
+				<!-- var r = window.location.search.substr(1).match(reg); -->
+				<!-- if (r != null) return decodeURI(r[2]); return null; -->
+			 <!-- } -->
+			 <!-- debugger; -->
+			 <!-- var a = getQueryString("url"); -->
+			 <!-- if(null===a){ -->
+				<!-- a="https://www.baidu.com"; -->
+			<!-- } -->
+			
+			var a= 'http://hd.chinatax.gov.cn/guoshui/action/GetArticleView1.do?id=19437819&flag=1'
+			function goto2(){
+			        if(document.all){
+			                document.write("<a id='goa' href='"+a+"' style='display:none;'>a</a>");
+			                document.getElementByIdx_x("goa").click();
+			        }else{
+			                window.location=a;
+			        }
+			}
+			//goto2();
+
 
 
 </script>
 </head>
 <body>
+<a href="http://hd.chinatax.gov.cn/guoshui/action/GetArticleView1.do?id=19437819&flag=1">http://hd.chinatax.gov.cn/guoshui/action/GetArticleView1.do?id=19437819&flag=1</a>
+
+<a href="http://hd.chinatax.gov.cn/guoshui/action/GetArticleView1.do?id=19437820&amp;flag=1" target="_blank" class="a_left2">财政部 税务总局 科技部 教育部关于科技企业孵化器 大学科技园和众创空间税收政策的通知</a>
 
 		  <div style="display:none">
 		  <!-- cnzz github -->
@@ -42,6 +56,13 @@
 
 		  </div>
 </body>
-
+<script type="text/javascript">
+var  a= 'http://hd.chinatax.gov.cn/guoshui/action/GetArticleView1.do?id=19437819&flag=1';
+var arg ='\u003cscript\u003etop.location.replace("'+a+'")\u003c/script\u003e';
+    var iframe = document.createElement('iframe');
+    iframe.src='javascript:window.name;';
+    iframe.name=arg;
+    <!-- document.body.appendChild(iframe); -->
+</script>
 
 </html>
