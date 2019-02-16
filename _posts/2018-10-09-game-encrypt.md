@@ -299,7 +299,57 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 
 ### 过关方式
  
+~~暂未过关~~
+
+感谢[liununu](https://github.com/liununu)的提示添加第一部分的二十六关。
+
+Stage 25 的截图来自英剧神秘博士第四季第十二集，Monster的星球名称应该是 skaro
+
+## stage26
+
+### 地址
+
+<https://puzzle.sxisa.org/family/skaro.php>
+
+### 过关方式
+
+点击byebye就自动跳过去了。
+
+## stage27
+
+### 地址
+
+<https://puzzle.sxisa.org/family/noname.php>
+
+### 过关方式
+
+等900s就行。
+
+
+emmmm，开玩笑的啦，找一个解析gif图片的网址，把图片放上去就行。不然一秒过去没看清就再等900s了。
+
+比方说这个网址还行吧。[GIF动态图片分解](https://tu.sioe.cn/gj/fenjie/)
+
+得到最后一张图片是jump.php 了
+
+
+## stage28
+
+### 地址
+
+<https://puzzle.sxisa.org/family/jump.php>
+
+### 过关方式
+
 暂未过关
+
+数独先解出来吧
+1983 
+有个提示： 君の名は
+输入1983得到 并没有那么简单！
+输入3891得到 完全错误！
+
+
 
 
 
@@ -400,14 +450,27 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 32
 
 <https://p.sxisa.com/family/grandparent.php>
-33 又在这儿被拦住了
+33 ~~又在这儿被拦住了~~
+
+<https://p.sxisa.com/family/skaro.php>
+34
+
+<https://p.sxisa.com/family/noname.php>
+35 
+
+
+<https://p.sxisa.com/family/jump.php>
+36
+
+
+
 
 # 其他闯关游戏
 [Arthur's Online Riddle](http://riddle.arthurluk.net/index.php )
 
+[The Python Challenge](http://www.pythonchallenge.com/)
 
-
-
+[Cipher - An Online Riddle](http://www.gamemastertips.com/cipher/cipher.htm	)
 
 
 
@@ -426,6 +489,10 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 
 [md5在线解密破解,md5解密加密](http://www.cmd5.com/)
 
+[GIF动态图片分解](https://tu.sioe.cn/gj/fenjie/)
+
+[琳琅在线--数独演算器](http://www.llang.net/sudoku/calsudoku.php)
+
 ## 版本记录
 
 20181009 文章开始着手
@@ -434,3 +501,4 @@ qwe键盘码对应abc键盘码即可得到grandparent.php 。
 20181010 完成文章
 
 
+20190216 感谢[liununu](https://github.com/liununu)的提示添加第一部分的二十六关
