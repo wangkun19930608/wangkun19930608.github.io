@@ -2,7 +2,10 @@ safe: false
 excerpt_separator: "\n\n\n"
 sitemapurl: "https:\\wangkun19930608.github.io"
 
-
+plugins:
+  - jekyll-feed
+  
+  
 # Site settings
 #title: WK Blog
 #SEOTitle: 王坤的博客 | Wangkun Blog
