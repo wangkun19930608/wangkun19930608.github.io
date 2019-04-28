@@ -47,7 +47,7 @@ comments: true
 
 [CharSequence cannot be resolved](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/)
 
-[公司web部分国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/)
+[公司web国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/)
 
 
 

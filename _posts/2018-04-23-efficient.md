@@ -23,7 +23,7 @@ comments: true
 当然，如果公司本身的各个开发工具比较自由的话，可能就不需要自己这样子进行处理了，寻找自己最为熟悉的开发软件就行,比方说 [idea](https://www.jetbrains.com/idea/) 也很不错的。
 
 ### 数据库工具的使用
-开发时候如果数据库的使用是比较多,版本也不好控制的话,可以用一个 [Navicat Premium](https://www.navicat.com/en/products/navicat-premium) ,有试用期,也有破解版,能力能够的情况下还是支持正版。
+开发时候如果数据库的使用是比较多,版本也不好控制的话,可以用一个 [Navicat Premium](https://www.navicat.com/en/products/navicat-premium) ,有试用期可以免费使用一段时间按,网上也有破解版,大家尽量还是支持正版。
 
 它可以同时连接多个数据库,包括多个类型的数据库了。
 
