@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 查找错误html status 500的错误
-category: [技术, Tomcat]
+category: [Technology, Tomcat]
 comments: true
 ---
 
@@ -118,18 +118,30 @@ Apache Tomcat/6.0.18
 
 ``` 
 
-* 解决方案 
+## 解决方案 
   删除JFreeChart的gunjaxp.jar包.
-* 分析
+  
+## 分析
   这个问题似乎之前遇到过几次,但是好久没久没有碰到了结果忘记了,真是不应该,这里记录一下,方便后面查找错误了.
   这个问题的原因是这个架包版本存在问题,但是不知道为什么这个架包一直存在在spring整体里面.
 
-* 参考的博客
-Unable to validate using XSD: Your JAXP provider [gnu.xml.dom.JAXPFactory@1fcc0a2] does not support XML Schema - CSDN博客
-<http://blog.csdn.net/linshutao/article/details/6225482>
+
+# 说明
+
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/tomcat/2018/01/23/company-HTTP-Status-500/)
+
+## 参考文章
+
+[Unable to validate using XSD: Your JAXP provider ](http://blog.csdn.net/linshutao/article/details/6225482)
 
 
 
+
+## 版本记录
+
+20180123 完成文章
+
+20190528 修改文章格式
 
 
 

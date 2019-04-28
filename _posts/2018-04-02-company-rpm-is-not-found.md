@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rpm bug
-category: [技术, 安全]
+category: [Technology, Bug]
 comments: true
 ---
 
@@ -36,9 +36,21 @@ $ sudo apt-get -y update
 更新完毕之后，在使用apt-get就没有问题了。
 
 
-## 说明
-写这篇文章是作为使用linux的笔记.我的是rpm不能安装,参考的博客是ssh不能安装,类似的问题应该解决方案类似了.
+# 说明
 
-参考文章 
-ubuntu进行apt-get时候出现Package ssh is not available, but is referred to by another package 错误 - 三更_雨 - 博客园
-https://www.cnblogs.com/cyttina/archive/2013/01/29/2882111.html
+写这篇文章是作为使用linux的笔记.我的是rpm不能安装,参考的博客是ssh不能安装,类似的问题应该解决方案类似了
+
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/)
+
+## 参考文章
+
+[ubuntu进行apt-get时候出现Package ssh is not available, but is referred to by another package](https://www.cnblogs.com/cyttina/archive/2013/01/29/2882111.html)
+
+
+
+
+## 版本记录
+
+20180402 完成文章
+
+20190528 修改文章格式

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: linux没有wifi
-category: [技术, 安全]
+title: linux安装完成没有wifi
+category: [Technology, OS]
 comments: true
 ---
 
@@ -72,9 +72,19 @@ grep Network 查找Network关键字所在的行
 ![img3](https://img-blog.csdn.net/20150610180252884?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWlyYW5hbnQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 
-## 说明
+# 说明
+
 写这篇文章是作为使用linux的笔记.图片没有另外拍照,就没有重新上图了,不过确实正好解决问题.
 
-参考文章 
-linux无法连接wifi，不显示wifi - CSDN博客
-https://blog.csdn.net/yiranant/article/details/46445055
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/)
+
+## 参考文章
+
+[linux无法连接wifi，不显示wifi](https://blog.csdn.net/yiranant/article/details/46445055)
+
+
+## 版本记录
+
+20180403 完成文章
+
+20190528 完善文章格式

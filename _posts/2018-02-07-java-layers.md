@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Java分层概念(转)
-category: [技术, Java]
+category: [Technology, Java]
 comments: true
 ---
 

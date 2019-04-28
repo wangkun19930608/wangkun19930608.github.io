@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tomcat 启动DefaultAnnotationProcessor报错
-category: [技术, Tomcat]
+category: [Technology, Tomcat]
 comments: true
 ---
 
@@ -29,12 +29,19 @@ java.lang.ClassCastException: org.apache.catalina.util.DefaultAnnotationProcesso
 这个之前犯过,但是之前因为另外一个大错误,忽略了这个小错误,结果有错了.
   
 
-## 参考的博客
-org.apache.catalina.util.DefaultAnnotationProcessor cannot be cast to org.apache.AnnotationProcessor - CSDN博客
-<http://blog.csdn.net/wwbmyos/article/details/7734799>
+# 说明
 
-转载注明来源:
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/tomcat/2018/01/30/company-Tomcat-DefaultAnnotationProcessor/)
 
-https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/tomcat/2018/01/30/company-Tomcat-DefaultAnnotationProcessor/
+## 参考文章
+
+[org.apache.catalina.util.DefaultAnnotationProcessor cannot be cast](http://blog.csdn.net/wwbmyos/article/details/7734799)
 
 
+
+
+## 版本记录
+
+20180130 完成文章
+
+20190528 修改文章格式

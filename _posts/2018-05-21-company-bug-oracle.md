@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 公司笔记Oracle出错
-category: [技术, Bug]
+title: 公司笔记Oracle出错:值大于为此列指定的允许精度
+category: [Technology, Bug]
 comments: true
 ---
 
@@ -81,11 +81,9 @@ NUMBER(4)     Long     为整数
 
 
 
-
 ## 说明
 
-
-[欢迎评论，欢迎指正,转载也请注明出处.]()
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2018/05/21/company-bug-oracle/)
 
 ### 参考博客
 [ORA-01438: 值大于为此列指定的允许精度 - CSDN博客](https://blog.csdn.net/hellolib/article/details/8729725)

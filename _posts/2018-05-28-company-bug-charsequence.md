@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CharSequence cannot be resolved
-category: [技术, Bug]
+category: [Technology, Bug]
 comments: true
 ---
 
@@ -39,7 +39,7 @@ java.lang.CharSequence cannot be resolved
 
 ## 说明
 
-[欢迎评论，欢迎指正,转载也请注明出处.]()
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/)
 
 ### 参考博客
 
