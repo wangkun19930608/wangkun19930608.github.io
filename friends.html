@@ -77,7 +77,7 @@
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr >
 <td>noxxxx</td>
 <td align="center">友链界面版本出处</td>
 <td align="right"><a href="https://www.noxxxx.com/" target="_blank">www.noxxxx.com</a></td>
@@ -549,10 +549,13 @@
 		  $(".mytalbes").click(function(){
 				var links = $(this).parent().next().children().children();
 				for(var i = 1 ; i < links.length ; i++){
-				var a = links[i];
-				var b = a.children[2];
-				var c = b.firstChild;
-				var d = c.href;
+					var a = links[i];
+					if(a.className==="delete"){
+						continue;
+					}
+					var b = a.children[2];
+					var c = b.firstChild;
+					var d = c.href;
 					window.open(d);
 				}
 			});
