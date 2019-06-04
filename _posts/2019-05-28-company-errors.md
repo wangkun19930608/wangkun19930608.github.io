@@ -49,7 +49,7 @@ comments: true
 
 [公司web国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/)
 
-
+[系统部分界面显示异常](https://wangkun19930608.github.io/Technology/bug/2019/06/04/company-some-pages-error/)
 
 # 说明
 历史错误仅供参考，实际解决根据实际情况处理。
@@ -58,14 +58,13 @@ comments: true
 
 ## 参考文章
 
-[WinRAR压缩软件 老牌压缩软件知名产品 经典装机软件之一](http://www.winrar.com.cn/faq.htm)
-
-
+无
 
 
 ## 版本记录
 
-20190524 完成文章
+20190528 完成文章
 
+20190604 更新文章
 
 

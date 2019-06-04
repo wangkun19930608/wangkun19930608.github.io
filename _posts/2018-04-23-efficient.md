@@ -10,7 +10,7 @@ comments: true
 
 
 
-## 如何方便高效
+## 一些高效的必备软件
 
 ### 编程开发时候代码同步
 必要时候需要使用，选择[git](https://wangkun19930608.github.io)或者[svn](https://tortoisesvn.net/downloads.zh.html)，不论是作为备份，还是作为合作，不论是开源还是私有，不论是个人服务器还是公网的服务器，一个好的代码同步工具是非常有必要的。
@@ -35,7 +35,7 @@ comments: true
 
 ### 打卡工具的使用
 
-使用[钉钉](https://www.dingtalk.com) 打卡,随时方便导出数据以及办公数据打卡考勤的查看.
+[钉钉](https://www.dingtalk.com) 这个对于公司使用很方便,随时方便导出数据以及办公数据打卡考勤的查看.
 
 或者企业微信是同样的功能,但是定位是否能够模拟不是很清楚.对于忘记大卡的同事能够有两次补卡的机会是不错的一个做法.
 
@@ -47,14 +47,25 @@ comments: true
 [FlashFxp](https://www.flashfxp.com) 是一个不错的远程ftp工具,对于公司存在一些远程数据的东西需要随时获取的,这个是一个必不可少的东西.当然，如果有其他软件也欢迎推荐。
 
 ### 文本编辑
-对于文本的查看,如果只是一般的东西查看和修改,直接记事本就行了,但是如果经常性需要修改的话,用 [Notepad++](https://notepad-plus-plus.org) 更加高效。
+对于文本的查看,如果只是一般的东西查看和修改,直接记事本notepad 就行了。
+
+如果经常性需要修改的话,用 [Notepad++](https://notepad-plus-plus.org) 更加高效。
 一次性打开之前没有关闭的文档,没有保存但是是正常关机的数据也会自动保存.
 
-当然，类似的工具不少，notepad++只是针对window系统比较方便，对于其他系统并没有支持，Sublime Text似乎解决了这个问题，在linux和window都可以使用，目前还未体验，找个机会使用以下。
+```
+		这里的话推荐几个插件吧，安装插件的方法就不用多少，只是介绍插件的名字。
+		MarkdownViewer++ （用来写markdown的博客，非常的方便）
+		NppExport v0.2.8 (32-bit x86 only) notepad++ 自带，用于导出当前文本为其他格式
+		Converter 4.2.1 notepad++ 自带,用于ascii码的一些转换。
+		Mime Tool 2.5 notepad++ 自带,用于一些简单的加密解密
+```
+
+
+当然，类似的工具不少，notepad++只是针对window系统比较方便，对于其他系统并没有支持， [Sublime Text](http://www.sublimetext.com)似乎解决了这个问题，在linux和window都可以使用，目前还未体验，找个机会使用以下。
 
 如果针对较大的文本打开的话，就可能需要用到一下大的编辑器了，比方说有一个 [UltraEdit](https://www.ultraedit.com) 就可以解决这个问题。
 
-至于办公的文档的话，[wps](https://www.wps.cn) 和 [office](https://www.office.com/?auth=2&home=1) 已经不用多少，他们的位置之前目前都是无可撼动的吧。
+至于办公的文档的话，[wps](https://www.wps.cn) 和 [office](https://www.office.com/?auth=2&home=1) 已经不用多说，他们的位置之前目前都是无可撼动的吧。
 
 ### 资源管理器的选择。
 对于其他的文件需要多目录查看的话可以看看MEDI等这类资源管理器的替代方案,但是有好有坏,自己斟酌使用，坏的就是可能需要更多的内存和cpu了.使用起来还是蛮方便的。
@@ -94,7 +105,8 @@ MoreMovieRatings
 
 ### 远程桌面
 开启自己的远程桌面是一个不错的远程访问方式,但是这个时候密码一个不能太简单,同户名最好也不要设置简单.
-免得被别人利用了,也可以尝试一下其他的比方说teamview和向日葵，还有个anydesk也很不错。
+
+免得被别人利用了,也可以尝试一下其他的比方说[teamview](https://www.teamviewer.cn/cn/)和[向日葵]()，还有个[anydesk]()也很不错。
 
 ### 快捷键
 数据常用工具的快捷键会增加不少的效率.尤其是开发时候的各种操作.
@@ -136,8 +148,12 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 
 [油猴脚本推荐：15款优秀实用的用户脚本](http://chromecj.com/utilities/2019-03/1990.html)
 
+[Win10环境下，告别MarkdownPad，用Notepad++搭建编写md文档的环境](https://blog.csdn.net/weixin_39345384/article/details/80786184)
+
 ## 版本
 
 20180423 完成文章
 
 20190523 添加一些软件的地址
+
+20190604 更新部分连接
