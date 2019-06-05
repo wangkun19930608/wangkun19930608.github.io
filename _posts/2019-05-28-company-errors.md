@@ -51,6 +51,8 @@ comments: true
 
 [系统部分界面显示异常](https://wangkun19930608.github.io/Technology/bug/2019/06/04/company-some-pages-error/)
 
+[已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/)
+
 # 说明
 历史错误仅供参考，实际解决根据实际情况处理。
 
