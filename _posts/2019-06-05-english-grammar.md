@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 英语基本语法
-category: [Languase, English]
+category: [Language, English]
 comments: true
 ---
 
