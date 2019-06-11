@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 公司笔记系统状态添加
-category: [技术, JAVA]
+category: [Technology, JAVA]
 comments: true
 ---
 
@@ -487,7 +487,7 @@ Rt:SoftState:IEC104
 # 说明
 软件版本为3.0版本的web展示项目部分.
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/java/2018/07/23/company-addstate/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technonlogy/java/2018/07/23/company-addstate/ )
 
 ## 版本记录
 20180723 开始代码动工

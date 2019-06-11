@@ -26,11 +26,11 @@ Skipped obstructing working copy: path\to\working\copy\project
 出现问题之后,首先是通过clean解决,但是没有成功,
 最后通过查询问题找到解决方案,把多余的项目移走之后,再次update即可.
 
-出现这个的原因主要svn要创建一个目录时候,已经存在一个同名并且文件已经存在的目录了.
+出现这个的原因主要svn要创建一个目录时候,已经存在一个同名并且文件已经存在的目录了,而不是通过svn创建造成的.
 
 ## 说明
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/Technology/bug/2018/08/09/company-bug-svnupdate/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/Technology/bug/2018/08/09/company-bug-svnupdate/ )
 
 ### 参考博客
 

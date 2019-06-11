@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 公司笔记UI添加
-category: [技术, JAVA]
+category: [Technology, JAVA]
 comments: true
 ---
 
@@ -124,7 +124,7 @@ log4j.appender.UiTable = sznari.iec.UI.UiLogAppender
 
 # 说明
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/%E6%8A%80%E6%9C%AF/java/2018/07/16/company-addui/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/java/2018/07/16/company-addui/ )
 
 ## 版本记录
 20180714 完成项目代码

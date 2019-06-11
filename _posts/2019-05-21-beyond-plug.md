@@ -66,7 +66,7 @@ Beyond Compare 4 X64  4.1.2.20720
 # 说明
 
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/21/beyond-plug/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/21/beyond-plug/ )
 
 ## 参考文章
 

@@ -127,7 +127,7 @@ java.sql.SQLException: ORA-00903: 表名无效
 # 说明
 
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2019/03/01/java-preparedstatement/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2019/03/01/java-preparedstatement/ )
 
 ## 参考文章
 

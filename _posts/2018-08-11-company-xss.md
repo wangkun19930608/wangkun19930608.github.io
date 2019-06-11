@@ -251,14 +251,11 @@ public class XssHttpServletRequestWraper extends HttpServletRequestWrapper {
 		value = scriptPattern.matcher(value).replaceAll("");
 
 		// return xssEncode(value);//xml will error for chars
-		System.out.println("xss:"+value);
-		if(value.toLowerCase().contains("ecode")){
-			if(value.toLowerCase().contains("login")){
-				value = value.replace("\'", "");
-			}
-		}else{
-			value = xssEncode(value);
-		}
+		/**
+		this part see in company 
+		*/
+		
+		
 		return value;
 	}
 
@@ -575,7 +572,7 @@ hi") or ("a"="a[/code]
 # 说明
 开发时候软件版本为1.44版本的web展示项目部分,后面同步更新到3.0的web部分.
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/xss/2018/08/11/company-xss/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/xss/2018/08/11/company-xss/ )
 
 ## 参考文章
 
