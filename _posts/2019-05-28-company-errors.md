@@ -84,9 +84,10 @@ comments: true
 
 
 # 说明
+
 历史错误仅供参考，实际解决根据实际情况处理。
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/21/beyond-plug/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/28/company-errors/ )
 
 ## 参考文章
 
@@ -98,5 +99,7 @@ comments: true
 20190528 完成文章
 
 20190604 更新文章
+
+20190611 更新文章
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 系统部分界面显示异常
-category: [Technology , Java]
+category: [Technology , Web]
 comments: true
 ---
 
@@ -31,11 +31,11 @@ comments: true
 
 最后直接用新的配置文件替换解决问题。
 
-根据需要，其他界面对照老的进行设置即可。
+根据需要，其他界面对照老的进行设置即可。切忌直接使用而不对比差异直接替换的错误操作！！！
 
 ## 说明
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/Technology/bug/2019/06/04/company-some-pages-error/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/ )
 
 ### 参考博客
 
