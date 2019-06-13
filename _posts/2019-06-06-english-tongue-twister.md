@@ -355,7 +355,7 @@ And the board bill no longer bored Bill.
 
 绕口令部分，了解读一读，应该也是蛮有用的。
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/language/english/2019/06/10/english-grammar/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/language/english/2019/06/06/english-grammar/)
 
 
 

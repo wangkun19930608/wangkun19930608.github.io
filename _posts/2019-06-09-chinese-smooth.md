@@ -202,7 +202,7 @@ T 一个汽球托风上  
 # 说明
 随时看看吧，经典文章不多说。
 
-[欢迎评论，欢迎指正,转载也请注明出处,如有侵权，请联系删除](https://wangkun19930608.github.io/language/chinese/2019/06/12/chinese-smooth/ )
+[欢迎评论，欢迎指正,转载也请注明出处,如有侵权，请联系删除](https://wangkun19930608.github.io/language/chinese/2019/06/09/chinese-smooth/ )
 
 
 
