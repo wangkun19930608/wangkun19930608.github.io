@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: draft
 title: 儿童顺口溜大全
 category: [Language, Chinese]
 comments: true
 ---
 
 # 文章背景
+
 相比上一篇，这一篇稍微好一点吧，很多熟悉的句子。
 
 不过这个只是自己针对以前学习过的一些东西的整理和回顾。
@@ -13,9 +14,24 @@ comments: true
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 目录
 
 [TOC]
+
+
+
+
+
 
 
 
@@ -216,7 +232,5 @@ comments: true
 <https://wenku.baidu.com/view/0db793b2bdd126fff705cc1755270722192e5999.html?from=search >
 
 ## 版本记录
-
-20150420 整理完毕
-
-20190612 发布完毕
+20150420 整理完毕
+20190612 发布完毕
