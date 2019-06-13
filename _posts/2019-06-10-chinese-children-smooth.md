@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 儿童顺口溜 大全
+layout: draft
+title: 儿童顺口溜大全
 category: [Language, Chinese]
 comments: true
 ---
@@ -8,6 +8,11 @@ comments: true
 # 文章背景
 
 相比上一篇，这一篇稍微好一点吧，很多熟悉的句子。
+
+不过这个只是自己针对以前学习过的一些东西的整理和回顾。
+
+
+
 
 
 

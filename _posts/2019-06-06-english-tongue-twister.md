@@ -76,6 +76,7 @@ We'll weather the weather whether we like it or not.
    在结束对一家工厂的灭火战斗以后，弗兰克的父亲在为他的五个消防队员朋友炸制法式土豆(炸薯条)
 
 巧用绕口令教学英语音标
+
        “万丈高楼平地起”，是说地基对于建筑物的重要性，而构筑英语殿堂的基石则是英语音标，学英语的目的就是为了说英语，用英语。一方面，有些人尽管笔试成绩 不错，但却羞于启齿说英语，或者说出的英语令人难以听懂。究其原因，是英语音标没掌握。另一方面，大多数英语单词的拼写和单词的音标都遵循读音规则，因 此，只要掌握了读音规则，并不断总结单词拼写与其音标之间的联系，就能做到看见单词就能读出来，能说出来的单词就会写。总之，掌握好语音，不仅对于练就一 口标准的英语口语很关键，而且对于记忆英语单词也有很大帮助。
 
        那么，如何读准音标呢?
@@ -138,66 +139,125 @@ We'll weather the weather whether we like it or not.
 
        Good cookies could be cooked by a good cook，if a good cook could cook good cookies．(如果一个好厨师能烤出好面包，那就让他来烤面包。)
 
-        编写英语绕1：21令，多多练习一些英语绕口令，学习者的英语会话水平一定会有意想不到的进步。
+        编写英语绕口令，多多练习一些英语绕口令，学习者的英语会话水平一定会有意想不到的进步。
 
 
 爆破音p b t d k g
+
 双唇音p,b
+
 Peter Piper picked a peck(配克,量词) of pickle(泡菜)prepared by his parents and put them in a big paper plate.
+
 Bill's big brother is building a beautiful building between two big brick blocks.
+
 齿龈音t,d
+
 Too many teenagers tend to waste their time watching television.
+
 Dick's daughter Dianna doesn't like dancing.
+
 软腭音k,g
+
 Good cookies could be cooked by a good cook, if a good cook could cook good cookies.
+
 A big black bug bit a big black dog on his big black nose!
+
 四个前元音i:,i,e,?(不会打音标,用字母代替,替不了只好用?)
+
 Do you see the green leaves of each tree in the field?
+
 A little pill may well cure a great ill.
+
 Ann sent Andy ten hens and Andy sent Ann ten pens.
+
 A fat man sat on a black cat and the black cat was squashed flat, for the man was mad.
+
 摩擦音
+
 Five frantic frogs fled from fifty fiece fishes.
+
 Elizabeth's birthday is on the third Thursday of this month.
+
 Sandy sniffed sweet smelling sunflower seeds while sitting beside a swift stream.
+
 She sells sea shells on the seashore. The seashells she sells are seashells she is sure.
+
 An English fisherman wishes to get a foolish fish for a cold dish.
+
 The ruddy widow really wants ripe watermelon and red roses when winter arrives.
+
 Harris rarely reads literary reviews.
+
 鼻辅音
+
 Brahms is the name of a 19th centry German composer.
+
 You know I know that you know. I know that you know that I know.
+
 The spring brings many charming things.
+
 半元音
+
 What,why,when and where are the words we require quite often when we want to ask a question.
+
 破擦音
+
 The chief charge against John is that he cheated the judge.
+
 Jenny and Jimmy went to Jamaica and Germany in January, but Joan and John went to Jordan and Japan in June and July.
+
 Trudy's dream has come true at last.
+
 How many dew would a dewdrop drop if a dewdrop could drop dew?
+
 The sixth sick sheik's sixth sheep's sick.
+
 后元音
+
 A large army marched past the farmyard.
-When a doctor doctors another doctor, does he doctor the doctored doctor the way the dotored doctor wants to be doctored or does he doctor the doctored doctor the way the doctoring doctor wants to doctor the doctor?
+
+When a doctor doctors another doctor, does he doctor the doctored doctor the way the dotored doctor wants to be doctored or does he doctor the doctored doctor the way the doctoring doctor wants 
+to doctor the doctor?
+
 呵呵，这段好绕口，语法现象出现不少哦。
+
 Tom's got a lot of dots on his pocket. If he wants to wash off the dots, he will use a pot of hot water.
+
 How many wood would a wood chuck chuck if a wood chuck could chuck wood? He'd chuck as much wood as a woodchuck could chuck wood.
+
 中元音
+
 To run and play under the sun is fun. When your work is done, come out in the sun and have some fun.
+
 The nurses in skirts washed thirty dirty shirts.
+
 合口双元音/ei/等
+
 No pains, no gains.
+
 Haste makes waste.
+
 I don't know why Joan showed a yellow coat to the goat in the snow.
+
 Strike while the iron is hot.
+
 A spoiled boy destroyed a toy for joy.
+
 集中双元音
+
+
 The man with fair hair dare not repair their chair there becaust there is a bear there.
+
 The tourist toured the moor in February.
+
 Robert Rolly rolled a round roll around the road.(是练美音的卷舌）
+
 Can you can a can as a canner cans a can?
+
 No,I can't can a can as a canner cans a can.
+
 There is no need to light a night light at a light night like tonight.(这是“L“”N“两个音）
+
 
 
 国际音标绕口令练习
@@ -257,72 +317,117 @@ There is no need to light a night light at a light night like tonight.(这是“
 53. What noise annoys an oyster most? A noisy noise annoys an oyster most.
 54. Willie's really weary（疲倦的）.
 
-绕口令学音标
-爆破音p b t d k g
-双唇音p,b
-Peter Piper picked a peck(配克,量词) of pickle(泡菜)prepared by his parents and put them in a big paper plate.
-Bill's big brother is building a beautiful building between two big brick blocks.
-齿龈音t,d
-Too many teenagers tend to waste their time watching television.
-Dick's daughter Dianna doesn't like dancing.
-软腭音k,g
-Good cookies could be cooked by a good cook, if a good cook could cook good cookies.
-A big black bug bit a big black dog on his big black nose! :em11:
 
 语音练习的绕口令
+
 (1)writer named Wright was instructing his little son how to write Wright right. He said:" It is not right to write Wright as 'rite'－try to write Wright aright! 
+
 (2)Ann sent Andy ten hens and Andy sent Ann ten pens. 
+
 〔3〕Canners can can what they can can but can not can things can't be canned. 
+
 〔4〕Good s could be cooked by a good cook if a good cook could cook good s. 
+
 〔5〕Jenny and Jimmy went to Jamaica and Germany in January, but Joan and John went to Jordan and Japan in June and July. 
+
 〔6〕A cricket critically cricked at a critical cricket match, and so this cricket quitted the cricket match quickly. 
+
 〔7〕Bill's big brother is building a beautiful building between two big brick blocks.
+
 〔8〕There are thirty thousand feathers on that thrush's throat.
-〔9〕A flea and a fly were trapped in a flue, and they tried to flee for their life. The flea said to the fly "let''s flee!" and the fly said to the flea"Let's fly!.Finally both the flea and fly managed to flee through a flaw in the flue.
+
+〔9〕A flea and a fly were trapped in a flue, and they tried to flee for their life. The flea said to the fly "let''s flee!" and the fly said to the flea"Let's fly!.Finally both the flea and fly
+ managed to flee through a flaw in the flue.
+
 〔10〕Peter Piper picked a peck of picket prepared by his parents and put them in a big paper plate.
+
 〔11〕The rat-catcher can't catch caught rats. 
+
 〔12〕Six silly sisters sell silk to six sickly senior citizens. 
+
 〔13〕Ten tiny tortoises tried to talk to twenty timid toads. 
+
 〔14〕How many cuckoos could a good cook cook if a cook could cook cuckoos? 
+
 〔15〕Three thumping tigers are tickling trout. 
+
 〔16〕Sheep shouldn't sleep in shaky shacks, should they? 
+
 〔17〕A spoiled boy destroyed a toy for joy. 
+
 〔18〕Nick had a big pig with thick sticky skin. 
+
 〔19〕Cat, cat, catch that fat rat! 
+
 〔20〕Some say sweet-scented shaving soap soothes sore skin. 
+
 〔21〕Big blue balloons bounced by Billy's brown bike. 
+
 〔22〕Five fine funny frogs frowned on furry furniture. 
+
 〔23〕The nurses in skirts washed thirty dirty shirts. 
+
 〔24〕If a chow chews shoes, how does he choose which shoes to chew? 
+
 〔25〕Little Willie's wooden whistle wouldn't whistle. 
+
 〔26〕Better beat a bit of butter to make a better batter. 
+
 〔27〕Lots of little London Lamplighters light London's lots of little lamps.
+
 〔28〕Shadows shade the sheltered shallows. 
+
 〔29〕His shirt soon shrank in the suds. 
+
 〔30〕As the roaring rocket rose, the restless roosters rollicked. 
+
 〔31〕The next number is neither nine nor nineteen. 
+
 〔32〕Sally Sue sat sadly saying sixty-six syllables to silly Sandy. 
+
 〔33〕The frozen fishermen threw their frozen fish back in again. 
+
 〔34〕An elevator on Everest is an Everest elevator. 
+
 〔35〕Swan, swim over the sea. Swim, Swan, swim! 
 swan, swim back again. Well swum, Swan! 
+
 〔36〕I see seven seagulls soaring southwards silently. 
+
 〔37〕Tommy Tye tried to tie his tie but tugging too tight tore his tie. 
+
 〔38〕The dude dropped in at the Dewdrop Inn for a drop of drink. 
+
 〔39〕Mrs Snelling's selling six sick six-shilling sheep. 
+
 〔40〕Tiny Tommy Tortoise talked to Tessie Turtle on telephone ten times today. 
+
 〔41〕Sixty-seven sacks of salt sitting side by side. 
+
 〔42〕Can Christmas come twice? 
 If Christmas can come twice, when else can Christmas come? 
+
 〔44〕Mrs Claton collects coconut s and crunches while she's counting crutches. 
+
 〔45〕The man with fair hair dare not repair their chairs there because there is a bear there. 
+
 〔46〕Master Carl asks his class not to go to the parks to play cards. 
-〔47〕When a doctor doctors another doctor, does he doctor the doctored doctor the way the doctored doctor wants to be doctored or does he doctor the doctored doctor the way the doctoring doctor wants to doctor the doctor? 
+
+〔47〕When a doctor doctors another doctor, does he doctor the doctored doctor the way the doctored doctor wants to be doctored or does he doctor the doctored doctor the way the doctoring doctor
+ wants to doctor the doctor? 
+
 〔48〕How much wood would a woodcutter cut if a woodcutter could cut wood? He'd cut as much wood as a woodcutter could if a wood cutter could cut wood. 
+
 〔49〕Nina needs nine knitting needles to knit naughty Nita's knickers nicely. 
+
 〔50〕I don't know why Joan showed a yellow coat to the goat in the snow.
 
+
+
 巧用英语绕口令   
+
+
+
 
 
 在高一英语的教学当中发现，学生在语音这一方面存在很多问题。比如，不会音标，部分音标发音不标准，导致单词读不对，读不准；不敢开口说英语，英语口语水平很差，甚至因此提不起对英语的学习兴趣。这是由多方面的原因造成的。
@@ -337,17 +442,29 @@ Silly Sally swiftly shooed seven silly sheep. The seven silly sheep Silly Sally 
 
 绕口令
 Peter Piper picked a peck of pickled peppers,
+
 A peck of pickled peppers Peter Piper picked.
+
 If Peter Piper picked a peck of pickled peppers,
+
 Where's the peck of picked peppers Peter Piper picked?
 
+
+
 Betty bought a bit of butter,"but" said she,"this butter is bitter, if I put it in my batter,it will make my batter bitter."
+
 So she bought some better butter,better than the bitter butter,and it made her bitter batter better.
 
+
+
 Bill had billboard,
+
 Bill also had a boare bill,
+
 The board bill bored Bill,
+
 So Bill sold the billboard to pay his board bill,
+
 And the board bill no longer bored Bill.
 
 
