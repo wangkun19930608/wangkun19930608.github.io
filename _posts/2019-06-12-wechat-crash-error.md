@@ -306,7 +306,7 @@ Total Files: 40
 不过，操作需要谨慎，因为删除之后，之前的聊天记录会全部消失。
 
 # 说明
-
+应该只是聊天记录数据太多导致的吧。
 
 [欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/06/12/wechat-crash-error/ )
 

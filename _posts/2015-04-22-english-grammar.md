@@ -1315,9 +1315,9 @@ _I don’t want a job where I’m chained to a desk all day._
  _我不想找一份整天坐办公桌前的工作。_
 
 # 说明
-语法的话，随时看看吧，用多了就自然记住了。
+语法的话，随时看看吧，用多了就自然记住了。只是为了方便日志在一块，就修改了下分类的日期，实际日期按照版本记录为主。
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/language/english/2019/06/05/english-grammar/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/language/english/2015/04/22/english-grammar/)
 
 
 

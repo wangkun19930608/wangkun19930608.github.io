@@ -11,6 +11,8 @@ comments: true
 
 
 
+
+
 # 目录
 
 [TOC]
@@ -1032,7 +1034,7 @@ comments: true
 
 随时看看吧，经典文章不多说。
 
-[欢迎评论，欢迎指正,转载也请注明出处,如有侵权，请联系删除](https://wangkun19930608.github.io/language/chinese/2019/06/07/chinese-tang-poem/ )
+[欢迎评论，欢迎指正,转载也请注明出处,如有侵权，请联系删除](https://wangkun19930608.github.io/language/chinese/2015/04/24/chinese-tang-poem/ )
 
 
 
