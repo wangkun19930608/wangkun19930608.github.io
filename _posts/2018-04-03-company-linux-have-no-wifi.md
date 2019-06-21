@@ -76,11 +76,11 @@ grep Network 查找Network关键字所在的行
 
 写这篇文章是作为使用linux的笔记.图片没有另外拍照,就没有重新上图了,不过确实正好解决问题.
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/ )
 
 ## 参考文章
 
-[linux无法连接wifi，不显示wifi](https://blog.csdn.net/yiranant/article/details/46445055)
+[linux无法连接wifi，不显示wifi](https://blog.csdn.net/yiranant/article/details/46445055 )
 
 
 ## 版本记录

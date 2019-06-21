@@ -51,7 +51,10 @@ lsnrctl start
 
 ## 说明
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-orace-error/ )
+
+https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/
+https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oralce-error/
 
 ### 参考博客
 

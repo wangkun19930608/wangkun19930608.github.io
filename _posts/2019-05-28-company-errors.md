@@ -6,7 +6,7 @@ comments: true
 ---
 
 # 文章背景
-许多同事偶尔出现相同的问题，对于开发时候总是解决相同的问题，虽说是没有难度，但是是不是被打断思路，是很低效的一件事情，于是整理一下一些公司的开发经验，方便同事们随时查看历史错误信息。
+许多同事偶尔出现相同的问题，对于开发时候总是解决相同的问题，虽说是没有难度，但是时不时被打断思路，是很低效的一件事情，于是整理一下一些公司的开发经验，方便同事们随时查看历史错误信息。
 
 
 
@@ -53,9 +53,9 @@ comments: true
 
 [11.FileCleanUpBug造成的index超出范围，无限拷贝，报错int异常，一闪而过等问题](https://wangkun19930608.github.io/technology/bug/2018/07/18/company-bug-filecleanup/ )
 
-[12.公司3.0系统状态添加流程笔记](https://wangkun19930608.github.io/technonlogy/java/2018/07/23/company-addstate/ )
+[12.公司3.0系统状态添加流程笔记](https://wangkun19930608.github.io/technology/java/2018/07/23/company-addstate/ )
 
-[13.SvnUpdateBug ](https://wangkun19930608.github.io/Technology/bug/2018/08/09/company-bug-svnupdate/ )
+[13.SvnUpdateBug ](https://wangkun19930608.github.io/technology/bug/2018/08/09/company-bug-svnupdate/ )
 
 [14.公司web安全等级提升](https://wangkun19930608.github.io/technology/xss/2018/08/11/company-xss/ )
 
