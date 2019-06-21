@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FileCleanUpBug
-category: [技术, Bug]
+category: [Technology, Bug]
 comments: true
 ---
 
