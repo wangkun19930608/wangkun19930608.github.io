@@ -73,7 +73,7 @@ comments: true
 
 [21.文件解压缩失败](https://wangkun19930608.github.io/technology/software/2019/05/24/zip-error/ )
 
-[22.系统部分界面显示异常](https://wangkun19930608.github.io/Technology/bug/2019/06/04/company-some-pages-error/)
+[22.系统部分界面显示异常](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/)
 
 [23.已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/)
 
