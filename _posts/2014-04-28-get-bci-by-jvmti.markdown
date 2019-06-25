@@ -11,6 +11,8 @@ comments: true
 
 在Java多线程程序中，由于线程调度，指令间的次序在每次运行时都可能不相同，有时候，我们需要得到指令次序，用来分析程序的行为。这样细粒度的底层行为用一般方法很难完成，我们需要借助 [JVM Tool Interface](http://docs.oracle.com/javase/7/docs/platform/jvmti/jvmti.html)，即JVMTI，来帮助我们获取Java虚拟机执行时的信息。本文先介绍编写JVMTI程序的基本框架，然后介绍如何使用JVMTI来获取多线程程序中指令之间的次序。
 
+
+
 ## JVMTI简介
 JVMTI是用于编写开发与监视工具的编程接口，使用它可以检查并控制运行于Java虚拟机上的程序。使用它可以完成性能分析，调试，监视(monitoring)，线程分析，覆盖分析(coverage analysis)等工具。
 

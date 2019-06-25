@@ -10,6 +10,8 @@ comments: true
 
 Data Race Free 是多线程程序是非常重要的概念，因为Java 和 C++的内存模型都是基于 Data Race Free 的，这篇文章将介绍这个概念的由来，另一篇文章《Data Race Free的理解》介绍它的主要思想。
 
+
+
 事情要追溯到遥远的1979年， Lamport 在他的著名论文  *How to make a multiprocessor computer that correctly executes multiprocess programs* 中提出了今后在内存模型领域被广泛使用的概念 ：*sequential consistency*，即顺序一致性。这篇文章告诉我们，你要做一台多处理器的计算机，需要满足什么条件，才能保证程序的正确性。当然，这里的程序跑在不同处理器上，共享同一块内存。虽然现在不说多处理器了，都说多核，多线程，但是问题的本质是没有变的。就是多个执行单元一起完成一个任务，并且通过共享存储单元的方式通信，在这种情况下，底层的系统需要提供什么样的支持，才能保证计算的结果和程序员的预期是一样的。
 
 

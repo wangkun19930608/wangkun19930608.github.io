@@ -6,7 +6,7 @@ comments: true
 ---
 
 # 文章背景
-许多同事偶尔出现相同的问题，对于开发时候总是解决相同的问题，虽说是没有难度，但是时不时被打断思路，是很低效的一件事情，于是整理一下一些公司的开发经验，方便同事们随时查看历史错误信息。
+整理一下一些公司的开发经验，方便同事们随时查看历史错误信息。
 
 
 
@@ -81,7 +81,9 @@ comments: true
 
 [25.现场软件湿度值过大问题](https://wangkun19930608.github.io/technology/web/2019/06/11/company-web-humid/ )
 
+[26.e文本添加xml节点思路整理](https://wangkun19930608.github.io/technology/java/2019/06/18/company-xml/ )
 
+[27.使用oracle发生标识符无效解决办法](https://wangkun19930608.github.io/technology/oracle/2019/06/24/company-oracle-error/ )
 
 # 说明
 

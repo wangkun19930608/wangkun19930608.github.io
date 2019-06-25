@@ -9,6 +9,9 @@ comments: true
 
 skeleton 是 web.py 官网上给出的一个最简单的项目结构示例。
 
+
+
+
 ## 目录树
 ```
 .

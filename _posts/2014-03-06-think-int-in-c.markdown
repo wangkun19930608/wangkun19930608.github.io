@@ -9,6 +9,9 @@ comments: true
 
 在 K&R 经典教材 *The C Programming Language* 的2.2节中，对 int 类型是这样描述的
 
+
+
+
 >    an integer, typically reflecting the natural size of integers on the host machine
 
 意思是反映了机器整数类型的 *natural size*，可是，

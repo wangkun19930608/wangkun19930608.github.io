@@ -9,7 +9,11 @@ comments: true
 # Java 内存模型论文阅读
 
 ## 引言
-Java 的内存模型最早出现在1995年，但是自1997年起，这一内存模型被发现了许多严重的错误和缺陷，它阻碍了很多优化措施，对程序的安全性也没有足够的保证。2001年[JSR 133](https://www.jcp.org/en/jsr/detail?id=133)被确立下来，由William Pugh领导，专家组的成员包括了Adve，Doug Lea， William Pugh等。2004年，JSR 133最终版本发布。2005年，Manson  Jeremy, William Pugh, 和 Sarita V. Adve 一同发表了论文 *The Java memory model*，描述了最新的Java内存模型，这一内存模型在Java 5.0中引入，一直沿用至今。此后，科学家们对Java内存模型进行了进一步的研究的探索，但大的改动并没有出现。
+Java 的内存模型最早出现在1995年，但是自1997年起，这一内存模型被发现了许多严重的错误和缺陷，它阻碍了很多优化措施，对程序的安全性也没有足够的保证。
+
+
+
+2001年[JSR 133](https://www.jcp.org/en/jsr/detail?id=133)被确立下来，由William Pugh领导，专家组的成员包括了Adve，Doug Lea， William Pugh等。2004年，JSR 133最终版本发布。2005年，Manson  Jeremy, William Pugh, 和 Sarita V. Adve 一同发表了论文 *The Java memory model*，描述了最新的Java内存模型，这一内存模型在Java 5.0中引入，一直沿用至今。此后，科学家们对Java内存模型进行了进一步的研究的探索，但大的改动并没有出现。
 
 ## 论文介绍
 

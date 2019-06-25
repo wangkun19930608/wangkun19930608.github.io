@@ -19,6 +19,8 @@ public class LinkedList<E>
 }
 ```
 
+
+
 ## 盲点
 
 * serialVersionUID

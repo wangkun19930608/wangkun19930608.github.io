@@ -11,6 +11,9 @@ comments: true
 
 [wsgiref](http://docs.python.org/2/library/wsgiref.html) 是Python标准库给出的 [WSGI](http://www.python.org/dev/peps/pep-0333/) 的参考实现。
 
+
+
+
 WSGI是Python Web 开发中为服务器程序和应用程序设定的标准，满足这一标准的服务器程序和应用程序可以配合使用。我在上一篇博文《[WSGI简介](http://blog.csdn.net/on_1y/article/details/18803563)》中对此有详细的介绍。在阅读wsgiref源代码之前，一定要对WSGI有一定了解。
 
 WSGI 在 [PEP 333](http://www.python.org/dev/peps/pep-0333/) 中描述，但是只靠阅读PEP 333 可能在理解上还是不够深入，所以阅读官方给出的参考实现是很有必要的。阅读完这份源代码后，不仅有利于对WSGI的理解。而且会让你对服务端程序如何对客户端请求有一个直观的理解，从相对底层的socket监听请求，到上层对HTTP请求的处理。

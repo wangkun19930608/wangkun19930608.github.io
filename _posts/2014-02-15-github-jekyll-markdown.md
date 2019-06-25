@@ -12,6 +12,8 @@ comments: true
 [GitHub Pages](https://help.github.com/categories/20/articles), 利用这个功能，我
 们可以为项目建立网站，当然，这也意味着我们可以通过 GitHub Pages 建立自己的网站。
 
+
+
 [Jekyll](http://jekyllrb.com/)是一个简单的，针对博客设计的静态网站生成器。使用
 GitHub 和 Jekyll，我们可以打造自己的独立博客，你可以自由地定制网站的风格，并且这
 一切都是免费的。
