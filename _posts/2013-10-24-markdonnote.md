@@ -64,16 +64,50 @@ comments: true
 
 ### 效果
 
-* 列表1
-* 列表2
-* 列表3
+* 项目1
+  * 子项目1.1
+  * 子项目1.2
+    * 子项目1.2.1
+* 项目2
+* 项目3
+
++ 项目1
+  + 子项目1.1
+  + 子项目1.2
+    + 子项目1.2.1
++ 项目2
++ 项目3
+
+- 项目1
+  - 子项目1.1
+  - 子项目1.2
+    - 子项目1.2.1
+- 项目2
+- 项目3
 
 ### 代码 (注意星号与文字之间的空格)
 
 ```
-* 列表1
-* 列表2
-* 列表3
+* 项目1
+  * 子项目1.1
+  * 子项目1.2
+    * 子项目1.2.1
+* 项目2
+* 项目3
+
++ 项目1
+  + 子项目1.1
+  + 子项目1.2
+    + 子项目1.2.1
++ 项目2
++ 项目3
+
+- 项目1
+  - 子项目1.1
+  - 子项目1.2
+    - 子项目1.2.1
+- 项目2
+- 项目3
 ```
 
 
@@ -252,11 +286,25 @@ def hello():
 
 ### 效果
 
-$$ \sum^{j-1}\_{k=0}{\widehat{\gamma}\_{kj} z_k} $$
+这是行内公式`!$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $`
+
+```mathjax!
+$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+```
+
+
 
 ### 代码
 
-    $$ \sum^{j-1}\_{k=0}{\widehat{\gamma}\_{kj} z_k} $$
+```
+这是行内公式`!$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $`
+
+
+```mathjax!
+$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
+```
+
+```
 
 
 公式可以通过MathJax支持, 右击公式有惊喜。  
@@ -278,7 +326,218 @@ $$ \sum^{j-1}\_{k=0}{\widehat{\gamma}\_{kj} z_k} $$
     [TOC]
 
 上下都需要换行一行.
+
+
 	
+## 8. 表格
+
+### 效果 
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+### 代码
+
+```markdown
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+
+### 效果
+
+|First Header  | Second Header ||
+|First Header  | Second Header | Third Header|
+|------------- | -------------|-------------|
+表身1Content Cell  | Merge Content Cell||
+Content Cell  | Content Cell| Content Cell|
+
+表身2Content Cell  | Merge Content Cell||
+Content Cell  | Content Cell| Content Cell|
+[表格标题]
+
+
+### 代码
+
+```
+|First Header  | Second Header ||
+|First Header  | Second Header | Third Header|
+|------------- | -------------|-------------|
+表身1Content Cell  | Merge Content Cell||
+Content Cell  | Content Cell| Content Cell|
+
+表身2Content Cell  | Merge Content Cell||
+Content Cell  | Content Cell| Content Cell|
+[表格标题]
+```	
+
+
+## 9.  扩展的文字格式
+
+### 效果
+
+++插入的文字++
+
+==被记号的文字==
+
+上角文字: 19^th^
+
+下角文字: H~2~O
+
+### 代码
+
+```markdown
+++插入的文字++
+
+==被记号的文字==
+
+上角文字: 19^th^
+
+下角文字: H~2~O
+```
+
+## 10.印刷字替换
+系统将自动替换下列文字，转换成排版系统使用的符号
+
+### 效果
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+### 代码
+
+```markdown
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+```
+
+
+
+
+## 11. 缩写定义
+
+### 效果 
+
+The HTML specification
+is maintained by the W3C.
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+
+### 代码
+```markdown
+The HTML specification
+is maintained by the W3C.
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+```
+
+
+## 12. 待办事项
+
+### 效果
+- [ ] 未完成事项
+- [ ] 未完成事项
+- [x] 完成事项
+- [X] 完成事项
+
+### 代码 
+
+```markdown
+- [ ] 未完成事项
+- [ ] 未完成事项
+- [x] 完成事项
+- [X] 完成事项
+```
+
+## 13. 脚注
+
+### 效果
+
+脚注[^1x]
+[^1x]: 脚注的用法
+
+### 代码
+
+```markdown
+脚注[^1x]
+[^1x]: 脚注的用法
+```
+
+
+## 14. 定义
+
+### 效果
+: 一种水果
+: 一种品牌，计算机，手持设备
+桔子
+: 一种水果
+
+
+### 代码
+
+```markdown
+苹果
+: 一种水果
+: 一种品牌，计算机，手持设备
+桔子
+: 一种水果
+```
+
+
+## 15. 流程图 ([语法](http://adrai.github.io/flowchart.js/))
+
+### 效果
+
+```flow
+st=>start: 开始
+e=>end: 结束
+op=>operation: 操作步骤
+cond=>condition: 是 或者 否?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+### 代码
+
+````markdown
+```flow
+st=>start: 开始
+e=>end: 结束
+op=>operation: 操作步骤
+cond=>condition: 是 或者 否?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+````
+
+
+## 16. 序列图 ([语法](https://github.com/bramp/js-sequence-diagrams/blob/master/src/grammar.jison))
+
+### 效果
+
+```sequence
+小明->小李: 你好 小李, 最近怎么样?
+Note right of 小李: 小李想了想
+小李-->小明: 还是老样子
+```
+### 代码
+
+````markdown
+```sequence
+小明->小李: 你好 小李, 最近怎么样?
+Note right of 小李: 小李想了想
+小李-->小明: 还是老样子
+```
+````
+
+
+
+
 # 其他
 
 
@@ -287,8 +546,10 @@ $$ \sum^{j-1}\_{k=0}{\widehat{\gamma}\_{kj} z_k} $$
 
 
 ## 参考文章
-[Md2All完整教程请参考：https://www.cnblogs.com/garyyan/p/8329343.html](https://www.cnblogs.com/garyyan/p/8329343.html )
-[小书匠语法使用手册_小书匠](http://markdown.xiaoshujiang.com/)
+
+[Md2All完整教程请参考](https://www.cnblogs.com/garyyan/p/8329343.html )
+
+[小书匠语法使用手册_小书匠](http://markdown.xiaoshujiang.com/ )
 
 ## 版本信息
 

@@ -2,8 +2,8 @@ safe: false
 excerpt_separator: "\n\n\n"
 sitemapurl: "https:\\wangkun19930608.github.io"
 
-plugins:
-  - jekyll-feed
+
+  
   
   
 # Site settings
@@ -38,8 +38,26 @@ paginate: 10
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
+# gems: [jekyll-paginate]
+#   Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly. 20190613
+# If you are using Jekyll < 3.5.0 use the gems key instead of plugins. 
+# - jekyll-seo-tag   
+# Search engine optimization for GitHub Pages - GitHub Help
+#https://help.github.com/en/articles/search-engine-optimization-for-github-pages
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-toc
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-include-cache
+  
 
 
 # Markdown settings
