@@ -105,6 +105,7 @@ li {
     list-style: none;
 }
 
+/*目录界面字体*/
 .post-title {
     font-size: 200%;
     margin: 10px;
@@ -445,4 +446,9 @@ table, th, td {
 	background-repeat: no-repeat;
 	opacity: 0.3;
 	/*https://www.fanmingming.com/article/bing-images-bg.html*/
+}
+
+
+h1, .h1 {
+    font-size: 25px;
 }

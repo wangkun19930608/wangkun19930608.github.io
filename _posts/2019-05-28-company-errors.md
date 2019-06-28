@@ -31,23 +31,23 @@ comments: true
 
 # 历史问题列表
 
-[1.查找错误html status 500的错误 ](https://wangkun19930608.github.io/technology/tomcat/2018/01/23/company-HTTP-Status-500/)
+[1.查找错误html status 500的错误 ](https://wangkun19930608.github.io/technology/tomcat/2018/01/23/company-HTTP-Status-500/ )
 
-[2.Tomcat 启动DefaultAnnotationProcessor报错](https://wangkun19930608.github.io/technology/tomcat/2018/01/30/company-Tomcat-DefaultAnnotationProcessor/)
+[2.Tomcat 启动DefaultAnnotationProcessor报错](https://wangkun19930608.github.io/technology/tomcat/2018/01/30/company-Tomcat-DefaultAnnotationProcessor/ )
 
-[3.java install error in linux ](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/)
+[3.java install error in linux ](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/ )
 
-[4.linux安装完成没有wifi](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/)
+[4.linux安装完成没有wifi](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/ )
 
-[5.提高效率的一些整理](https://wangkun19930608.github.io/culture/idea/2018/04/23/efficient/)
+[5.提高效率的一些整理](https://wangkun19930608.github.io/culture/idea/2018/04/23/efficient/ )
 
-[6.Word文件乱码XML](https://wangkun19930608.github.io/technology/code/2018/05/10/wordxml/)
+[6.Word文件乱码XML](https://wangkun19930608.github.io/technology/code/2018/05/10/wordxml/ )
 
-[7.公司笔记Oracle出错:值大于为此列指定的允许精度](https://wangkun19930608.github.io/technology/bug/2018/05/21/company-bug-oracle/)
+[7.公司笔记Oracle出错:值大于为此列指定的允许精度](https://wangkun19930608.github.io/technology/bug/2018/05/21/company-bug-oracle/ )
 
-[8.CharSequence cannot be resolved](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/)
+[8.CharSequence cannot be resolved](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/ )
 
-[9.公司web国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/)
+[9.公司web国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/ )
 
 [10.公司笔记UI添加](https://wangkun19930608.github.io/technology/java/2018/07/16/company-addui/ )
 
@@ -73,9 +73,9 @@ comments: true
 
 [21.文件解压缩失败](https://wangkun19930608.github.io/technology/software/2019/05/24/zip-error/ )
 
-[22.系统部分界面显示异常](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/)
+[22.系统部分界面显示异常](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/ )
 
-[23.已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/)
+[23.已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/ )
 
 [24.java web 在 tomcat 没有正常输出](https://wangkun19930608.github.io/technology/bug/2019/06/06/java-nolog/ )
 
