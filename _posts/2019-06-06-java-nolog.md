@@ -1,6 +1,6 @@
 ---
 layout: default
-title: java web 在tomcat没有正常输出
+title: java web 在tomcat没有正常日志输出
 category: [Technology, Bug]
 comments: true
 ---
@@ -52,6 +52,13 @@ log4j.appender.console.layout.ConversionPattern = %d %p [%c] - %m%n
 
 
 
+日志有了是好，不错，为了方便定位，ConversionPattern 得修改一下：
+```
+log4j.appender.console.layout.ConversionPattern  = %5p [%d{HH\:mm\:ss\:SSS}] [%t] (%F\:%L)%n           -%m%n
+```
+
+
+
 # 问题解决
 
 偶尔尝试一下，把之前的log4j.cfg改名成为log4j.properties，然后发现竟然成功了，也不知道具体回事，回头有时间再研究研究了。
@@ -81,5 +88,6 @@ Tomcat日志、项目中的log4j日志、控制台——我的日志最后到底
 
 20190605 完成文章
 
+20190705 更新ConversionPattern
 
 

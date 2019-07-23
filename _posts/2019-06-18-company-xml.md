@@ -69,9 +69,9 @@ XX-125-Xibei-pv-qhltgemeq,2019-06-11,06:05:00,0
 添加配置之后，新建类存储相关属性。
 ```java
 	private boolean xmlCharacterOn = false;
-	private String xmlCharacter = null;
-	private String xmlCharacterHead = null;
-	private String xmlCharacterData = null;
+	private String xmlCharacter = "recv_point";//wkupdate for default value 20190702
+	private String xmlCharacterHead = "@";
+	private String xmlCharacterData = "#";
 ```
 
 读取代码按照之前的风格，不过还是添加一下兼容处理：
@@ -173,12 +173,12 @@ temp.renameTo(strUnzipSourcePathFile);
 
 用户存储的类基本和前面一样：
 ```java
-//InputFileCfg SnForecastCfg WeatherTP 
+//InputFileCfg SnForecastCfg SpForecastCfg WeatherTP 
 	private boolean xmlCharacterOn = false;
-	private String xmlCharacter = null;
-	private String xmlCharacterHead = null;
-	private String xmlCharacterData = null;
-	private String xmlCharacterEnd = null;
+	private String xmlCharacter = "recv_point";//wkupdate for default value 20190702
+	private String xmlCharacterHead = "@";
+	private String xmlCharacterData = "#";
+	private String xmlCharacterEnd = "##";
 ```
 
 读取配置的话，这里使用的是之前比较老的类，为了不改动其他代码，就直接按照它的方式读取：
@@ -261,8 +261,8 @@ if(isNeedReXml){
 // sncalculate.SnFileParse.parseFile(String, SnForecastCfg)
 //nwp.SnNwpFileParse.parseFile(String, InputFileCfg)
 //sploadforecast.SpFileParse.parseFile(String, SpForecastCfg)
-//core.WeatherForecast.ParseWeatherForecastData(String, ArrayList<String>)
 //core.WeatherForecast.ReadFile(String, StringList)
+//sploadforecast.SpNwpFileParse.parseFile(String, WeatherTP)
 
 //按句还原
 boolean isNeedReXml  = weatherTP.isXmlCharacterOn();
@@ -271,7 +271,7 @@ String xmlCharacterHead = weatherTP.getXmlCharacterHead();
 String xmlCharacterData = weatherTP.getXmlCharacterData();
 String endChar = weatherTP.getXmlCharacterEnd();// 
 		
-		
+
 // the old method is need,too.wkadd 20190621
 if (strContent.contains(endChar)) {
 	break;
@@ -290,6 +290,66 @@ if(isNeedReXml){
 最后更改一下版本号基本完成更新。
 
 
+## 补充 
+
+因为考虑到性能，在关闭了这个功能时候是没有读取这个配置文件的，但是后面有个位置忘记了，然后使用了未经过初始化的值，导致了空指针，然后将之前的值都初始化了一下。这个是20190702反馈的问题。
+```
+	//old
+	private boolean xmlCharacterOn = false;
+	private String xmlCharacter = "recv_point";//wkupdate for default value 20190702
+	private String xmlCharacterHead = "@";
+	private String xmlCharacterData = "#";
+	private String xmlCharacterEnd = "##";
+	//now 
+	private String xmlCharacter = "recv_point";//wkupdate for default value 20190702
+	private String xmlCharacterHead = "@";
+	private String xmlCharacterData = "#";
+	private String xmlCharacterEnd = "##";
+```
+
+有了初始值，基本其他的就没有变化了。
+
+
+另外之前遇到一个问题，文本有一个特殊的结束符的问题，然后之前考虑到了，但是不全面，最后将最后的那个还原操作之修改了一处，实际上有两处，造成一个`index out of bounds `的错误，修改成现在的就好，之前的如下图所示，同样是20190702反馈的问题。
+
+```
+//warn not used!
+if(isNeedReXml){
+	if (strContent.contains(xmlCharacter)) {
+		continue;
+	}else if(strContent.toLowerCase().contains("farm")&&strContent.contains(xmlCharacterHead)){
+		strContent = strContent.substring(xmlCharacterHead.length());
+	}else if (strContent.contains(endChar)) {
+		break;
+	}else {
+		strContent = strContent.substring(xmlCharacterData.length());
+	}
+}
+
+```
+
+
+
+注意一下的是，log部分之前是比较详细的，但是后面部分就只剩下两行了，后面注意一下这个问题。不知道是不是被自动优化了。
+```
+ERROR [2019-07-01 18:30:28:055] [短期预测线程] (ShortPlanThread.java:75)
+           -java.lang.NullPointerException
+java.lang.NullPointerException
+	at java.lang.String.contains(String.java:2103)
+	at sploadforecast.SpNwpFileParse.parseFile(SpNwpFileParse.java:68)
+	at core.ShortPlanThread.ImportSpNwp(ShortPlanThread.java:524)
+	at core.ShortPlanThread.importSpNWPFileList(ShortPlanThread.java:481)
+	at core.ShortPlanThread.importNWP(ShortPlanThread.java:400)
+	at core.ShortPlanThread.run(ShortPlanThread.java:66)
+	
+//-->
+	
+ERROR [2019-07-02 09:15:57:562] [短期预测线程] (ShortPlanThread.java:75)
+	   -java.lang.NullPointerException
+java.lang.NullPointerException
+```
+
+
 
 
 ## 说明
@@ -305,3 +365,5 @@ if(isNeedReXml){
 20190618 开始问题解决
 
 20190625 完成文章
+
+20190702 更新文章

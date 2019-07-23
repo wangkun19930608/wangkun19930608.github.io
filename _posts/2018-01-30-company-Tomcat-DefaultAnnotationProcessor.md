@@ -23,7 +23,9 @@ java.lang.ClassCastException: org.apache.catalina.util.DefaultAnnotationProcesso
 ###  解决方案 2
 修改了tomcat里的context.xml文件，在context 元素下添加  
 
+```
 <Loader delegate="true" />  
+```
 
 ##  分析
 这个之前犯过,但是之前因为另外一个大错误,忽略了这个小错误,结果有错了.
