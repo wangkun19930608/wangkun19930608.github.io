@@ -53,21 +53,24 @@ comments: true
 [soapUI的bug切换版本解决调用webservice失败问题](https://wangkun19930608.github.io/technology/bug/2019/03/19/java-bug/ )
 
 8.
-[文件解压缩失败](https://wangkun19930608.github.io/technology/software/2019/05/24/zip-error/ )
+[Web界面兼容性调整](https://wangkun19930608.github.io/technology/js/2019/05/14/company-web-date/ )
 
 9.
-[系统部分界面显示异常](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/ )
+[文件解压缩失败](https://wangkun19930608.github.io/technology/software/2019/05/24/zip-error/ )
 
 10.
-[已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/ )
+[系统部分界面显示异常](https://wangkun19930608.github.io/technology/web/2019/06/04/company-some-pages-error/ )
 
 11.
-[现场软件湿度值过大问题](https://wangkun19930608.github.io/technology/web/2019/06/11/company-web-humid/ )
+[已安装Oracle提示TNS:无监听程序的解决办](https://wangkun19930608.github.io/technology/oracle/2019/06/05/company-oracle-error/ )
 
 12.
-[使用oracle发生标识符无效解决办法](https://wangkun19930608.github.io/technology/oracle/2019/06/24/company-oracle-error/ )
+[现场软件湿度值过大问题](https://wangkun19930608.github.io/technology/web/2019/06/11/company-web-humid/ )
 
 13.
+[使用oracle发生标识符无效解决办法](https://wangkun19930608.github.io/technology/oracle/2019/06/24/company-oracle-error/ )
+
+14.
 [风速信息获取](https://wangkun19930608.github.io/technology/sql/2019/07/23/company-wind-info/ )
 
 
