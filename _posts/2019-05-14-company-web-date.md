@@ -38,6 +38,7 @@ comments: true
 解决的办法需要添加几行代码：
 ```
 //WindForecast\WebRoot\WindForecast\jsCommon\ext\ext-all.js  22508
+//注意，位置可以随意一些，但是，大概在这个位置最好，其他位置得分清一下括号！
 
 /********** 解决日历控件显示异常 **********/
 Ext.override(Ext.menu.DateMenu, {
@@ -90,3 +91,5 @@ Ext.form.DateField = Ext.extend(Ext.form.TriggerField, {
 20190514 问题解决
 
 20190723 完成文章
+
+20190724 更新文章
