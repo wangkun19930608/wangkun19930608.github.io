@@ -63,7 +63,9 @@ comments: true
 
 * [机组信息填报必须大于0](https://wangkun19930608.github.io/technology/java/2019/09/11/company-machine-info-input/ )
 
+* [只有短期界面加载异常](https://wangkun19930608.github.io/technology/java/2019/08/14/company-short-load-error/ )
 
+* [节假日功能填报异常](https://wangkun19930608.github.io/technology/java/2019/08/14/company-holiday-error/ )
 
 # 开发思路整理
 
