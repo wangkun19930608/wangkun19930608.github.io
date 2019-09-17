@@ -1,12 +1,12 @@
 ---
 layout: default
-title: rpm bug
+title: Package rpm is not available
 category: [Technology, Bug]
 comments: true
 ---
 
 ## rpm无法安装
-今天安装java时候,下载的rpm的包,但是用linux打开时候发现不能正常打开.
+今天在linux系统安装java时候,下载的rpm的包,但是用linux打开时候发现不能正常打开.
 
 
 
@@ -40,7 +40,7 @@ $ sudo apt-get -y update
 
 写这篇文章是作为使用linux的笔记.我的是rpm不能安装,参考的博客是ssh不能安装,类似的问题应该解决方案类似了
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/)
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/ )
 
 ## 参考文章
 

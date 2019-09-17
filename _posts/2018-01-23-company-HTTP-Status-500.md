@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 查找错误html status 500的错误
+title: 查找错误html status 500 Parser configuration exception 的错误
 category: [Technology, Tomcat]
 comments: true
 ---
 
 #  查找错误html status 500的错误
-弄一个spring的web程序发布时候报这个错误,初次看这个还是不明白,虽说解决很简单,直接上代码和解决方案了.
+弄一个公司程序的web程序发布时候报这个错误,初次看这个还是不明白,虽说解决很简单,直接上报错代码和解决方案了.
 
 
 

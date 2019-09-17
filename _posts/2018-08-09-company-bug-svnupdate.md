@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SvnUpdateBug
+title: SvnUpdateBug：Skipped obstructing working copy
 category: [Technology , Bug]
 comments: true
 ---

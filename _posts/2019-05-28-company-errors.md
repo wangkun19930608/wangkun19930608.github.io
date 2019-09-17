@@ -31,11 +31,11 @@ comments: true
 
 # 现场问题列表
 
-* [查找错误html status 500的错误 ](https://wangkun19930608.github.io/technology/tomcat/2018/01/23/company-HTTP-Status-500/ )
+* [查找错误html status 500 Parser configuration exception 的错误 ](https://wangkun19930608.github.io/technology/tomcat/2018/01/23/company-HTTP-Status-500/ )
 
 * [Tomcat 启动DefaultAnnotationProcessor报错](https://wangkun19930608.github.io/technology/tomcat/2018/01/30/company-Tomcat-DefaultAnnotationProcessor/ )
 
-* [java install error in linux ](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/ )
+* [Package rpm is not available](https://wangkun19930608.github.io/technology/bug/2018/04/02/company-rpm-is-not-found/ )
 
 * [linux安装完成没有wifi](https://wangkun19930608.github.io/technology/os/2018/04/03/company-linux-have-no-wifi/ )
 
@@ -66,35 +66,35 @@ comments: true
 
 # 开发思路整理
 
-
-* [PreparedStatementSQLException](https://wangkun19930608.github.io/technology/bug/2019/03/01/java-preparedstatement/ )
-
-* [JavaBugCharSequence](https://wangkun19930608.github.io/technology/bug/2019/01/10/java-bug/ )
-
-* [java软件托盘显示中文出现框框乱码](https://wangkun19930608.github.io/technology/bug/2018/10/18/java-menuitem/ )
-
-* [SvnUpdateBug ](https://wangkun19930608.github.io/technology/bug/2018/08/09/company-bug-svnupdate/ )
-
-* [FileCleanUpBug造成的index超出范围，无限拷贝，报错int异常，一闪而过等问题](https://wangkun19930608.github.io/technology/bug/2018/07/18/company-bug-filecleanup/ )
-
-* [CharSequence cannot be resolved](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/ )
-
-* [java web 在 tomcat 没有正常日志输出](https://wangkun19930608.github.io/technology/bug/2019/06/06/java-nolog/ )
-
-* [在myeclipse安装beyond插件](https://wangkun19930608.github.io/technology/software/2019/05/21/beyond-plug/ )
+* [工作笔记16条96条曲线](https://wangkun19930608.github.io/technology/html/2018/03/14/companynote-16-96/ )
 
 * [提高效率的一些整理](https://wangkun19930608.github.io/culture/idea/2018/04/23/efficient/ )
 
-* [公司web安全等级提升](https://wangkun19930608.github.io/technology/xss/2018/08/11/company-xss/ )
+* [CharSequence cannot be resolved](https://wangkun19930608.github.io/technology/bug/2018/05/28/company-bug-charsequence/ )
 
 * [公司web国际化笔记](https://wangkun19930608.github.io/technology/i18n/2018/06/27/company-i18n/ )
 
-* [e文本添加xml节点思路整理](https://wangkun19930608.github.io/technology/java/2019/06/18/company-xml/ )
-
-* [公司3.0系统状态添加流程笔记](https://wangkun19930608.github.io/technology/java/2018/07/23/company-addstate/ )
-
 * [公司笔记UI添加](https://wangkun19930608.github.io/technology/java/2018/07/16/company-addui/ )
 
+* [FileCleanUpBug造成的index超出范围，无限拷贝，报错int异常，一闪而过等问题](https://wangkun19930608.github.io/technology/bug/2018/07/18/company-bug-filecleanup/ )
+
+* [公司笔记Web3.0系统状态添加](https://wangkun19930608.github.io/technology/java/2018/07/23/company-addstate/ )
+
+* [SvnUpdateBug Skipped obstructing working copy](https://wangkun19930608.github.io/technology/bug/2018/08/09/company-bug-svnupdate/ )
+
+* [公司web安全等级提升](https://wangkun19930608.github.io/technology/xss/2018/08/11/company-xss/ )
+
+* [java软件托盘显示中文出现框框乱码](https://wangkun19930608.github.io/technology/bug/2018/10/18/java-menuitem/ )
+
+* [JavaBugCharSequence](https://wangkun19930608.github.io/technology/bug/2019/01/10/java-bug/ )
+
+* [PreparedStatementSQLException](https://wangkun19930608.github.io/technology/bug/2019/03/01/java-preparedstatement/ )
+
+* [在myeclipse安装beyond插件](https://wangkun19930608.github.io/technology/software/2019/05/21/beyond-plug/ )
+
+* [java web 在 tomcat 没有正常日志输出](https://wangkun19930608.github.io/technology/bug/2019/06/06/java-nolog/ )
+
+* [e文本添加xml节点思路整理](https://wangkun19930608.github.io/technology/java/2019/06/18/company-xml/ )
 
 # 说明
 
