@@ -61,7 +61,8 @@ comments: true
 
 * [风速信息获取](https://wangkun19930608.github.io/technology/sql/2019/07/23/company-wind-info/ )
 
-* 
+* [机组信息填报必须大于0](https://wangkun19930608.github.io/technology/java/2019/09/11/company-machine-info-input/ )
+
 
 
 # 开发思路整理
@@ -95,6 +96,8 @@ comments: true
 * [java web 在 tomcat 没有正常日志输出](https://wangkun19930608.github.io/technology/bug/2019/06/06/java-nolog/ )
 
 * [e文本添加xml节点思路整理](https://wangkun19930608.github.io/technology/java/2019/06/18/company-xml/ )
+
+* [手动添加节假日日期功能的实现](https://wangkun19930608.github.io/technology/java/2019/06/21/company-holiday-function/ )
 
 # 说明
 
