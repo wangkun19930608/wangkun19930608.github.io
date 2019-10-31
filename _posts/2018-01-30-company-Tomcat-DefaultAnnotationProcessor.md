@@ -27,6 +27,16 @@ java.lang.ClassCastException: org.apache.catalina.util.DefaultAnnotationProcesso
 <Loader delegate="true" />  
 ```
 
+
+最后形成的结构为：
+```
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<Loader delegate="true" />
+</Context>
+```
+
+
 ##  分析
 这个之前犯过,但是之前因为另外一个大错误,忽略了这个小错误,结果有错了.
   

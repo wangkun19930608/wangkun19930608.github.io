@@ -53,9 +53,6 @@ P3C 作用同上，不过风格是《阿里巴巴Java开发手册》里面的，
 
 另外 [企业微信](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 也还是可以的。
 
-###  ftp工具
-[FlashFxp](https://www.flashfxp.com) 是一个不错的远程ftp工具,对于公司存在一些远程数据的东西需要随时获取的,这个是一个必不可少的东西.当然，如果有其他软件也欢迎推荐。
-
 ### 文本编辑
 对于文本的查看,如果只是一般的东西查看和修改,直接记事本notepad 就行了。
 
@@ -72,11 +69,12 @@ P3C 作用同上，不过风格是《阿里巴巴Java开发手册》里面的，
 ```
 
 
-当然，类似的工具不少，notepad++只是针对window系统比较方便，对于其他系统并没有支持， [Sublime Text](http://www.sublimetext.com)似乎解决了这个问题，在linux和window都可以使用，目前还未体验，找个机会使用以下。
+当然，类似的工具不少，notepad++只是针对window系统比较方便，对于其他系统并没有支持， [Sublime Text](http://www.sublimetext.com )
+似乎解决了这个问题，在linux和window都可以使用，目体验过之后，还是很不错的！
 
-如果针对较大的文本打开的话，就可能需要用到一下大的编辑器了，比方说有一个 [UltraEdit](https://www.ultraedit.com) 就可以解决这个问题。
+如果针对较大的文本打开的话，就可能需要用到一下大的编辑器了，比方说有一个 [UltraEdit](https://www.ultraedit.com ) 就可以解决这个问题。
 
-至于办公的文档的话，[wps](https://www.wps.cn) 和 [office](https://www.office.com/?auth=2&home=1) 已经不用多说，他们的位置之前目前都是无可撼动的吧。
+至于办公的文档的话，[wps](https://www.wps.cn ) 和 [office](https://www.office.com/?auth=2&home=1 ) 已经不用多说，他们的位置之前目前都是无可撼动的吧。
 
 ### 资源管理器的选择。
 对于其他的文件需要多目录查看的话可以看看MEDI等这类资源管理器的替代方案,但是有好有坏,自己斟酌使用，坏的就是可能需要更多的内存和cpu了.使用起来还是蛮方便的。
@@ -138,12 +136,12 @@ P3C 作用同上，不过风格是《阿里巴巴Java开发手册》里面的，
 
 [Torch Web Browser](https://torchbrowser.com/)- Your All in One Internet Browser
 
-[红芯浏览器](https://www.redcore.cn/download.html)传说2亿的浏览器
+~~[红芯浏览器]~~(https://www.redcore.cn/download.html)传说2亿的浏览器，现在似乎已经找不到了
  
 
 
 
-#####  浏览器车间选择 
+#####  浏览器插件选择 
 插件的话一般根据自己的需要来:
 
 可能用到的一些有调试js的 [firedebug](https://getfirebug.com) .
@@ -155,6 +153,11 @@ MoreMovieRatings
 ```
 
 不想自己记录密码可以使用一个[lasspass](https://lastpass.com)用来辅助记忆密码。
+
+有的时候，需要根据干的事情去选择浏览器的插件，为了方便一些，可以通过批量分组管理实现[扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco/reviews?hl=zh-CN )
+
+需要同时登录账号的话，除了使用浏览器的小号窗口，也可以使用[SessionBox](https://chrome.google.com/webstore/detail/sessionbox-free-multi-log/megbklhjamjbcafknkgmokldgolkdfig ),方便切换多个账号。
+
 
 ### 上外网
 对于需要查找一些其他的资料什么的,但是国内的网址没有找到的,可以尝试蓝灯,vpn,快速安全通道,Tunnello VPN，可以看看之前整理的文章。
@@ -169,7 +172,8 @@ MoreMovieRatings
 ### 远程桌面
 开启自己的远程桌面是一个不错的远程访问方式,但是这个时候密码一个不能太简单,同户名最好也不要设置简单.
 
-免得被别人利用了,也可以尝试一下其他的比方说[teamview](https://www.teamviewer.cn/cn/)和[向日葵]()，还有个[anydesk]()也很不错。
+免得被别人利用了,也可以尝试一下其他的比方说[TeamViewer](https://www.teamviewer.cn/cn/ )和[向日葵](https://sunlogin.oray.com/personal/ )，还有个[anydesk](http://www.anydesk.com )也很不错，
+还有一些小众的个人产品，安全性不好说，就列举了！
 
 ### 快捷键
 数据常用工具的快捷键会增加不少的效率.尤其是开发时候的各种操作.
@@ -182,8 +186,13 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 对于一些快捷键的应用，也是很不错的，比方说直接开启搜索，一键打开成功目录的 [Wox](http://www.wox.one) .
 
 ### 邮箱
-公司有邮箱的可以尝试使用 [foxmail](https://www.foxmail.com),这个方便使用一些,还支持内网邮箱.
+公司有邮箱的可以尝试使用 [foxmail](https://www.foxmail.com ),这个方便使用一些,还支持内网邮箱.
 手机端的话，网易邮箱不错，可以直接收发google邮箱的邮件。手机版的腾讯邮箱似乎也支持了，可以试试。
+
+### 截图工具 
+有时候需要截图，一般微信或者QQ自带的已经足够了，如果不想打开，windows自带的也是满足需求的.
+
+但是如果想更好的体验截图，可以尝试一下[ShareX](https://getsharex.com )，功能除了截图自动备份之外，很有更多的功能，只待你的发觉，总之一用就喜欢上了！
 
 ### 办公软件
 针对office的话,我还是喜欢wps,至少文本没有保存蓝屏的话可以通过它自带的临时文件缓存机制找到部分,是不可多的的优势，不知道后面巨硬会不会添加这功能.
@@ -217,13 +226,16 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 
 
 ### 文件分享
-对于内网用户，如果网络较熟悉的话，可以直接开启共享，不熟悉的话可以通过工具实现，QQ的在线发送，在内网传送速度还是很不错的。
+对于内网用户，如果网络较熟悉的话，可以直接开启共享，不熟悉的话可以通过工具实现，[QQ](https://im.qq.com/download/ )和[Tim](https://office.qq.com )的在线发送，在内网传送速度还是很不错的。
 
-对于大文件特殊版本的传送，网盘是一个不错的选择。
+对于大文件特殊版本的远距离传送，网盘是一个不错的选择。例如[百度网盘](https://pan.baidu.com ) ,[天翼云盘](https://cloud.189.cn ),[115网盘](https://115.com ),[~~360网盘~~]()
 
-针对一些常用文件的共享，除了开启共享，[HFS](http://rejetto.com/)也是一个很不错的软件。
+针对一些常用文件的共享，除了开启共享，[HFS(Http File Server)](https://www.rejetto.com/hfs/ )也是一个很不错的软件。
 
+###  ftp工具
+[FlashFxp](https://www.flashfxp.com) 是一个不错的远程ftp工具,对于公司存在一些远程数据的东西需要随时获取的,这个是一个必不可少的东西.当然，如果有其他软件也欢迎推荐。
 
+还有一个结合了文件分享和ftp工具的一个软件[AirExplorer](https://www.airexplorer.net )很不错，可以方便同步各个网盘以及ftp之间的文件，只是需要付费，伙伴们可以根据需要去选择。
 
 
 ## 说明
