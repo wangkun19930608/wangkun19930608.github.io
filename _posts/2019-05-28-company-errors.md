@@ -67,6 +67,10 @@ comments: true
 
 * [节假日功能填报异常](https://wangkun19930608.github.io/technology/java/2019/08/14/company-holiday-error/ )
 
+* [现场host异常unknown hostexception](https://wangkun19930608.github.io/technology/java/2019/11/28/company-net-host-error/ )
+
+* [IEC102JAVA程序出现两个界面](https://wangkun19930608.github.io/technology/java/2020/01/06/company-iec102-error/ )
+
 # 开发思路整理
 
 * [工作笔记16条96条曲线](https://wangkun19930608.github.io/technology/html/2018/03/14/companynote-16-96/ )
@@ -101,9 +105,9 @@ comments: true
 
 * [手动添加节假日日期功能的实现](https://wangkun19930608.github.io/technology/java/2019/06/21/company-holiday-function/ )
 
-* [IEC102JAVA程序出现两个界面](https://wangkun19930608.github.io/technology/java/2020/01/06/company-iec102-error/ )
-
 * [IEC102规约确认帧重复](https://wangkun19930608.github.io/technology/java/2020/01/07/company-iec102-error/ )
+
+* [IEC102各种异常包的一个测试Demo](https://wangkun19930608.github.io/technology/java/2020/01/07/company-iec102-test/ )
 
 # 说明
 
