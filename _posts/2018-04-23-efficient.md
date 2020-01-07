@@ -79,6 +79,9 @@ P3C 作用同上，不过风格是《阿里巴巴Java开发手册》里面的，
 ### 资源管理器的选择。
 对于其他的文件需要多目录查看的话可以看看MEDI等这类资源管理器的替代方案,但是有好有坏,自己斟酌使用，坏的就是可能需要更多的内存和cpu了.使用起来还是蛮方便的。
 
+另外有一个扩展程序，也是蛮不错的，可以像浏览器书签一样管理文件夹[Clover给资源管理器加上类似Chrome的标签 ](http://cn.ejie.me/ )
+
+
 ### 内部网络
 对于公司的环境如果不存在wifi,在不涉及信息安全的前提下,可以购买一个 [小米wifi](http://www.mi.com/miniwifi/) 或者 [360wifi](http://wifi.360.cn) 。
 然后QQ等数据流和内存占用比较大的软件直接打开手机版本的，在手机上面显示,面得电脑卡顿太多，这个对于低配电脑，效果很好.
@@ -183,7 +186,9 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 
 对于一下自己需要的特殊功能，也可以自己设置相关的快捷键。
 
-对于一些快捷键的应用，也是很不错的，比方说直接开启搜索，一键打开成功目录的 [Wox](http://www.wox.one) .
+对于一些快捷键的应用，也是很不错的，比方说直接开启搜索，一键打开成功目录的 [Wox](http://www.wox.one) 配合everything ，简直不能再开心了！ .
+
+类似的工具还有收费的[Listary](https://www.listary.com/ )
 
 ### 邮箱
 公司有邮箱的可以尝试使用 [foxmail](https://www.foxmail.com ),这个方便使用一些,还支持内网邮箱.
@@ -194,48 +199,77 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 
 但是如果想更好的体验截图，可以尝试一下[ShareX](https://getsharex.com )，功能除了截图自动备份之外，很有更多的功能，只待你的发觉，总之一用就喜欢上了！
 
+功能有些相似，但是各有千秋的还有一个[Snipaste - 截图 + 贴图](https://zh.snipaste.com/ )可以直接在桌面显示贴图，很神奇的！
+
 ### 办公软件
-针对office的话,我还是喜欢wps,至少文本没有保存蓝屏的话可以通过它自带的临时文件缓存机制找到部分,是不可多的的优势，不知道后面巨硬会不会添加这功能.
+针对一般的文档编辑，[office](http://office.com )基本满足需求 ,
+不过我还是喜欢[wps](http://www.wps.cn ),
+至少文本没有保存蓝屏的话可以通过它自带的临时文件缓存机制找到部分,是不可多的的优势，不知道后面巨硬会不会添加这功能.
 同时也有文本自动同步的功能,但是根据自己的文本是否涉密,还是需要斟酌使用是否同步这个选择.一些笔记个人的文档可以考虑添加密码.
 当然，巨硬的onedriver就是这个的实现之一。
+如果需要专业的多人同步编辑，前面两个可以基本实现功能，但是[石墨文档](https://shimo.im/welcome )或许会更加优秀一点！
 
 ### 思维导图
-对于有什么好的想法或者思维需要整理,可以尝试一下[mindmanager思维导图](http://www.mindmanager.cn)和 [PowerDesigner](http://www.powerdesign.com) 这两个工具.
+对于有什么好的想法或者思维需要整理,可以尝试一下[mindmanager思维导图](http://www.mindmanager.cn )和 [PowerDesigner](http://www.powerdesign.com ) 这两个工具.
 
-不过，相对于前面两个软件的全面，我还是比较喜欢轻便一些的[百度脑图在线版本](http://naotu.baidu.com/)当然，还有[幕布](https://mubu.com/)也很可以。
+不过，相对于前面两个软件的全面，我还是比较喜欢轻便一些的[百度脑图在线版本](http://naotu.baidu.com/ )当然，还有[幕布](https://mubu.com/ )也很可以。
 
 其他的还有一些可以参考吧,基本都是国外的，可能网络不是太好，但是设计的确实可以：
 
-[Coggle](https://coggle.it/)Simple Collaborative Mind Maps & Flow Charts 
+[Coggle](https://coggle.it/ )Simple Collaborative Mind Maps & Flow Charts 
 
-[mindomo](https://www.mindomo.com/zh/)合作式思維導圖、概念圖、綱領
+[mindomo](https://www.mindomo.com/zh/ )合作式思維導圖、概念圖、綱領
 
-[Wridea](https://wridea.com/)Free Online Idea Management and Collaboration Service 
+[Wridea](https://wridea.com/ )Free Online Idea Management and Collaboration Service 
 
-[Stormboard](https://www.stormboard.com/)Online Brainstorming Whiteboard. Add a sticky note and post it online with dot voting. 
+[Stormboard](https://www.stormboard.com/ )Online Brainstorming Whiteboard. Add a sticky note and post it online with dot voting. 
 
-[Bubbl.us](https://bubbl.us/v3/index.php) - brainstorm and mind map online
+[Bubbl.us](https://bubbl.us/v3/index.php ) - brainstorm and mind map online
 
-[MindNode](https://mindnode.com/)
+[MindNode](https://mindnode.com/ )
 
-[MindMeister](https://www.mindmeister.com/zh)在线思维导图－在线头脑风暴会议
+[MindMeister](https://www.mindmeister.com/zh )在线思维导图－在线头脑风暴会议
 
-[Popplet](http://popplet.com/)
+[Popplet](http://popplet.com/ )
 
-[WiseMapping](http://www.wisemapping.com/) - Visual Thinking Evolution
-
+[WiseMapping](http://www.wisemapping.com/ ) - Visual Thinking Evolution
+ 
 
 ### 文件分享
 对于内网用户，如果网络较熟悉的话，可以直接开启共享，不熟悉的话可以通过工具实现，[QQ](https://im.qq.com/download/ )和[Tim](https://office.qq.com )的在线发送，在内网传送速度还是很不错的。
 
 对于大文件特殊版本的远距离传送，网盘是一个不错的选择。例如[百度网盘](https://pan.baidu.com ) ,[天翼云盘](https://cloud.189.cn ),[115网盘](https://115.com ),[~~360网盘~~]()
 
-针对一些常用文件的共享，除了开启共享，[HFS(Http File Server)](https://www.rejetto.com/hfs/ )也是一个很不错的软件。
+另外还有两个网盘蛮不错的，一个是 [坚果云网盘](https://www.jianguoyun.com )，支持webdav，可以保存很多程序的信息到这里，也很方便管理！而且空间无限，不过每个月上传有限制！
+
+还有一个[蓝奏·云存储](https://www.lanzou.com/ ) 文件传输的速度，那真叫一个快！只不过文件的类型有限制，适合开发者使用！
+
+针对一些常用文件的共享，除了开启共享，[HFS(Http File Server)](https://www.rejetto.com/hfs/ )也是一个很不错的软件，放在服务器上面，也想相当是一个文件系统了。
+
+指的一提的是，千万不要使用[everything](https://www.voidtools.com/zh-cn/ )在你的公网服务器开启文件共享的功能，不然你的所有文件夹，别人都可以访问了和下载了！不过，除了这个，其他的功能很不错！
 
 ###  ftp工具
 [FlashFxp](https://www.flashfxp.com) 是一个不错的远程ftp工具,对于公司存在一些远程数据的东西需要随时获取的,这个是一个必不可少的东西.当然，如果有其他软件也欢迎推荐。
 
 还有一个结合了文件分享和ftp工具的一个软件[AirExplorer](https://www.airexplorer.net )很不错，可以方便同步各个网盘以及ftp之间的文件，只是需要付费，伙伴们可以根据需要去选择。
+
+
+###  笔记工具
+针对笔记，每个人都有自己的个人习惯吧，比方说，可以直接大打开手机的记事本，也可以直接在微信和QQ发送消息给小号，这样子就可以快捷记一些事情了，不过这个样子的缺点是不能同步。
+
+同步的话，加一下的收藏，做一些笔记，是比较便利了，也可以同步，虽说可以给笔记添加标签，但是分类整理和加载的时候不是很方便。
+
+这个时候，你就可以选择一下[有道云笔记（免费空间有有限，不过一般记一些笔记够用）](http://www.youdao.com )
+和[印象笔记（免费版本每个月上传的大小有限制，支持两台设备）](https://www.yinxiang.com )了，我有个朋友还在里面写小说呢，这样子再也不用担心稿子丢失了！
+
+
+### 优化工具
+
+针对一般用户，很推荐[软媒魔方官网 ](https://mofang.ruanmei.com/ ) 的，东西比较全，比较实用，基本都会，都可以用到！
+
+针对一些专门清理优化的话，可以尝试下注册表清理工具[WiseCleaner Software](http://www.wisecleaner.com/ ) 感觉整理的非常不错，比魔方老版本自带的注册表清理更好用！
+
+针对专业优化的话，[Dism++ | 全新的 Windows 实用工具](https://www.chuyu.me/zh-Hans/index.html )也是蛮不错的！
 
 
 ## 说明
@@ -253,6 +287,10 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 
 [Eclipse高效开发插件汇总](https://www.cnblogs.com/jpfss/p/9408435.html )
 
+[推荐 8 个超实用的效率工具 (Windows 篇) ](https://www.jianshu.com/p/fd925b60c008 )
+
+[Windows效率工具 ](https://www.jianshu.com/p/f8375229b0b5 )
+
 ## 版本
 
 20180423 完成文章
@@ -260,3 +298,5 @@ win+d/m/tab,ctr+c/v/z/a/w/x/y/f/s/n,alt+f4，这些如果不熟悉的话，尽�
 20190523 添加一些软件的地址
 
 20190604 更新部分连接
+
+20200107 添加笔记相关部分

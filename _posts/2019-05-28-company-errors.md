@@ -101,6 +101,10 @@ comments: true
 
 * [手动添加节假日日期功能的实现](https://wangkun19930608.github.io/technology/java/2019/06/21/company-holiday-function/ )
 
+* [IEC102JAVA程序出现两个界面](https://wangkun19930608.github.io/technology/java/2020/01/06/company-iec102-error/ )
+
+* [IEC102规约确认帧重复](https://wangkun19930608.github.io/technology/java/2020/01/07/company-iec102-error/ )
+
 # 说明
 
 历史错误仅供参考，实际解决根据实际情况处理。
