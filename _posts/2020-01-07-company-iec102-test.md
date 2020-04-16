@@ -29,6 +29,7 @@ comments: true
 基本上总体的功能是已经完善了，但是针对一些连包丢包的状况的处理还不够优化，目前的处理是，针对错误的包，直接丢了，因为tcp本身会自动重传嘛，可惜老大说不行，好吧，重新弄了！
 
 
+### 输入部分
 为了方便测试，只能在这个类里面添加一些方法了，需要将一些规约的报文，手动输入，以此模拟各种网络的状况了！大致的代码如下：
 ```
 //专门用于测试各种正常的异常的报文片段
@@ -67,7 +68,9 @@ comments: true
 ```
 
 
+### 字节流转换部分 
 测试的部分是有了，然后还是其他的部分，字节转换的部分在这里：
+
 ```
 public static byte[] hexStr2Byte(String hex) {
 	ByteBuffer bf = ByteBuffer.allocate(hex.length() / 2);
@@ -97,6 +100,7 @@ public static String byteArrayToHexString(byte[] b, int offset, int count) {
 
 这个就是其他的方法了。
 
+### 开始解析部分 
 然后最重要的还是对于各种包的一个判断了！由于之前是C语言些的，改编成java会有一些遗漏，所以还得测试完善。
 
 目前大致的样子如下：
@@ -198,10 +202,123 @@ public void setFrame(boolean b) {
 }
 ```
 
-分支太多太乱了，后面看看有没有更好的方法处理一下！
+分支太多太乱了，而且手动测试，输入的内容和考虑的情况始终是有限的，这里的话，
 
+## 优化 
 
+针对前面的那些代码，看起来是在是有些乱，重新整理一下思路之后，新的效果如下：
 
+### 针对代码的输入部分
+
+大体上是不变的，不过主要的是针对输入做了下处理，手动输入是没有了，变成了全自动化随机输入，不过各种包的情况应该是都考虑到了。
+```
+private static void AutoTestDemo() {
+	//随机构造帧的最大数量
+	int maxIecNumber = 10;
+	//创建规约对象
+	IEC102Socket sock = new IEC102Socket(null, null, null);
+	//接收外部输出
+
+	//构造完整参数 
+	String[] rece = { "107AFFFF7816", "680D006853FFFF96010AFFFF00BA020000AC16" };
+	System.out.println("接收数据中：");
+	//开始新的规约接收字段
+	sock.setFrame(true);
+
+	Random d = new Random(System.currentTimeMillis());
+	// 判断是否还有输入
+	while (true) {
+		try {
+			//				定义随机帧数量，最长不超过10个
+			int numder = d.nextInt(maxIecNumber);
+			//初始化帧
+			StringBuffer receBuf = new StringBuffer();
+			//构造随机帧
+			for (int i = 0; i < numder; i++) {
+				receBuf.append(rece[d.nextInt(rece.length)]);
+			}
+
+			String allRece = receBuf.toString();
+			String oneRece = new String();
+			System.out.println("\n\n构造的数据为：" + allRece);
+			while (allRece.length() > 0) {
+				//随机截取整数字节 
+				int endIndex = d.nextInt(allRece.length()) * 2;
+				//长度超出直接取余
+				if (endIndex > allRece.length()) {
+					endIndex = endIndex % allRece.length();
+				}
+				oneRece = allRece.substring(0, endIndex);
+				allRece = allRece.substring(endIndex, allRece.length());
+				//截取到0继续截取
+				if (oneRece.length() == 0) {
+					continue;
+				}
+				System.out.println("输入的数据为：" + oneRece);
+				//将字符串转换为对应的十六进制字节流比方说说如 16 转换为 0x16 那种
+				byte[] hexStr2Byte = hexStr2Byte(oneRece);
+				//测试一下转换是否正常
+				System.out.println(IECFunctions.byteArrayToHexString(hexStr2Byte, 0, hexStr2Byte.length));
+				//开始进行正常的接收数据的解析
+				sock.TestRtuFJ102_MsgRecv(hexStr2Byte);
+
+			}
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}
+```
+
+针对逻辑处理部分，稍微优化了下，现在是比之前号了很多，清晰了很多，但是可能还是有些绕的。
+
+```
+public boolean TestRtuFJ102_MsgRecv(byte[] bytes) throws IOException {
+	//原始数据从sock读取，这里从字节流去模拟
+	//this.IPcount = (char) stream.read(this.RXdata);
+	this.RXdataAll = bytes;
+	this.IPcountAll = bytes.length;
+
+	//已经关闭，没有获取到数据
+	if (IPcountAll == -1) {
+		// closed by remote socket
+		LOG.log.warn("?remote closed?");
+		interrupt();
+	}
+	//遍历所有的数据
+	for (int it = 0; it < IPcountAll; it++, APDUPointer++) {
+		//判断是否是新的一帧，新帧这进入下面读取字节长度的部分
+		this.RXdata[APDUPointer] = RXdataAll[it];
+		if (this.APDUPointer < 3) {
+			continue;
+		} else if (APDUPointer == this.IPcount - 1) {
+			if (chechDetail()) {
+				//doRecieve();
+				System.out.println("收到报长度为： " + this.IPcount + " 正在处理报文" + IECFunctions.byteArrayToHexString(RXdata, 0, IPcount));
+				APDUPointer = -1;
+				if (this.IPcount != 6 && this.IPcount != 19) {
+					System.out.println();
+				}
+			}
+		} else if (this.RXdata[0] == 0x10) {
+			//设置固定帧的长度和初始位置
+			this.IPcount = 6;
+		} else if (this.RXdata[0] == 0x68) {
+			int lenFrame = IECFunctions.byte2ToInt(this.RXdata[1], this.RXdata[2]) + 6;
+			this.IPcount = lenFrame;
+
+		}
+
+	}
+	//
+	return true;
+
+}
+```
 
 
 
@@ -216,3 +333,5 @@ public void setFrame(boolean b) {
 
 ### 版本记录
 20200107 解决问题完成文章
+
+20200110 更新方法以及文章
