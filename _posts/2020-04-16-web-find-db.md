@@ -57,11 +57,11 @@ ORDER BY WINDFARMID, DATATYPE, BEGINTIME ,ALARMTYPE
 
 主要是针对研发而言，首先需要找到你所在界面的地址。
 
-![](https://ask.qcloudimg.com/http-save/1178990/wfmszds6yd.png)
+![](https://note.youdao.com/yws/public/resource/96fc3c48711494af3c9b677f4a435e36/xmlnote/CBE929FFADCD421EAC604559C5F463C7/4694)
 
 然后，根据地址找到对应的界面的源码
 
-![](https://ask.qcloudimg.com/http-save/1178990/xsc3bu1c7t.png)
+![](https://note.youdao.com/yws/public/resource/96fc3c48711494af3c9b677f4a435e36/xmlnote/9E404D5EFA654A25BFFD4F61C9BFB313/4698)
 
 再然后找到所有接口调用的位置：
 

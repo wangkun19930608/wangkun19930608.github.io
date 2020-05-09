@@ -670,6 +670,12 @@ public class HolidayDAO extends SuperDAO {
 ```
 
 
+### 注意 
+次数返回的是一个特殊的 holidays 类型，需要在配置文件中配置一下，在 FDDBConfig.xml 添加对应的节点即可。
+```
+<Table Name="fd_def_holiday" QueryType="holidays" />
+``` 
+
 这个部分完成，基本就全部完成了。
 
 ## 说明
@@ -687,3 +693,5 @@ public class HolidayDAO extends SuperDAO {
 20190625 问题解决
 
 20190916 完成文章
+
+20200427 更新文章关于配置文件的添加部分

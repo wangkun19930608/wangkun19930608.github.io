@@ -19,9 +19,10 @@ var json=
 {
 'label':'项','list':
 [
-{'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'[寻','tar':''}
-,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
-,{'class':'project','href':'https://wangkun19930608.github.io/MarkdownOnline/','html':'Markdown','tar':''}
+//{'class':'project','href':'https://wangkun19930608.github.io/hbut/index.html','html':'[寻','tar':''}
+//,{'class':'project','href':'https://wangkun19930608.github.io/hbut/love.html','html':'爱','tar':''}
+//,
+{'class':'project','href':'https://wangkun19930608.github.io/MarkdownOnline/','html':'Markdown','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/HashdownOnline','html':'Hashdown','tar':''}
 ,{'class':'project','href':'https://wangkun19930608.github.io/GraphvizOnline/','html':'Graphviz','tar':''}
 //,{'class':'project','href':'https://wangkun19930608.github.io/game/lightgame.html','html':'灯','tar':'iframe'}
@@ -42,8 +43,8 @@ var json=
 ,{'class':'about','href':'https://wangkun19930608.gitee.io/index.html','html':'GiteeP','tar':''}
 ,{'class':'about','href':'http://wangkun19930608.coding.me/','html':'CodingP','tar':''}
 ,{'class':'about','href':'https://cloud.tencent.com/developer/user/1178990','html':'TX','tar':''}
-//,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
-,{'class':'about','href':'javascript:load_home(\'visi3\',\'/friends.html\');','html':'友]','tar':'iframe'}
+,{'class':'about','href':'https://wangkun19930608.github.io/friends.html','html':'友','tar':'iframe'}
+//,{'class':'about','href':'javascript:load_home(\'visi3\',\'/friends.html\');','html':'友]','tar':'iframe'}
 ]
 }
 ];
