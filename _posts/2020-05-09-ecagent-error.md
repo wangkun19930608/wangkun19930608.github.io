@@ -67,7 +67,7 @@ SangforSP		SangforSP	已停止
 
 这个应该是深信服 easyconnection 的一个bug，希望什么时候可以解决这个bug吧。
 
-[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/24/ecagent-error/ )
+[欢迎评论，欢迎指正,转载也请注明出处.](https://wangkun19930608.github.io/technology/software/2019/05/09/ecagent-error/ )
 
 ## 参考文章
 
