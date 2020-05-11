@@ -43,13 +43,13 @@ ECAgent.exe	286740	正在运行	nari	00 	3,992 K	Agent for EasyConnect
 
 彻底解决的办法是卸载 EasyConnect 。
 
-不过因为一些原因，必须要使用 EasyConnect 所以不能卸载，只能够先将就一下，不过，大量的这个进程，处理的话，得花费不少的时间，于是写了一个脚本，一下子干掉所有的进程：
+不过因为一些原因，必须要使用 EasyConnect 所以不能卸载，只能够先将就一下，不过，大量的这个进程，处理的话，得花费不少的时间，于是写了一个脚本，一下子干掉所有的进程(保存文本另存为bat或者cmd即可)：
 ```
 taskkill -IM ECAgent.exe -f 
 ```
 
 
-解决之后，通过进程发现了另外的程序
+解决之后，通过文件的路径下面的名称，发现了另外的程序
 ```
 名称	PID	状态	用户名	CPU	内存(专用工作集)	描述
 SangforPromoteService.exe	206316	正在运行	SYSTEM	00 	2,632 K	Promote Service
@@ -61,7 +61,7 @@ SangforPromoteService.exe	206316	正在运行	SYSTEM	00 	2,632 K	Promote Service
 SangforSP		SangforSP	已停止	
 ```
 
-通过结束以及禁用上面的两个进程或者服务，可以防止出现大量的这个 ECAgent.exe 进程。
+尝试通过结束以及禁用上面的两个进程或者服务，可以防止出现大量的这个 ECAgent.exe 进程。
 
 # 说明
 
