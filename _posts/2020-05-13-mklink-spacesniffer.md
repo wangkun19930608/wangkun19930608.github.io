@@ -37,14 +37,14 @@ comments: true
 
 解决方法很简单，使用windows系统自带的工具即可实现！
 
-比方说你需要将c盘的360软件转移到d盘，对应的路径是：C:\Program Files\HP
+比方说你需要将c盘的360软件转移到d盘，对应的路径是：`C:\Program Files\360`
 
 
-那么，你直接关闭360软件之后，把文件夹剪切到d盘你需要的目录，比方说 d:\Program Files\360
+那么，你直接关闭360软件之后，把文件夹剪切到d盘你需要的目录，比方说 `d:\Program Files\360`
 
 剪贴完毕之后，就是最后也是最重要的关键操作，打开命令行，输入如下命令即可，命令需要根据你的实际路径去做调整：
 ```
-mklink /j  "C:\Program Files\HP" "D:\Program Files\HP"
+mklink /j  "C:\Program Files\360" "D:\Program Files\360"
 ```
 
 这样子系统可以直接访问c盘的360，然而实际上却是访问的d盘的360.
